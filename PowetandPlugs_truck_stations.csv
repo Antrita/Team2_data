@@ -1,0 +1,874 @@
+#,Station,Country,Lat,Lon,Power,Plugs
+1,Ionity Parndorf,Austria,47.9759,16.8544,350,6.0
+2,Ionity St. Lorenzen,Austria,47.4687,15.3441,350,6.0
+3,Ionity Ansfelden,Austria,48.2110,14.2795,350,6.0
+4,Ionity Eberstalzell,Austria,48.0392,13.9907,350,6.0
+5,Ionity Meggenhofen,Austria,48.1834,13.7853,350,12.0
+6,Ionity St. Georgen,Austria,47.9294,13.5009,350,6.0
+7,IONITY HPC Kärntner Straße,Austria,46.5667,13.8095,350,1.0
+8,IONITY Charging Station Triebe,Austria,47.4902,14.4854,350,6.0
+9,IONITY Steinhäusl,Austria,48.1578,15.9404,350,4.0
+10,Wirtschaftspark West,Austria,47.3740,16.0937,350,6.0
+11,IONITY Nassereith,Austria,47.3273,10.8193,350,4.0
+12,IONITY St. Valentin,Austria,48.1964,14.5282,350,6.0
+13,IONITY Mondsee,Austria,47.8367,13.3958,350,6.0
+14,IONITY Klösterle,Austria,47.1291,10.0606,350,4.0
+15,IONITY Kaiserwald,Austria,46.9592,15.3820,350,6.0
+16,IONITY Innerbraz,Austria,47.1409,9.9245,350,4.0
+17,IONITY Hohenems,Austria,47.3662,9.6592,350,4.0
+18,IONITY Hochleithen,Austria,48.4253,16.5478,350,4.0
+19,IONITY Göttlesbrunn,Austria,48.0562,16.7120,350,4.0
+20,IONITY Grafenstein,Austria,46.6397,14.4514,350,4.0
+21,IONITY Golling,Austria,47.5848,13.1579,350,4.0
+22,IONITY Eisentratten,Austria,46.9199,13.5793,350,6.0
+23,IONITY Angath Nord,Austria,47.5192,12.0655,350,4.0
+24,Electra charging station ,Belgium,51.2096,3.2550,400,1.0
+25,Ionity Massenhoven,Belgium,51.2039,4.6473,350,6.0
+26,Allego,Belgium,51.0335,3.7566,400,6.0
+27,IONITY Living Tomorrow Brussel,Belgium,50.9087,4.3863,350,4.0
+28,Natiënlaan,Belgium,51.3270,3.2960,350,1.0
+29,Powerland Ultra Fast EV Chargi,Belgium,50.9645,3.5488,350,1.0
+30,Ionity Wellin,Belgium,50.0785,5.1319,350,6.0
+31,IONITY Wetteren Zuid,Belgium,50.9695,3.8412,350,4.0
+32,IONITY Wetteren Noord,Belgium,50.9707,3.8442,350,4.0
+33,IONITY Froyennes Sud,Belgium,50.6191,3.3412,350,4.0
+34,IONITY Froyennes Nord,Belgium,50.6196,3.3389,350,4.0
+35,IONITY Le Roeulx / Thieu Sud,Belgium,50.4874,4.0962,350,4.0
+36,IONITY Veurne,Belgium,51.0644,2.6736,350,4.0
+37,IONITY Tignee,Belgium,50.6555,5.7109,350,6.0
+38,Eneco @ ACB Delta Volvo,Belgium,50.8181,4.4051,400,2.0
+39,IONITY Le Roeulx / Thieu Nord,Belgium,50.4911,4.0957,350,4.0
+40,IONITY Bierset,Belgium,50.6519,5.4736,350,4.0
+41,Snowball,Belgium,50.8227,3.3111,350,2.0
+42,Zona za biznes APOLO Sunny bea,Bulgaria,42.6878,27.6955,360,2.0
+43,Evroserviz LTD,Bulgaria,42.4477,27.3948,360,2.0
+44,Одрин,Bulgaria,42.5096,27.4519,360,2.0
+45,Ionity Rascane,Croatia,43.3204,17.1662,350,4.0
+46,Electrip Jankomir,Croatia,45.7965,15.8594,400,6.0
+47,Ionity Gospic,Croatia,44.5764,15.3943,350,6.0
+48,IONITY Roses Outlet,Croatia,46.0864,15.9128,350,6.0
+49,IONITY Kanfanar,Croatia,45.1121,13.8025,350,4.0
+50,Porsche Jankomir,Croatia,45.7984,15.8580,350,2.0
+51,IONITY Charging Station Zadar ,Croatia,44.1142,15.4074,350,4.0
+52,IONITY Sop,Croatia,45.7838,16.1512,350,4.0
+53,Ionity Ostrava,Czech Republic,49.7999,18.2250,350,6.0
+54,IONITY Lovosice,Czech Republic,50.5118,14.0526,350,4.0
+55,IONITY Ladna (dir. Bratislava),Czech Republic,48.8097,16.8927,350,4.0
+56,Innogy Tábor,Czech Republic,49.3885,14.6932,400,1.0
+57,IONITY Nupaky,Czech Republic,49.9844,14.6026,350,2.0
+58,IONITY Pávov (dir. Prague),Czech Republic,49.4551,15.5933,350,2.0
+59,Ionity Pávov (dir. Brno),Czech Republic,49.4538,15.5915,350,2.0
+60,IONITY Beroun (dir. Prague),Czech Republic,49.9558,14.0628,350,4.0
+61,Skovboulevarden,Denmark,54.7684,11.8766,400,2.0
+62,Ionity Mors,Denmark,56.7887,8.8296,350,8.0
+63,Ionity Korsør,Denmark,55.3539,11.1417,350,16.0
+64,Ionity Billund,Denmark,55.7363,9.1002,350,8.0
+65,Supercharger Silkeborg Aps,Denmark,56.1853,9.5790,400,8.0
+66,IONITY Vordingborg,Denmark,54.9977,12.0009,350,6.0
+67,IONITY Aabenraa,Denmark,55.0650,9.3663,350,6.0
+68,IONITY Fredericia,Denmark,55.5370,9.7178,350,6.0
+69,IONITY Greve,Denmark,55.5847,12.2576,350,12.0
+70,IONITY Nyborg,Denmark,55.3092,10.8049,350,6.0
+71,IONITY Skanderborg,Denmark,56.0681,9.9784,350,6.0
+72,IONITY Nørager,Denmark,56.7829,9.6951,350,6.0
+73,IONITY Märjamaa,Estonia,58.9213,24.4576,350,2.0
+74,IONITY Häädemeeste,Estonia,58.0744,24.5122,350,2.0
+75,Neste Lataus Kerava ,Finland,0.0000,0.0000,400,6.0
+76,Neste Lataus Espoo Muurala,Finland,60.2186,24.6365,400,6.0
+77,Neste Lataus Sipoo Sipoonlahti,Finland,60.2856,25.3309,400,6.0
+78,Neste Loviisa Ankkurituuli,Finland,60.4591,26.1927,400,6.0
+79,Neste Oulunbaari Maikkula,Finland,64.9783,25.5608,400,6.0
+80,IONITY Karisto,Finland,60.9835,25.7373,350,2.0
+81,IONITY Tiiriö,Finland,61.0085,24.4197,350,2.0
+82,IONITY Paimio,Finland,60.4264,22.7226,350,2.0
+83,Sant-André-Les-Vergers (Zunder,France,48.2697,4.0534,400,4.0
+84,Jean Chaubet,France,43.6066,1.4837,400,1.0
+85,Ionity Waregem,France,50.8984,3.4030,350,3.0
+86,Ionity Nieppe,France,50.6867,2.8403,350,4.0
+87,Ionity Vivonne,France,46.4323,0.2639,350,6.0
+88,Ionity Rochefort,France,45.9555,-0.9778,350,6.0
+89,Ionity Authezat,France,45.6422,3.1842,350,10.0
+90,Ionity Bergerac,France,44.8347,0.4479,350,4.0
+91,Aire de Porte des Landes Est (,France,44.3608,-0.8501,400,16.0
+92,IONITY Montelimar Ouest 2,France,44.5165,4.7818,350,6.0
+93,IONITY Montelimar Est 2,France,44.5146,4.7830,350,6.0
+94,Ionity Messancy,France,49.6116,5.8128,350,6.0
+95,Ionity Burnhaupt,France,47.7403,7.1474,350,6.0
+96,Ionity Sierentz,France,47.6669,7.4421,350,6.0
+97,Ionity Lauragais,France,43.4002,1.7034,350,6.0
+98,Ionity Farebersviller,France,49.1112,6.8583,350,6.0
+99,Ionity Frouard,France,48.7427,6.1493,350,12.0
+100,Ionity Dommartin,France,48.6728,5.9253,350,12.0
+101,Ionity Dijon Sud,France,47.2719,5.0458,350,6.0
+102,Ionity Hanches,France,48.5941,1.6776,350,6.0
+103,Ionity Val Neuvy,France,48.2711,1.8562,350,6.0
+104,Ionity Plaines de Beauce,France,48.2751,1.8561,350,6.0
+105,Ionity Plouer sur Rance,France,48.5308,-2.0128,350,6.0
+106,Ionity Saint Brieuc,France,48.4808,-2.6752,350,6.0
+107,Ionity Loudeac,France,48.1938,-2.7580,350,6.0
+108,Ionity Le Faou,France,48.2981,-4.1693,350,6.0
+109,Ionity Auray,France,47.6647,-3.0033,350,4.0
+110,Ionity Herbiers,France,46.9045,-1.0482,350,16.0
+111,Ionity La Roche sur Yon ,France,46.7012,-1.4308,350,6.0
+112,Ionity Chaberte La Garde,France,43.1488,6.0334,350,16.0
+113,Ionity Rousset ,France,43.4714,5.6430,350,16.0
+114,Ionity Meyrargues,France,43.6323,5.4938,350,12.0
+115,IONITY Mornas Village,France,44.1949,4.7326,350,16.0
+116,IONITY Mornas les Adrets,France,44.2166,4.7230,350,16.0
+117,Ionity Seyssins,France,45.1599,5.6960,350,6.0
+118,Ionity Saint Chamond,France,45.4612,4.4954,350,6.0
+119,Ionity Montmarault,France,46.3244,2.9681,350,6.0
+120,Ionity Rouillé Sud,France,46.4517,-0.0177,350,12.0
+121,Ionity Saint Junien ,France,45.8978,0.9198,350,6.0
+122,Ionity Pays de Brives Sud ,France,45.1605,1.4410,350,8.0
+123,Ionity Pays de Brives Nord ,France,45.1610,1.4406,350,8.0
+124,Ionity Bedenac Ouest,France,45.1733,-0.3342,350,6.0
+125,IONITY Rodez,France,44.3692,2.5861,350,4.0
+126,IONITY Agde,France,43.2986,3.4769,350,6.0
+127,Ionity Toulouse Ouest,France,43.6310,1.4116,350,6.0
+128,IONITY Mas-d’Agenais,France,44.4060,0.1876,350,8.0
+129,Ionity Hastingues Nord,France,43.5293,-1.1500,350,10.0
+130,Ionity Hastingues Sud,France,43.5287,-1.1504,350,10.0
+131, Aire de L´Océan Est! (Zunder),France,43.9370,-1.0900,400,16.0
+132,Aire de Bourges-Marmagne (Zund,France,47.0958,2.2410,400,25.0
+133,Aire L’Ocean Ouest (Zunder),France,43.9376,-1.0924,400,16.0
+134,Aire de Sarthe-Touraine (Zunde,France,47.6508,0.4702,400,2.0
+135,Aire de Porte des Landes Ouest,France,44.3614,-0.8523,400,16.0
+136,Aire Val-du-Cher (Zunder),France,47.3017,0.8912,400,25.0
+137,Ionity - Brumath,France,48.7479,7.6865,350,6.0
+138,Ionity - Corbières Nord,France,43.1780,2.5428,350,8.0
+139,Ionity - Corbières Sud,France,43.1769,2.5419,350,11.0
+140,Ionity - A64 Gourdan-Poligan,France,43.0616,0.5896,350,4.0
+141,Ionity - Seclin,France,50.5486,3.0532,350,12.0
+142,Ionity - Pamiers,France,43.0749,1.6413,350,7.0
+143,IECharge - Roanne,France,46.0538,4.0962,360,2.0
+144,Lidl - Landivisiau,France,48.5145,-4.0548,360,2.0
+145,IONITY Val de Reuil,France,49.2480,1.1885,350,6.0
+146,Ionity Saint-Rambert-d'Albon E,France,45.2765,4.8278,350,6.0
+147,Ionity Soissons Ouest,France,49.3661,3.3079,350,6.0
+148,Ionity Aire du Bourbonnais,France,46.4974,3.3622,350,6.0
+149,Ionity Montpellier Saint-Aunès,France,43.6508,3.9833,350,6.0
+150,Station Kallista BDR de Douain,France,49.0652,1.4252,360,4.0
+151,Ionity Sisteron,France,44.2366,5.9128,350,4.0
+152,Ionity Longvilliers,France,48.5666,1.9867,350,6.0
+153,Ionity - Valleiry Sud,France,46.0965,5.9643,350,4.0
+154,Ionity Pech Montat Ouest,France,45.0312,1.5244,350,4.0
+155,Ionity Chateauroux Nord,France,46.8508,1.7047,350,6.0
+156,Ionity Saint-Laurent,France,50.8269,2.5857,350,6.0
+157,Ionity Verdun Saint-Nicolas No,France,49.1200,5.5080,350,6.0
+158,Ionity Verdun Saint-Nicolas Su,France,49.1187,5.5102,350,6.0
+159,Ionity - Saint-Witz,France,49.0889,2.5483,350,12.0
+160,Ionity Ceignes-Haut-Bugey,France,46.1179,5.4902,350,4.0
+161,Ionity Loire,France,45.8505,4.2261,350,4.0
+162,Ionity Baralle,France,50.2255,3.0708,350,2.0
+163,Ionity Champfleury,France,49.2042,4.0123,350,6.0
+164,Ionity Coquelles,France,50.9270,1.7983,350,6.0
+165,Ionity Maison Dieu,France,47.5041,4.0348,350,6.0
+166,Ionity Sorgues,France,44.0246,4.8896,350,6.0
+167,Ionity Ile Rose,France,45.2773,5.6230,350,4.0
+168,Ionity Périgueux Sud,France,45.1378,0.7013,350,6.0
+169,Ionity Poitou-Charentes,France,46.2962,-0.3783,350,4.0
+170,Ionity Aire de Narbonne Vinass,France,43.2161,3.0894,350,6.0
+171,Ionity Bourges-Sainte-Thorette,France,47.0945,2.2410,350,2.0
+172,Ionity Vérités,France,46.3787,2.5870,350,4.0
+173,Ionity Troyes Sud,France,48.2252,4.1325,350,6.0
+174,Allego - Toulouse Balma Gramon,France,43.6282,1.4826,350,4.0
+175,Allego - Toulouse Borderouge,France,43.6422,1.4531,350,4.0
+176,Ionity Coeur d’Aquitaine,France,44.2868,-0.2291,350,4.0
+177,Ionity Rosny sur Seine Nord,France,48.9930,1.6335,350,4.0
+178,Ionity Rely,France,50.5719,2.3791,350,4.0
+179,Ionity Bolleville Ouest,France,49.6144,0.5459,350,2.0
+180,Ionity Bolleville Est,France,49.6144,0.5472,350,2.0
+181,Ionity - Vallée de la Vire Gou,France,48.9089,-1.1030,350,6.0
+182,Ionity - Kergoët,France,48.2737,-2.1864,350,4.0
+183,Ionity la Réserve,France,47.9735,3.1984,350,4.0
+184,Ionity Glanon,France,47.0321,5.1098,350,4.0
+185,Ionity Bois Guillerot,France,47.0307,5.1072,350,4.0
+186,Ionity Montélimar Ouest,France,44.5152,4.7809,350,6.0
+187,Ionity Montélimar Est,France,44.5139,4.7813,350,6.0
+188,Ionity Nemours,France,48.2638,2.7209,350,4.0
+189,Ionity Cambarette Nord,France,43.4241,5.9902,350,4.0
+190,Ionity - Portes d'Angers Sud,France,47.5005,-0.4909,350,6.0
+191,Ionity Orléans Nord,France,47.9487,1.8596,350,6.0
+192,Ionity Giberville Sud,France,49.1669,-0.2770,350,4.0
+193,Ionity Giberville Nord,France,49.1680,-0.2736,350,4.0
+194,Ionity Bédenac,France,45.1702,-0.3348,350,4.0
+195,Ionity Pech Montat Est,France,45.0312,1.5250,350,4.0
+196,Allego - Géant Casino Aix-en-P,France,43.5333,5.4167,350,4.0
+197,Enercon Longueil,France,49.3202,2.6968,350,2.0
+198,Ionity Tavel Sud,France,43.9996,4.7004,350,4.0
+199,Ionity - Labenne Ouest,France,43.5868,-1.4205,350,4.0
+200,Ionity Labenne Est,France,43.5859,-1.4190,350,4.0
+201,Ionity Gevrey-Chambertin Est,France,47.2232,5.0110,350,4.0
+202,Ionity Morières,France,43.9229,4.9120,350,4.0
+203,Ionity Villaines la Gonais,France,48.1255,0.6223,350,4.0
+204,Ionity Tavel Nord,France,44.0041,4.7036,350,4.0
+205,Ionity Aire de Lacq Audejos Su,France,43.4218,-0.5986,350,4.0
+206,Ionity Mouxy,France,45.6739,5.9300,350,4.0
+207,Ionity Jardin des Arbres,France,47.8524,2.6847,350,4.0
+208,Ionity Larzac,France,43.9853,3.1831,350,4.0
+209,Ionity Centre de la France Nor,France,46.7519,2.4171,350,4.0
+210,Ionity Mayenne,France,48.0952,-0.6935,350,6.0
+211,Ionity Centre de la France Sud,France,46.7516,2.4176,350,4.0
+212,Ionity l'Isle-d'Abeau Sud,France,45.6118,5.2128,350,4.0
+213,Ionity Aire de Lacq Audejos No,France,43.4186,-0.5848,350,4.0
+214,Ionity Haut Koenigsbourg,France,48.2317,7.4036,350,6.0
+215,Ionity Saint-Rambert-d'Albon O,France,45.2757,4.8257,350,6.0
+216,Ionity Village Catalan Ouest,France,42.5778,2.8483,350,4.0
+217,Ionity Village Catalan Est,France,42.5784,2.8470,350,4.0
+218,Ionity La Garde,France,44.8706,3.2532,350,4.0
+219,Ionity Poitiers Jaunay-Clan,France,46.7017,0.3668,350,4.0
+220,Ionity La Ferté-Bernard,France,48.1267,0.6230,350,4.0
+221,Ionity Baie de Somme,France,50.1674,1.7555,350,6.0
+222,Ionity Agen,France,44.1713,0.6096,350,4.0
+223,Ionity Veyre,France,45.6602,3.1535,350,4.0
+224,Ionity Blois Villerbon,France,47.6661,1.3876,350,4.0
+225,Ionity - Saugon,France,45.1889,-0.4924,350,4.0
+226,Ionity Blois Ménars,France,47.6644,1.3876,350,4.0
+227,Ionity - Aire de la Vendée,France,46.5734,-1.1181,350,4.0
+228,Ionity Saint-Léger,France,45.6108,-0.5989,350,4.0
+229,Lidl - Croissy-Beaubourg,France,48.8284,2.6416,360,2.0
+230,Ionity - Hauconcourt,France,49.2152,6.1719,350,18.0
+231,Ionity Mâcon Saint-Albain,France,46.4213,4.8645,350,6.0
+232,Ionity Langres Perrogney,France,47.8154,5.2225,350,6.0
+233,Ionity Langres Noidant,France,47.8134,5.2246,350,4.0
+234,Ionity Lochères,France,47.3097,4.5018,350,4.0
+235,Ionity Mionnay Chatanay,France,45.8899,4.8940,350,4.0
+236,Ionity Mionnay Saint-Galmier,France,45.8845,4.8940,350,4.0
+237,Ionity Fontanelles,France,45.8758,6.0696,350,4.0
+238,Ionity Lyon-Dagneux Sud,France,45.8436,5.0695,350,4.0
+239,Ionity Arclusaz,France,45.5487,6.1581,350,4.0
+240,Ionity Aire du Val Gelon,France,45.5474,6.1554,350,4.0
+241,Ionity Aire du Volvestre,France,43.3379,1.2456,350,4.0
+242,Ionity Gueux,France,49.2444,3.9242,350,4.0
+243,Ionity Vrigny,France,49.2429,3.9185,350,4.0
+244,Ionity Chartres-Gasville,France,48.4687,1.5802,350,4.0
+245,Ionity Chartres Bois-Paris,France,48.4673,1.5786,350,4.0
+246,Ionity Parcé sur Sarthe Nord,France,47.8072,-0.1668,350,4.0
+247,Ionity Sarthe Sud,France,47.8036,-0.1679,350,4.0
+248,Ionity Tours la Longue Vue,France,47.4754,0.7770,350,6.0
+249,Ionity - Longué-la-Couaille,France,47.4193,-0.1347,350,4.0
+250,Ionity Fontaine Colette,France,47.1663,0.6314,350,4.0
+251,Ionity Jura,France,46.7758,5.5225,350,6.0
+252,Ionity Bonneville,France,46.0643,6.4114,350,4.0
+253,Ionity Freney,France,45.1968,6.6231,350,4.0
+254,Ionity Montbartier,France,43.9151,1.3091,350,4.0
+255,Ionity Bréguières Nord,France,43.5920,7.0365,350,4.0
+256,Ionity Aire de Garonne,France,43.3346,1.2450,350,4.0
+257,Ionity Poitiers Chincé,France,46.7019,0.3712,350,4.0
+258,Ionity Taponas,France,46.1342,4.7666,350,6.0
+259,Ionity Darvault,France,48.2642,2.7218,350,4.0
+260,Ionity Boismandé Est,France,46.3143,1.4198,350,4.0
+261,Ionity Boismandé Ouest,France,46.3133,1.4169,350,4.0
+262,Ionity - Longué-les-Cossonnièr,France,47.4191,-0.1319,350,4.0
+263,Ionity - Vidauban Sud,France,43.4139,6.4515,350,4.0
+264,Shell Recharge Ladestation,Germany,48.7232,9.1260,360,2.0
+265,Shell Tankstelle Kanalsstrasse,Germany,48.9336,8.8046,360,4.0
+266,Ionity Kirchheim (Tal) 2,Germany,50.8333,9.5733,350,12.0
+267,Ionity Rostock,Germany,54.0833,12.1923,350,11.0
+268,Ionity Zella-Mehlis,Germany,50.6442,10.6852,350,6.0
+269,Ionity Dietmannsried,Germany,47.8119,10.3029,350,8.0
+270,Ionity Kaiserslautern,Germany,49.4563,7.7974,350,6.0
+271,Ionity Oberhonnefeld,Germany,50.5627,7.5276,350,8.0
+272,Ionity Bornheim,Germany,50.7620,7.0295,350,6.0
+273,Ionity Quickborn,Germany,53.7428,9.9432,350,12.0
+274,Ionity Wittenburg,Germany,53.5019,11.0876,350,6.0
+275,Ionity Bitterfeld-Wolfen,Germany,51.6365,12.2005,350,12.0
+276,Ionity Meerane,Germany,50.8408,12.4450,350,12.0
+277,Ionity Friedrichshafen,Germany,47.6725,9.5230,350,4.0
+278,Ionity Aichstetten,Germany,47.8807,10.0411,350,12.0
+279,Ionity Mühldorf,Germany,48.2624,12.5427,350,6.0
+280,Ionity Garching,Germany,48.2493,11.6344,350,8.0
+281,Ionity Eching,Germany,48.3108,11.6467,350,6.0
+282,Ionity Merklingen,Germany,48.5165,9.7569,350,16.0
+283,Ionity Dettelbach,Germany,49.7780,10.0688,350,12.0
+284,Ionity Werneck,Germany,50.0033,10.1174,350,12.0
+285,Ionity Knüllwald,Germany,51.0053,9.4813,350,8.0
+286,Ionity Breuna,Germany,51.4020,9.1842,350,8.0
+287,Ionity Paderborn,Germany,51.7071,8.7228,350,7.0
+288,Ionity Oelde,Germany,51.8118,8.1319,350,6.0
+289,Ionity Castrop Rauxel,Germany,51.5663,7.3175,350,12.0
+290,Ionity Oberhausen,Germany,51.4899,6.8879,350,6.0
+291,Ionity Wenningstedt,Germany,54.9346,8.3298,350,6.0
+292,Ionity Wismar,Germany,53.8932,11.5131,350,6.0
+293,Ionity Oberkrämer,Germany,52.7097,13.1079,350,12.0
+294,Ionity Marl,Germany,51.6446,7.1022,350,6.0
+295,Ionity Leinefelde-Worbis,Germany,51.3907,10.3426,350,6.0
+296,Ionity Knetzgau,Germany,49.9823,10.5556,350,12.0
+297,Ionity Polch,Germany,50.3069,7.3060,350,6.0
+298,Ionity Wittlich,Germany,49.9669,6.9427,350,12.0
+299,Ionity Autohof Porta Westfalic,Germany,52.2105,8.8714,350,6.0
+300,JET Charging Station,Germany,47.5685,10.6884,400,2.0
+301,EnBW Homepark Würzburg,Germany,49.8205,9.9793,350,8.0
+302, EnBW HyperHub Hildesheim,Germany,52.1594,9.9944,350,16.0
+303,Aral Tankstelle Albert-Einstei,Germany,52.1605,9.9970,350,6.0
+304,EnBW Autohof Northeim,Germany,51.7321,9.9726,350,14.0
+305,Aral Autohof,Germany,51.7310,9.9732,350,8.0
+306,Porsche Zentrum Hamburg Nord-W,Germany,53.6213,9.9073,350,1.0
+307,Shell Poppenbuettel,Germany,53.6630,10.0789,360,4.0
+308,Shell Recharge Steyler Straße,Germany,51.3265,6.1779,360,2.0
+309,Alsterkrugchaussee,Germany,53.6213,10.0098,360,4.0
+310,IONITY Bad Camberg West,Germany,50.2999,8.2347,350,4.0
+311,IONITY Augsburg Ost,Germany,48.4116,10.9149,350,4.0
+312,IONITY Brohltal Ost,Germany,50.4405,7.2256,350,6.0
+313,IONITY Dollenberg Ost,Germany,50.6885,8.2959,350,4.0
+314,IONITY Pilsting,Germany,48.6925,12.6730,350,4.0
+315,IONITY Wernberg-Köblitz,Germany,49.5324,12.1349,350,6.0
+316,IONITY Friedberg,Germany,48.4064,10.9523,350,6.0
+317,IONITY Hamminkeln,Germany,51.7391,6.5952,350,4.0
+318,IONITY Linthe,Germany,52.1601,12.7799,350,6.0
+319,IONITY Wolfsburg Bürozentrum N,Germany,52.4452,10.7852,350,4.0
+320,IONITY Heiligengrabe,Germany,53.1472,12.3987,350,4.0
+321,IONITY Donautal West,Germany,48.5893,13.3653,350,4.0
+322,IONITY Donautal Ost,Germany,48.5881,13.3667,350,4.0
+323,IONITY Lechwiesen Süd,Germany,48.0583,10.8477,350,4.0
+324,IONITY Lechwiesen Nord,Germany,48.0593,10.8468,350,4.0
+325,IONITY Lichtendorf Süd,Germany,51.4678,7.5970,350,4.0
+326,IONITY Aachener Land Süd,Germany,50.8173,6.2166,350,4.0
+327,IONITY Ohligser Heide West,Germany,51.1579,6.9618,350,4.0
+328,IONITY Ohligser Heide Ost,Germany,51.1568,6.9648,350,4.0
+329,IONITY Auetal Süd,Germany,52.2270,9.2325,350,4.0
+330,IONITY Auetal Nord,Germany,52.2237,9.2215,350,4.0
+331,IONITY Remscheid Ost,Germany,51.1584,7.2303,350,4.0
+332,IONITY Frankenhöhe Süd,Germany,49.2412,10.3561,350,4.0
+333,IONITY Frankenhöhe Nord,Germany,49.2426,10.3529,350,4.0
+334,IONITY Bayerischer Wald Süd,Germany,48.9310,12.7054,350,4.0
+335,IONITY Ostetal Süd,Germany,53.2991,9.5352,350,4.0
+336,IONITY Ostetal Nord,Germany,53.3000,9.5326,350,4.0
+337,IONITY Goldbach Süd,Germany,52.9985,9.1812,350,4.0
+338,IONITY Ohrenbach West,Germany,49.4845,10.2120,350,4.0
+339,IONITY Katzenfurt Süd,Germany,50.6203,8.3629,350,4.0
+340,IONITY Haidt Süd,Germany,49.7794,10.2465,350,4.0
+341,IONITY Thüringer Wald Süd,Germany,50.7247,10.8472,350,4.0
+342,IONITY Thüringer Wald Nord,Germany,50.7265,10.8416,350,4.0
+343,IONITY Ohrenbach Ost,Germany,49.4856,10.2133,350,4.0
+344,IONITY Samerberg Süd,Germany,47.8012,12.1772,350,4.0
+345,IONITY Spessart Nord,Germany,49.8983,9.3943,350,4.0
+346,IONITY Haidt Nord,Germany,49.7809,10.2448,350,4.0
+347,Im Gewerbepark,Germany,49.6272,10.9228,350,2.0
+348,Aral Holzmarktstraße,Germany,52.5138,13.4217,350,2.0
+349,Aral Kodersdorf,Germany,51.2252,14.9025,350,1.0
+350,IONITY Dammer Berge Ost,Germany,52.5392,8.1146,350,4.0
+351,IONITY Dammer Berge West,Germany,52.5408,8.1127,350,4.0
+352,IONITY Samerberg Nord,Germany,47.8028,12.1785,350,4.0
+353,IONITY Reinhardshain Nord,Germany,50.6229,8.8948,350,4.0
+354,IONITY Weiskirchen Süd,Germany,50.0547,8.9082,350,4.0
+355,IONITY Kirchheim (Tal),Germany,50.8338,9.5708,350,6.0
+356,IONITY Illertissen,Germany,48.2191,10.1278,350,6.0
+357,IONITY Wolfsburg Forum AutoVis,Germany,52.4249,10.7457,350,6.0
+358,IONITY Bochum,Germany,51.4741,7.1514,350,4.0
+359,IONITY Am Fichtenplan Süd,Germany,52.3156,13.4947,350,4.0
+360,IONITY Harz West,Germany,51.9280,10.1417,350,4.0
+361,IONITY Wolfsburg Detmeroder Ma,Germany,52.3922,10.7537,350,4.0
+362,IONITY Wolfsburg Allerpark,Germany,52.4377,10.8091,350,6.0
+363,Innogy Charging Station,Germany,49.9700,6.8624,350,1.0
+364,Raststätte Harz Ost Ionity,Germany,51.9262,10.1431,350,4.0
+365,Einkaufszentrum Hagebaumarkt,Germany,53.8790,10.6694,400,2.0
+366,Carl-von-Bach-Straße,Germany,50.8022,12.8526,350,2.0
+367,Porsche Engineering,Germany,49.1955,9.2240,350,1.0
+368,IONITY Lutterberg,Germany,51.3705,9.6337,350,6.0
+369,IONITY Am Fichtenplan Nord,Germany,52.3182,13.4947,350,4.0
+370,IONITY Lichtendorf Nord,Germany,51.4683,7.5940,350,4.0
+371,IONITY Reinhardshain Süd,Germany,50.6221,8.8972,350,4.0
+372,IONITY Bayerischer Wald Nord,Germany,48.9318,12.7082,350,4.0
+373,Ionity Rastanlage Holzkirchen ,Germany,47.8922,11.7313,350,4.0
+374,Ionity Rastanlage Goldbach Nor,Germany,53.0006,9.1795,350,4.0
+375,IONITY Aachener Land Nord,Germany,50.8177,6.2139,350,4.0
+376,IONITY Lehrter See Nord,Germany,52.3887,9.9966,350,4.0
+377,IONITY Lehrter See Süd,Germany,52.3861,9.9990,350,4.0
+378,Finca & Bar Celona DC Charger,Germany,52.4144,9.6420,350,4.0
+379,P+M Parkplatz GADA A8,Germany,48.2387,11.3540,350,4.0
+380,IONITY Holzkirchen Süd,Germany,47.9065,11.7175,350,4.0
+381,IONITY Nempitz,Germany,51.2902,12.1376,350,6.0
+382,IONITY Lüneburger Heide Ost,Germany,53.1101,9.9841,350,4.0
+383,IONITY Lüneburger Heide West,Germany,53.1093,9.9817,350,4.0
+384,Messeplatz,Germany,51.4315,7.0008,350,4.0
+385,IONITY Wunnenstein West,Germany,49.0443,9.2616,350,4.0
+386,IONITY Wunnenstein Ost,Germany,49.0453,9.2662,350,4.0
+387,IONITY Schwabhausen,Germany,50.8984,10.7256,350,6.0
+388,IONITY Sangerhausen,Germany,51.4510,11.3051,350,4.0
+389,IONITY Salzbergen,Germany,52.3261,7.4301,350,6.0
+390,IONITY Riedener Wald West,Germany,49.9457,10.0168,350,4.0
+391,IONITY Riedener Wald Ost,Germany,49.9442,10.0200,350,4.0
+392,IONITY Neumarkt,Germany,49.3129,11.4747,350,4.0
+393,IONITY Neckarburg West,Germany,48.2059,8.6210,350,4.0
+394,IONITY Neckarburg Ost,Germany,48.2062,8.6272,350,4.0
+395,IONITY Nahetal,Germany,49.9258,7.9372,350,4.0
+396,IONITY Mahlberg West,Germany,48.3095,7.7889,350,4.0
+397,IONITY Mahlberg Ost,Germany,48.3088,7.7915,350,4.0
+398,IONITY Lonetal West,Germany,48.5839,10.1756,350,4.0
+399,IONITY Lonetal Ost,Germany,48.5843,10.1790,350,4.0
+400,IONITY Lippetal,Germany,51.6958,7.9662,350,4.0
+401,IONITY Köschinger Forst West,Germany,48.8371,11.4693,350,6.0
+402,IONITY Köschinger Forst Ost,Germany,48.8366,11.4722,350,6.0
+403,IONITY Hohenlohe Süd,Germany,49.2054,9.6397,350,4.0
+404,IONITY Hohenlohe Nord,Germany,49.2070,9.6393,350,4.0
+405,IONITY Himmelkron,Germany,50.0560,11.6091,350,6.0
+406,Ionity Raststätte Gruibingen,Germany,48.6053,9.6326,350,6.0
+407,IONITY Eifel West,Germany,50.0685,6.8802,350,4.0
+408,IONITY Eifel Ost,Germany,50.0702,6.8809,350,4.0
+409,IONITY Eichenzell,Germany,50.4884,9.7085,350,6.0
+410,IONITY e-Mobility-Station Wolf,Germany,52.4167,10.7834,350,4.0
+411,IONITY Dresdner Tor Süd,Germany,51.0602,13.5720,350,4.0
+412,IONITY Denkendorf Nord,Germany,48.6937,9.3033,350,4.0
+413,IONITY Dresdner Tor Nord,Germany,51.0632,13.5711,350,4.0
+414,IONITY Demminer Land,Germany,53.8557,13.3333,350,4.0
+415,IONITY Buddikate West,Germany,53.6925,10.3204,350,4.0
+416,IONITY Buddikate Ost,Germany,53.6944,10.3247,350,4.0
+417,IONITY Bruchsal Ost,Germany,49.1627,8.5708,350,4.0
+418,IONITY Brokenlande Ost,Germany,54.0142,9.9332,350,4.0
+419,IONITY Bruchsal West,Germany,49.1613,8.5672,350,4.0
+420,IONITY Bad Honnef,Germany,50.6476,7.3343,350,6.0
+421,IONITY Altenburger Land Süd,Germany,50.8567,12.3132,350,4.0
+422,IONITY Aalbek West,Germany,54.0927,9.9291,350,4.0
+423,IONITY Altenburger Land Nord,Germany,50.8607,12.3080,350,4.0
+424,IONITY Hohenwarsleben,Germany,52.1739,11.4951,350,6.0
+425,IONITY Rasthof Brohltal West,Germany,50.4414,7.2239,350,6.0
+426,"Energie-, Bildungs- und Erlebn",Germany,53.4961,7.4918,350,1.0
+427,Porsche Zentrum Berlin-Adlersh,Germany,52.4277,13.5195,400,2.0
+428,Euro Rastpark Lippetal,Germany,51.6957,7.9664,350,2.0
+429,Audi Forum Besucherparkplatz,Germany,48.7835,11.4135,350,4.0
+430,Ionity Sormas,Hungary,46.4605,16.9066,350,4.0
+431,IONITY Balatonkeresztúr (dir. ,Hungary,46.6854,17.3795,350,4.0
+432,IONITY Balatonkeresztúr (dir. ,Hungary,46.6833,17.3793,350,4.0
+433,IONITY Szigetszentmiklós,Hungary,47.3803,19.0558,350,2.0
+434,"Kajászó, M7 Váli Völgyi Pihenő",Hungary,47.3076,18.7443,350,4.0
+435,IONITY Bábolna (dir. Budapest),Hungary,47.6806,17.9765,350,4.0
+436,Jack White's Inn,Ireland,52.8823,-6.0987,360,8.0
+437,Ionity Charlestown,Ireland,53.4042,-6.3064,350,12.0
+438,Applegreen,Ireland,53.6076,-6.1988,400,2.0
+439,Applegreen,Ireland,52.2411,-7.1698,350,6.0
+440,IONITY Kill South,Ireland,53.2536,-6.5682,350,6.0
+441,IONITY Kill North,Ireland,53.2484,-6.5960,350,6.0
+442,"Ionity, CityNorth",Ireland,53.6376,-6.2586,350,6.0
+443,"Ionity, M11, Arklow / Gorey",Ireland,52.7507,-6.2020,350,6.0
+444,"Ionity, M6, Athlone",Ireland,53.4008,-7.8265,350,6.0
+445,Ionity Cashel,Ireland,52.5087,-7.8745,350,6.0
+446,Electrip La Grande Mela Lugagn,Italy,45.4399,10.8626,400,10.0
+447,Ewiva Mondo Convenienza,Italy,44.0419,12.5651,450,4.0
+448,Smatric Varna,Italy,46.7600,11.6380,400,12.0
+449,IONITY Via Antonio Bardelli,Italy,46.0871,13.1798,350,7.0
+450,Funivia Plan de Corones Riopra,Italy,46.7732,11.9424,400,4.0
+451,Neogy Fiera di Bolzano,Italy,46.4725,11.3269,400,5.0
+452,Ionity Civitanova Marche,Italy,43.2936,13.7058,350,6.0
+453,Ionity Bari,Italy,41.0893,16.8967,350,6.0
+454,Ionity Mondoví,Italy,44.4200,7.8501,350,6.0
+455,ELECTRA FAST Via Guzzanica,Italy,45.6466,9.6288,400,4.0
+456,Ionity Centro Borgo,Italy,44.5189,11.2644,350,8.0
+457,Ionity White Fitness Club,Italy,45.3887,8.1293,350,12.0
+458,Ionity Portogrande,Italy,42.8987,13.8944,350,6.0
+459,Ionity Valmontone Outlet,Italy,41.7614,12.9625,350,12.0
+460,Ionity Le Porte di Napoli,Italy,40.9324,14.3565,350,6.0
+461,Ionity Chioggia,Italy,45.1895,12.2767,350,6.0
+462,Ionity Affi,Italy,45.5525,10.7876,350,18.0
+463,POWY HPC Via dell'Oreficeria,Italy,45.5303,11.5079,400,2.0
+464,Ionity Rome West,Italy,41.8233,12.4118,350,6.0
+465,Compleo UnicoGo Fuorigrotta,Italy,40.8230,14.1898,350,2.0
+466,Ionity Conè,Italy,45.8775,12.3150,350,6.0
+467,Ionity Hotel Hampton By Hilton,Italy,42.1372,12.6023,350,6.0
+468,Ionity 8piuhotel,Italy,40.3624,18.1576,350,6.0
+469,Enel X HPC Redicicoli,Italy,41.9753,12.5415,350,4.0
+470,Powerstop Volvo Ambrosi,Italy,43.1020,12.3002,350,2.0
+471,Free to X AdS San Zenone Est,Italy,45.3222,9.3769,400,4.0
+472,E-Via Flex-E IP,Italy,45.5857,9.3582,350,4.0
+473,Enel X AdS Casilina Esterna,Italy,41.8741,12.6142,350,4.0
+474,Ionity Gioia Tauro,Italy,38.4172,15.9046,350,5.0
+475,IONITY Adazi,Latvia,57.0694,24.3166,350,2.0
+476,Hesburger Gariūnai,Lithuania,54.6592,25.1617,400,1.0
+477,Vilniaus intermodalinis termin,Lithuania,54.5795,25.2348,360,1.0
+478,"Šilagalio km., Panevėžio aplin",Lithuania,55.6726,24.3356,350,1.0
+479,"Šilalės r. sav., Bijotų sen., ",Lithuania,55.4842,22.5882,350,1.0
+480,IONITY Aplinkkelis,Lithuania,55.6731,24.3359,350,2.0
+481,IONITY Kryžkalnis,Lithuania,55.4842,22.5873,350,2.0
+482,Ionity at Circle-K Garliava,Lithuania,54.8191,23.8578,350,2.0
+483,Rue Richard Coudenhove-Kalergi,Luxembourg,49.6267,6.1604,350,1.0
+484,Ionity Tolnegen Zuid,Netherlands,52.1855,5.6775,350,4.0
+485,Ionity Steenwijk,Netherlands,52.7994,6.1196,350,4.0
+486,Ionity Kampen,Netherlands,52.5558,5.8843,350,6.0
+487,Ionity Gorinchem,Netherlands,51.8320,4.9503,350,24.0
+488,Ionity Medemblik,Netherlands,52.7565,5.0403,350,12.0
+489,IONITY Mienscheer,Netherlands,53.1616,6.2927,350,3.0
+490,IONITY Sandelingen Oost,Netherlands,51.8360,4.6200,350,4.0
+491,IONITY Overbroek,Netherlands,51.9216,5.6037,350,2.0
+492,IONITY De Knoest,Netherlands,52.0146,5.1222,350,2.0
+493,IONITY Apeldoorn-Zuid,Netherlands,52.1791,5.9843,350,4.0
+494,IONITY Sandelingen West,Netherlands,51.8348,4.6181,350,2.0
+495,IONITY Oosterhout,Netherlands,51.6268,4.8702,350,6.0
+496,IONITY Bodegraven,Netherlands,52.0665,4.7384,350,4.0
+497,IONITY De Kroon,Netherlands,52.0143,5.1192,350,2.0
+498,IONITY Tolnegen Noord,Netherlands,52.1844,5.6706,350,6.0
+499,IONITY Best,Netherlands,51.5031,5.4144,350,4.0
+500,Fastned Ravensewetering,Netherlands,52.0499,5.1222,350,2.0
+501,Fastned Jutphaas,Netherlands,52.0177,5.0682,350,4.0
+502,IONITY Sevenum,Netherlands,51.3800,5.9854,350,4.0
+503,Fastned De Veenen,Netherlands,52.0643,5.6090,400,4.0
+504,Meerndijk 59,Netherlands,52.0724,5.0272,350,3.0
+505,Van der Valk - Venlo,Netherlands,51.3955,6.1748,350,1.0
+506,Ionity Skawina,Poland,49.9890,19.8346,350,6.0
+507,Ionity MOP Mlynski Staw (dir. ,Poland,50.6767,17.6573,350,4.0
+508,Ionity MOP Mlynski Staw (dir. ,Poland,50.6774,17.6509,350,4.0
+509,Ionity Radomsko,Poland,51.0820,19.3758,350,6.0
+510,Ionity Poznan,Poland,52.3525,16.9976,350,4.0
+511,Ionity Nowogard,Poland,53.6840,15.1229,350,6.0
+512,Ionity Koszalin,Poland,54.2027,16.1587,350,6.0
+513,Ekoen Warszawa P14,Poland,52.1780,20.9974,350,3.0
+514,IONITY Świecko,Poland,52.3131,14.6415,350,2.0
+515,IONITY MOP Olsze (dir. Lodz),Poland,53.8892,18.6308,350,2.0
+516,IONITY MOP Olsze (dir. Gdańsk),Poland,53.8869,18.6309,350,2.0
+517,IONITY Zgorzelec,Poland,51.1770,15.0319,350,2.0
+518,IONITY MOP Nowostawy (dir. War,Poland,51.8976,19.7066,350,2.0
+519,Autostrada Wolności,Poland,51.9004,19.7065,350,2.0
+520,IONITY Kaszewy Kóscielne (Kutn,Poland,52.2191,19.4619,350,2.0
+521,Parking Transfronterizo Fuente,Portugal,40.6067,-6.8250,400,6.0
+522,Ionity Marateca,Portugal,38.5798,-8.6776,350,2.0
+523,Ionity Maia,Portugal,41.2458,-8.6262,350,2.0
+524,Ionity Óbidos,Portugal,39.3752,-9.1392,350,6.0
+525,Ionity Guarda,Portugal,40.5520,-7.2490,350,4.0
+526,CTB-00023 Ionity,Portugal,39.8882,-7.4884,350,4.0
+527,CTB-00019 ionity ,Portugal,39.8875,-7.4866,350,4.0
+528,BCL-00010/11 - Ionity A3 S>N,Portugal,41.6043,-8.5498,350,2.0
+529,ALB-00005/6 - Ionity Albergari,Portugal,40.6779,-8.4719,350,6.0
+530,LRA-00028/29 - Ionity Leiria S,Portugal,39.7133,-8.7098,350,2.0
+531,LRA-00030/31 - Ionity Leiria N,Portugal,39.7126,-8.7114,350,2.0
+532, ETZ-00008/9 - Ionity A6 E>O,Portugal,38.8005,-7.6611,350,2.0
+533,ETZ-00006/7 - Ionity A6 O>E,Portugal,38.7994,-7.6601,350,2.0
+534,BCL-00008/9 - Ionity A3 N>S,Portugal,41.6055,-8.5510,350,2.0
+535,IONITY Almodôvar N-S ADV-00004,Portugal,37.5359,-8.1848,350,6.0
+536,IONITY Almodôvar S-N ADV-00002,Portugal,37.5362,-8.1829,350,6.0
+537,Centro Porsche LISBOA,Portugal,38.7713,-9.1077,350,2.0
+538,Centro Porsche LEIRIA,Portugal,39.7159,-8.8305,350,2.0
+539,Centro Porsche FARO,Portugal,37.0600,-7.9667,350,2.0
+540,Centro Porsche BRAGA,Portugal,41.5184,-8.4206,350,2.0
+541,Centro Porsche Porto,Portugal,41.1736,-8.6476,350,2.0
+542,Ledi MS Nova Pazova,Serbia,44.9693,20.2330,350,2.0
+543,Ionity Dubnica,Slovakia,48.9512,18.1513,350,6.0
+544,IONITY Senec,Slovakia,48.2407,17.3608,350,2.0
+545,ZSE Budca-P ultra-fast,Slovakia,48.5680,19.0603,350,1.0
+546,Ionity Celje,Slovenia,46.2673,15.1887,350,6.0
+547,IONITY Dobrenje Zahod (dir. Ma,Slovenia,46.6095,15.6618,350,4.0
+548,IONITY - A2 (Karavanke-Ljublja,Slovenia,46.3382,14.1915,350,2.0
+549,"IONITY Radovljica, E61 (dir. V",Slovenia,46.3400,14.1916,350,2.0
+550,IONITY Dobrenje Vzhod (dir. Gr,Slovenia,46.6063,15.6638,350,4.0
+551,IONITY Smednik,Slovenia,45.9077,15.3708,350,2.0
+552,IONITY Koper,Slovenia,45.5402,13.7268,350,4.0
+553,IONITY Ilirska Bistrica,Slovenia,45.5592,14.2443,350,4.0
+554,La Bañeza (Zunder),Spain,42.2859,-5.9164,400,16.0
+555,C.C. Alcalá Atenea (Zunder),Spain,40.5045,-3.3675,400,8.0
+556,Hub Villena (Equanimityenergy),Spain,38.6971,-0.9141,350,16.0
+557,Hub Villa Doménech Pedreguer (,Spain,38.8145,0.0295,350,16.0
+558,Ionity Requena,Spain,39.5028,-1.1288,350,6.0
+559,Cepsa Campo de Las Naciones,Spain,40.4589,-3.6160,500,2.0
+560,E.S. Valcarce Tudela,Spain,42.1211,-1.6755,400,2.0
+561,Rest. El Cisne (Zunder),Spain,41.6242,-1.0105,360,2.0
+562,Transportes Mariné (Zunder),Spain,41.5385,2.1636,360,2.0
+563,Repsol Garraf Sur,Spain,41.2220,1.6756,360,2.0
+564,A.S. Garraf Norte (FastNed),Spain,41.2208,1.6766,400,8.0
+565,Repsol Garraf Norte,Spain,41.2207,1.6761,360,2.0
+566,A.S. Garraf Sur (FastNed),Spain,41.2207,1.6748,400,8.0
+567,P.C. La Serena (Villanueva de ,Spain,38.9691,-5.8078,360,2.0
+568,Obramat Alcalá de Guadaíra (Zu,Spain,37.3505,-5.8595,360,2.0
+569,Electrolinera EL Soto,Spain,42.8038,-1.6278,400,2.0
+570,Electrolinera Carabanchel ,Spain,40.3717,-3.7288,400,4.0
+571,Motilla De Palancar (Zunder),Spain,39.5542,-1.9021,360,8.0
+572,Rest. Los Mellizos. Ayamonte (,Spain,37.2401,-7.3812,400,8.0
+573,Zunder Vicálvaro,Spain,40.3918,-3.5858,400,16.0
+574,Hotel Abades Becanazón,Spain,37.3602,-6.1997,400,2.0
+575,Torija (Zunder),Spain,40.7477,-3.0336,400,8.0
+576,C.C. Estepona Park,Spain,36.4299,-5.1571,360,2.0
+577,Parque Comerical La Heredad,Spain,38.9064,-6.3529,360,2.0
+578,CLUN Os Irmandiños (Iberdrola-,Spain,43.5456,-7.1562,360,2.0
+579,C.C. Sant Jordi Ametllat Del V,Spain,41.6644,2.2698,400,8.0
+580,C. C. Via Sabadell,Spain,41.5118,2.1072,400,1.0
+581,Hotel Paris (Zunder),Spain,42.4372,-8.6741,360,2.0
+582,Rest. Mirasierra (Zunder),Spain,37.4337,-2.9060,360,2.0
+583,Obramat Bormujos Sevilla (Zund,Spain,37.3751,-6.0859,360,2.0
+584,Daimiel (Zunder),Spain,39.0476,-3.5894,360,16.0
+585,Monfarracinos (Zunder),Spain,41.5493,-5.7051,400,8.0
+586,Área Rueda (Zunder),Spain,41.3543,-4.9584,400,8.0
+587,Santa Cruz de Mudela (Zunder),Spain,38.6312,-3.4661,400,8.0
+588,MercaValencia Trucks Charging ,Spain,39.4352,-0.3478,400,40.0
+589,CTM (Privado),Spain,40.3658,-3.6550,400,2.0
+590,Villaverde La Atalayuela (Zund,Spain,40.3708,-3.6417,400,16.0
+591,Area Ruta Europa,Spain,42.8186,-2.7778,400,2.0
+592,Pepco Motril,Spain,36.7418,-3.5274,360,2.0
+593,Cerdá (Zunder),Spain,38.9866,-0.5738,360,2.0
+594,E.S. Júndiz (Zunder),Spain,42.8432,-2.7484,360,2.0
+595,"Hotel Alfonso VIII, Santa Elen",Spain,38.3303,-3.5432,360,2.0
+596,Rest. El Alfoz de Burgos (Zund,Spain,42.2904,-3.7029,360,8.0
+597,Toro (Zunder),Spain,41.5411,-5.3766,400,2.0
+598,Montesalgueiro (Zunder),Spain,43.2126,-8.0510,400,8.0
+599,Cariñena. Bodega Grandes Vinos,Spain,41.3609,-1.2084,360,2.0
+600,C.C. El Bulevar Ávila,Spain,40.6698,-4.6611,400,2.0
+601,Rest. Doménech (Alberique),Spain,39.1195,-0.5360,360,2.0
+602,C.C. Parque Principado (Zunder,Spain,43.3912,-5.8017,400,12.0
+603,Rest. El Raso Villalpando (Zun,Spain,41.8263,-5.3789,400,16.0
+604,Narros del Castillo (Zunder),Spain,40.8744,-5.0544,400,16.0
+605,Rest. Las Moreras (Zunder),Spain,40.4476,-3.5358,360,2.0
+606,"Mesón Casa Marco, Fresno Alhán",Spain,40.6991,-5.6234,360,2.0
+607,Rest. Casablanca (Montalbo),Spain,39.8818,-2.6656,350,4.0
+608,Rest. El Pardal (Zunder),Spain,42.7744,-8.6510,360,2.0
+609,Ionity Torredembarra,Spain,41.1522,1.3938,350,4.0
+610,Ionity Monreal del Campo,Spain,40.7549,-1.3393,350,6.0
+611,Ionity La Vall d’Uixo,Spain,39.8142,-0.2296,350,6.0
+612,Rest. Casa Juanito La Roda (Zu,Spain,39.2174,-2.1862,360,2.0
+613,E.S. Abades Pedro Abad,Spain,37.9716,-4.4582,400,2.0
+614,Hotel Zenit Calahorra (Zunder),Spain,42.3198,-1.9995,360,2.0
+615,Mercaolid (Zunder),Spain,41.6722,-4.7176,360,2.0
+616,E.S. Cetina (Zunder),Spain,41.3066,-1.9646,360,2.0
+617,Ionity Torrent,Spain,39.4202,-0.5027,350,4.0
+618,C.C. Plaza Loranca 2,Spain,40.3014,-3.8315,400,10.0
+619,Parque Comercial Sedaví (Zunde,Spain,39.4214,-0.3765,360,2.0
+620,Ionity Rubí,Spain,41.4745,2.0316,350,12.0
+621,Ionity Jaén,Spain,37.8197,-3.7746,350,4.0
+622,Centro Transportes Madrid (Zun,Spain,40.3656,-3.6547,400,16.0
+623,Hotel Lisboa (Zunder),Spain,41.2277,-5.3180,360,2.0
+624,Quintanilla de Urz (Zunder),Spain,42.0222,-5.8540,360,2.0
+625,Rest. El Navarro Épila (Zunder,Spain,41.5388,-1.2414,360,2.0
+626,San Pedro de Mérida (Zunder),Spain,38.9472,-6.1877,360,2.0
+627,Buniel - Área Serrano (Zunder),Spain,42.3052,-3.8246,360,2.0
+628,"Cabildo, Estadio Gran Canaria",Spain,28.0980,-15.4573,360,2.0
+629,E.S. Villa Los Arcos (Zunder),Spain,42.5552,-2.1808,360,2.0
+630,Parque Comercial Ronda Norte,Spain,39.4903,-6.3679,360,2.0
+631,Simancas (Zunder),Spain,41.5907,-4.8302,400,2.0
+632,C.C. Thader,Spain,38.0310,-1.1491,360,2.0
+633,E.S. Mutilva II (Zunder),Spain,42.8004,-1.6116,360,2.0
+634,Hormilla (Zunder) ,Spain,42.4316,-2.7629,360,2.0
+635,Oropesa Ferlu,Spain,39.9268,-5.1851,360,2.0
+636,Obramat Sestao (Zunder),Spain,43.3004,-3.0057,360,2.0
+637,Ionity Tarragona,Spain,41.1296,1.1813,350,6.0
+638,Ionity Lérida,Spain,41.6498,0.5636,350,6.0
+639,Hotel Romero Mérida (Zunder),Spain,38.8599,-6.3641,360,2.0
+640,Alovera (Zunder),Spain,40.5948,-3.2259,360,2.0
+641,E.S. Ruta 4,Spain,37.5081,-5.3894,360,2.0
+642,Idiada Automotive Technology,Spain,41.2669,1.5221,400,2.0
+643,Ionity Arrigorriaga,Spain,43.1901,-2.8966,350,4.0
+644,E.S. Mutilva Pamplona (Zunder),Spain,42.8016,-1.6127,360,2.0
+645,Hotel Restaurante San Roque,Spain,41.2967,-4.9050,350,4.0
+646,C.C. Parque Laguna de Duero (Z,Spain,41.5936,-4.7229,360,2.0
+647,Tejares (Zunder),Spain,40.9556,-5.7041,360,2.0
+648,Disfrimur  - Calle Río Ebro,Spain,37.9522,-1.2492,350,3.0
+649,Rest. El Zamorano (Zunder),Spain,41.8591,-4.5511,360,2.0
+650,E.S. La Joyosa,Spain,41.7365,-1.0670,350,2.0
+651,Ionity Tunel del Cadi,Spain,42.3460,1.8327,350,6.0
+652,Ionity Sallent,Spain,41.7894,1.8975,350,6.0
+653,Ionity Ribadeo,Spain,43.5443,-7.0625,350,2.0
+654,Ionity Tudela Norte,Spain,42.0124,-1.6000,350,2.0
+655,Ionity Tudela Sur,Spain,42.0121,-1.6003,350,2.0
+656,Ionity Logroño Sur,Spain,42.4499,-2.3698,350,2.0
+657,Ionity Logroño Norte,Spain,42.4503,-2.3695,350,2.0
+658,Ionity Benavente,Spain,41.9987,-5.6599,350,6.0
+659,Ionity Cazalegas,Spain,39.9840,-4.7319,350,6.0
+660,Ionity Saelices,Spain,39.9169,-2.7983,350,6.0
+661,Ionity Marmolejo,Spain,38.0297,-4.1642,350,2.0
+662,A.S. Las Fuentes,Spain,41.0785,-4.7345,400,2.0
+663,Rest. Hotel La Abadesa,Spain,42.3072,-3.7029,350,2.0
+664,Parking FGC Montserrat,Spain,41.6157,1.8424,400,2.0
+665,Les Alqueries,Spain,39.8983,-0.1258,350,2.0
+666,Hotel Rest. La Hacienda,Spain,42.2870,-5.9132,350,2.0
+667,Ionity La Zenia Torrevieja,Spain,37.9258,-0.7360,350,6.0
+668,Ionity Tordesillas,Spain,41.5162,-5.0197,350,6.0
+669,Parking Estación de Parque Pol,Spain,40.3133,-3.7835,360,8.0
+670,Parking Pza. Canalejas 360 (pl,Spain,40.4168,-3.7006,400,4.0
+671,Ionity Albacete,Spain,38.9690,-1.8237,350,2.0
+672,Guarromán Endesa,Spain,38.1423,-3.7232,350,4.0
+673,La Pará Rociera - Endesa,Spain,38.6871,-3.4378,350,4.0
+674,Andamur La Junquera (Endesa),Spain,42.4025,2.8785,350,4.0
+675,La Panadella Iberdrola,Spain,41.6168,1.4006,350,2.0
+676,Ionity - Zaragoza,Spain,41.6676,-0.9231,350,6.0
+677,Estación Autobuses Villalpando,Spain,41.8595,-5.4168,360,2.0
+678,Iberdrola Parking Bilbondo 1,Spain,43.2298,-2.8764,350,2.0
+679,Hotel Rey Don Sancho Zamora (Z,Spain,41.5213,-5.7548,360,2.0
+680,C.C. Luz Shopping Jerez (Zunde,Spain,36.6919,-6.1594,360,2.0
+681,Iberdrola- Salamanca,Spain,40.9595,-5.7265,400,2.0
+682,Repsol A1 Cotos de Monterrey,Spain,40.7856,-3.6136,350,4.0
+683,E.S. La Gaviota (Zunder),Spain,39.5535,-1.9030,400,8.0
+684,Castillejo de Iniesta (Zunder),Spain,39.5168,-1.7535,360,2.0
+685,ES La Gaviota (Zunder),Spain,39.0295,-1.8881,360,2.0
+686,Restaurante Los Ábades de la G,Spain,39.1348,-2.0395,360,2.0
+687,Portal de la Marina (Iberdrola,Spain,38.8184,0.0239,350,2.0
+688,E.S. Galp Elche Sur,Spain,38.3079,-0.6058,400,2.0
+689,IONITY O Corgo N,Spain,42.9659,-7.4546,350,2.0
+690,IONITY O Corgo S,Spain,42.9649,-7.4576,350,2.0
+691,"IONITY Cepsa, Martín de Yeltes",Spain,40.7694,-6.2869,350,2.0
+692,IONITY Mérida,Spain,38.9339,-6.3432,350,2.0
+693,IONITY Milagros,Spain,41.5937,-3.6982,350,2.0
+694,IONITY Casabermeja,Spain,36.8983,-4.4299,350,4.0
+695,IONITY Sotogrande,Spain,36.2868,-5.3124,350,2.0
+696,IONITY Jarama,Spain,40.6164,-3.5848,350,6.0
+697,IONITY Gerona,Spain,41.8987,2.7705,350,6.0
+698,IONITY Briviesca Sur,Spain,42.5262,-3.3331,350,2.0
+699,IONITY Briviesca Norte,Spain,42.5294,-3.3319,350,2.0
+700,Hostal Rio Deva II  (Zunder),Spain,43.3748,-4.5001,360,2.0
+701,E.S. GALP Elche Norte,Spain,38.3098,-0.6056,400,2.0
+702,IONITY La Marina Este,Spain,38.5347,-0.2046,350,2.0
+703,IONITY La Marina Oeste,Spain,38.5358,-0.2039,350,2.0
+704,IONITY El Hidalgo,Spain,38.8246,-3.3967,350,4.0
+705,IONITY Vila Sana,Spain,41.6437,0.9315,350,4.0
+706,IONITY Ariza Sur,Spain,41.3113,-2.0031,350,2.0
+707,IONITY Ariza Norte,Spain,41.3129,-2.0015,350,4.0
+708,IONITY Área de Servicio de Ima,Spain,42.7324,-1.6187,350,2.0
+709,IONITY Pola de Lena Oeste,Spain,43.1820,-5.8112,350,2.0
+710,Centro Porsche PAMPLONA,Spain,42.7695,-1.6327,350,2.0
+711,Centro Porsche MARBELLA,Spain,36.4958,-4.9499,350,2.0
+712,Centro Porsche LAS PALMAS,Spain,28.0992,-15.4373,350,1.0
+713,E.S. Torquemada (Zunder),Spain,42.0362,-4.2805,360,2.0
+714,IONITY Trigueros Norte,Spain,37.3341,-6.7894,350,2.0
+715,Ionity Trigueros Sur,Spain,37.3317,-6.8022,350,2.0
+716,Campo de las Naciones [Ionity],Spain,40.4586,-3.6166,350,6.0
+717,IONITY Palleja,Spain,41.4204,2.0016,350,6.0
+718,Ionity Puerto Lumbreras,Spain,37.5758,-1.8012,350,6.0
+719,Repsol  Ugaldebieta (Dir. Sant,Spain,43.3285,-3.0682,400,4.0
+720,Complejo Tudanca - Zunder,Spain,41.6235,-3.6873,360,2.0
+721,C.C. Bahía Sur,Spain,36.4719,-6.2075,350,2.0
+722,Reload - Stöllet - Virta,Sweden,60.4238,13.2568,400,6.0
+723,"St1 Shell Borås, Viaredsv",Sweden,57.7096,12.8672,400,6.0
+724,Bönekullavägen 14 - Monta,Sweden,57.7703,11.8932,360,2.0
+725,von Utfallsgatan 29 - Monta,Sweden,57.7332,12.0539,360,2.0
+726,Åsbäcksvägen 5 | Grums - Charg,Sweden,59.3642,13.1416,350,2.0
+727,St1 Säffle Guttane,Sweden,59.1278,12.8823,400,5.0
+728,"St1 Mellerud, Kornsjög",Sweden,58.7022,12.4494,400,5.0
+729,IONITY Jönköping,Sweden,57.7872,14.2268,350,8.0
+730,Circle K Bollebygd,Sweden,57.6634,12.5410,400,2.0
+731,Shell Landvetter - St1,Sweden,57.6870,12.2064,400,6.0
+732,St1 | Shell Mölnlycke,Sweden,57.6688,12.0963,400,5.0
+733,Circle K Stora Höga Spekeröd E,Sweden,58.0246,11.8479,360,2.0
+734,Hedin Ängelholm,Sweden,56.2320,12.8610,400,4.0
+735,OKQ8 Halmstad Trucks,Sweden,56.6553,12.8996,350,2.0
+736,Circle K Halmstad Sannarp,Sweden,56.6741,12.8915,400,2.0
+737,Recharge Preem Falkenbergsmote,Sweden,56.9324,12.5177,400,2.0
+738,Circle K Mölndal Söderleden,Sweden,57.6461,11.9845,400,4.0
+739,Circle K Mölndal Vänortsgatan,Sweden,57.6656,12.0110,400,4.0
+740,Circle K Hallstahammar,Sweden,59.5910,16.2480,400,8.0
+741,Circle K Örebro Västhaga,Sweden,59.2752,15.1774,400,8.0
+742,Circle K Kumla Brändåsen Truck,Sweden,59.0639,15.0037,360,4.0
+743,Circle K Hova Trucks,Sweden,58.8615,14.2189,360,4.0
+744,OKQ8 Volvo Truck Lidköping Bjö,Sweden,58.4923,13.1895,350,2.0
+745,ICA Supermarket Margretelund -,Sweden,58.4954,13.1695,360,2.0
+746,Circle K Trollhättan,Sweden,58.2738,12.2954,400,4.0
+747,ICA Maxi Överby Trollhättan - ,Sweden,58.3123,12.3040,360,7.0
+748,Hedin Supercharge Uddevalla,Sweden,58.3512,11.8660,400,4.0
+749,Frendo Rollsbo Kungälv - EBB C,Sweden,57.8865,11.9477,350,4.0
+750,Hedin Supercharge Grimbodalen,Sweden,57.7372,11.9425,400,4.0
+751,Ionity Arvidsjaur,Sweden,65.5882,19.1899,350,4.0
+752,Ionity Jokkmokk,Sweden,66.6076,19.8281,350,4.0
+753,IONITY Göteborg Nord,Sweden,57.8741,11.9663,350,14.0
+754,Circle K Jokkmokk Trucks,Sweden,66.6083,19.8280,360,2.0
+755,Ionity Silvaplana,Switzerland,46.4556,9.7906,350,4.0
+756,Ionity Gossau,Switzerland,47.4129,9.2406,350,6.0
+757,Ionity Oftringen,Switzerland,47.3043,7.9295,350,8.0
+758,Ionity Lyss,Switzerland,47.0654,7.2914,350,4.0
+759,Ionity Gisikon,Switzerland,47.1251,8.3974,350,4.0
+760,IONITY Lully,Switzerland,46.8325,6.8594,350,4.0
+761,Rastplatz Teufenbach,Switzerland,47.3333,7.8214,350,2.0
+762,IONITY Martigny,Switzerland,46.1278,7.0598,350,6.0
+763,IONITY Neuenkirch,Switzerland,47.1134,8.2323,350,6.0
+764,IONITY Kemptthal,Switzerland,47.4494,8.7001,350,6.0
+765,IONITY Heidiland,Switzerland,47.0118,9.5124,350,6.0
+766,IONITY Grauholz Süd,Switzerland,46.9902,7.4760,350,6.0
+767,IONITY Gotthard Süd,Switzerland,46.8465,8.6323,350,6.0
+768,IONITY Gotthard Nord,Switzerland,46.8479,8.6332,350,6.0
+769,IONITY Bellinzona Süd,Switzerland,46.1822,9.0018,350,4.0
+770,IONITY Bellinzona Nord,Switzerland,46.2096,9.0266,350,4.0
+771,Rasthof Luzern Neuenkirch Ost,Switzerland,47.1134,8.2324,350,6.0
+772,"Готель ""ДАлОС""",Ukraine,51.3181,26.6263,360,4.0
+773,GO TO-U Charging HUB Rivne,Ukraine,50.5933,26.2573,360,2.0
+774,Quest Park,United Kingdom,53.5382,-1.1201,360,1.0
+775,The Junction,United Kingdom,54.7303,-6.2285,400,6.0
+776,Banbridge The Boulevard,United Kingdom,54.3311,-6.2806,400,12.0
+777,Inverness (Howdens),United Kingdom,57.4825,-4.1872,360,1.0
+778,Phoenix Park Spar,United Kingdom,52.9880,-1.2121,360,1.0
+779,Stevenage Electric Forecourt,United Kingdom,51.8875,-0.2087,360,1.0
+780,Ionity Dungannon,United Kingdom,54.4794,-6.7810,350,12.0
+781,Ionity Belfast,United Kingdom,54.5805,-5.9798,350,11.0
+782,Normandy Lane,United Kingdom,52.0750,-0.2429,350,4.0
+783,Ionity Bodmin,United Kingdom,50.4718,-4.7042,350,6.0
+784,Ionity Lewes,United Kingdom,50.8646,-0.0423,350,6.0
+785,Leicester East,United Kingdom,52.6580,-1.0830,360,1.0
+786,Dobbies Peterborough,United Kingdom,52.5432,-0.2593,350,1.0
+787,Dobbies Gloucester,United Kingdom,51.7944,-2.2889,350,1.0
+788,Ipswich Greenways,United Kingdom,52.0309,1.2000,360,1.0
+789,IONITY Aberdeen,United Kingdom,57.1481,-2.2686,350,12.0
+790,Hu-Newbold Rugby,United Kingdom,52.3822,-1.2653,350,1.0
+791,Ionity Toome,United Kingdom,54.7577,-6.4576,350,6.0
+792,Dobbies Edinburgh,United Kingdom,55.8957,-3.0975,350,1.0
+793,Hu-Roadchef Strensham Southbou,United Kingdom,52.0574,-2.1408,360,1.0
+794,EG GROUP CHALK SERVICES,United Kingdom,51.4318,0.3953,350,2.0
+795,Hu-Dobbies Liverpool,United Kingdom,53.3484,-2.8657,350,1.0
+796,Hu-Roadchef Chester-Patrons-Ar,United Kingdom,53.2685,-2.8024,350,12.0
+797,Ionity West Bromwich,United Kingdom,52.5105,-1.9676,350,6.0
+798,Hu-Dobbies Leicester,United Kingdom,52.7198,-1.1268,350,1.0
+799,Abbey Retail Park St Ives,United Kingdom,52.3306,-0.0605,350,1.0
+800,PORSCHE CENTRE GUILDFORD,United Kingdom,51.2471,-0.5825,350,2.0
+801,Stadium MK,United Kingdom,52.0077,-0.7343,350,1.0
+802,Porsche Centre Hatfield,United Kingdom,51.7703,-0.2357,350,2.0
+803,Moto Leeming Bar Services,United Kingdom,54.2984,-1.5659,350,1.0
+804,Moto Heston Westbound Services,United Kingdom,51.4882,-0.3956,350,1.0
+805,Roadchef Rownhams North Servic,United Kingdom,50.9582,-1.4482,350,1.0
+806,Moto Medway Westbound Services,United Kingdom,51.3407,0.6082,350,1.0
+807,Moto Pease Pottage Services,United Kingdom,51.0836,-0.1999,350,1.0
+808,Moto Heston Eastbound Services,United Kingdom,51.4884,-0.3888,350,1.0
+809,Moto Donington Park Services,United Kingdom,52.8219,-1.3068,360,1.0
+810,Moto Reading Eastbound Service,United Kingdom,51.4258,-1.0348,350,1.0
+811,Moto Toddington Southbound Ser,United Kingdom,51.9474,-0.5016,360,1.0
+812,Roadchef Watford Gap Southboun,United Kingdom,52.3081,-1.1214,350,1.0
+813,Moto Exeter Services,United Kingdom,50.7157,-3.4645,350,1.0
+814,Moto Frankley Southbound Servi,United Kingdom,52.4290,-2.0167,350,1.0
+815,Moto Cardiff West Services,United Kingdom,51.5089,-3.3069,350,1.0
+816,Moto Swansea Services,United Kingdom,51.6787,-3.9937,350,1.0
+817,Moto Wetherby Services,United Kingdom,53.9479,-1.3699,350,1.0
+818,Moto Chieveley Services,United Kingdom,51.4489,-1.3103,350,1.0
+819,Moto Thurrock Services,United Kingdom,51.4925,0.2711,350,1.0
+820,Roadchef Taunton Deane Northbo,United Kingdom,50.9779,-3.1483,360,1.0
+821,Moto Toddington Northbound Ser,United Kingdom,51.9470,-0.5024,360,1.0
+822,Moto Leigh Delamere Westbound,United Kingdom,51.5099,-2.1582,350,1.0
+823,Moto Medway Eastbound Services,United Kingdom,51.3420,0.6077,350,1.0
+824,Moto Blyth Services,United Kingdom,53.3876,-1.0605,350,1.0
+825,Roadchef Bothwell Services,United Kingdom,55.8142,-4.0623,350,1.0
+826,Roadchef Watford Gap Northboun,United Kingdom,52.3067,-1.1230,350,1.0
+827,Moto Lancaster Northbound Serv,United Kingdom,53.9614,-2.7598,350,1.0
+828,Norwich Electric Forecourt,United Kingdom,52.6280,1.3834,350,1.0
+829,Moto Washington Northbound Ser,United Kingdom,54.8896,-1.5602,350,1.0
+830,Roadchef Sandbach Southbound S,United Kingdom,53.1397,-2.3359,350,1.0
+831,Moto Knutsford Southbound Serv,United Kingdom,53.3015,-2.4004,350,1.0
+832,Moto Ferrybridge Services,United Kingdom,53.6982,-1.2669,350,1.0
+833,Moto Burton-in-Kendal Services,United Kingdom,54.1790,-2.7348,350,1.0
+834,Moto Lancaster Southbound Serv,United Kingdom,53.9626,-2.7600,350,1.0
+835,Moto Reading Westbound Service,United Kingdom,51.4233,-1.0370,350,1.0
+836,Roadchef Chester Services,United Kingdom,53.2685,-2.8024,350,1.0
+837,Roadchef Annandale Water Servi,United Kingdom,55.2196,-3.4106,350,1.0
+838,Moto Kinross Services,United Kingdom,56.2094,-3.4396,350,1.0
+839,Roadchef Pont Abraham Services,United Kingdom,51.7475,-4.0654,360,1.0
+840,Moto Severn View Services,United Kingdom,51.6038,-2.6200,350,1.0
+841,Dobbies Garden Centre Swindon,United Kingdom,51.5966,-1.7683,350,1.0
+842,Gridserve Solstice Park Servic,United Kingdom,51.1771,-1.7604,350,1.0
+843,Ionity Newport Road,United Kingdom,51.5863,-2.8423,350,1.0
+844,"RAW Charging Yard, The Urban B",United Kingdom,51.5062,-0.5974,350,2.0
+845,IONITY Stafford,United Kingdom,52.8315,-2.1357,350,6.0
+846,IONITY Polmadie,United Kingdom,55.8372,-4.2425,350,6.0
+847,IONITY Cringleford,United Kingdom,52.6028,1.2217,350,3.0
+848,IONITY Alnwick,United Kingdom,55.3973,-1.6932,350,4.0
+849,Porsche Centre Swindon,United Kingdom,51.5453,-1.8452,350,1.0
+850,Gridserve Plymouth Electric Fo,United Kingdom,50.3904,-4.1514,350,12.0
+851,Gridserve Electric Forecourt G,United Kingdom,51.1563,-0.1535,350,1.0
+852,Moto Rugby Motorway Services M,United Kingdom,52.4102,-1.2503,350,1.0
+853,Ionity Extra Beaconsfield Serv,United Kingdom,51.5879,-0.6292,350,6.0
+854,IONITY Cullompton,United Kingdom,50.8637,-3.3845,350,6.0
+855,IONITY Blackburn,United Kingdom,53.7135,-2.4770,350,6.0
+856,IONITY Cobham,United Kingdom,51.3054,-0.4067,350,18.0
+857,IONITY Channel Gateway,United Kingdom,51.0944,1.0468,350,4.0
+858,Ionity Chippenham,United Kingdom,51.5135,-2.1092,350,1.0
+859,Gridserve Electric Forecourt -,United Kingdom,51.8528,0.5215,350,1.0
+860,IONITY Baldock,United Kingdom,52.0139,-0.2031,350,6.0
+861,Ionity Perth,United Kingdom,56.4193,-3.4632,350,4.0
+862,Ionity ExtraMSA Cambridge Serv,United Kingdom,52.2698,-0.0102,350,6.0
+863,Ionity Peterborough,United Kingdom,52.5327,-0.3206,350,6.0
+864,Ionity Leeds - Skelton Lakes S,United Kingdom,53.7744,-1.4703,350,1.0
+865,IONITY Gretna Green,United Kingdom,55.0082,-3.0864,350,4.0
+866,MK Coachway Ionity,United Kingdom,52.0551,-0.6965,350,4.0
+867,Ionity Maidstone,United Kingdom,51.2657,0.6162,350,4.0
+868,Todhills Moto M6 (S) Services,United Kingdom,54.9515,-2.9786,350,1.0
+869,Birch Moto M62 (W) Services,United Kingdom,53.5676,-2.2298,350,1.0
+870,Hilton Park Moto M6 (N) Servic,United Kingdom,52.6433,-2.0581,350,1.0
+871,Scotch Corner Moto Services,United Kingdom,54.4443,-1.6670,350,1.0
+872,Grantham North Moto A1 Service,United Kingdom,52.9489,-0.6792,350,1.0
+873,Northampton Roadchef M1 (S) Se,United Kingdom,52.2099,-0.9437,360,1.0

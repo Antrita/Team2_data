@@ -1,0 +1,541 @@
+{
+  "elements": [
+    {
+      "type": "node",
+      "id": 12150038902,
+      "lat": 48.5058355,
+      "lon": 8.8264149,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "capacity:hgv": "2",
+        "operator": "Aral pulse",
+        "socket:type2_combo": "4",
+        "socket:type2_combo:output": "300 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049986414,
+      "lat": 48.3890661,
+      "lon": 10.86458,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "BayWa",
+        "socket:type2_combo:output": "200 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049986415,
+      "lat": 48.3891056,
+      "lon": 10.8645923,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "BayWa",
+        "socket:type2_combo:output": "200 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049986416,
+      "lat": 48.3891451,
+      "lon": 10.8646046,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "BayWa",
+        "socket:type2_combo:output": "200 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12049986417,
+      "lat": 48.3891846,
+      "lon": 10.8646169,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "BayWa",
+        "socket:type2_combo:output": "200 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12153215557,
+      "lat": 48.4044299,
+      "lon": 10.8797416,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "EON",
+        "socket:type2_combo:output": "300 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12153215558,
+      "lat": 48.404434,
+      "lon": 10.8798473,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "EON",
+        "socket:type2_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12153215559,
+      "lat": 48.4044382,
+      "lon": 10.879953,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "EON",
+        "socket:type2_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12154356998,
+      "lat": 48.4010398,
+      "lon": 10.8809321,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "socket:type2_combo:output": "100 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12278609218,
+      "lat": 49.3170395,
+      "lon": 11.3390212,
+      "tags": {
+        "amenity": "charging_station",
+        "authentication:app": "yes",
+        "authentication:contactless": "yes",
+        "capacity": "2",
+        "charging_station:output": "150 kW",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "network": "LadeVerbund Plus",
+        "opening_hours": "24/7",
+        "operator": "N-Ergie AG",
+        "parking:fee": "no",
+        "ref:EU:EVSE": "DE*LVP*E21729*001;DE*LVP*E21729*002",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:output": "150 kW",
+        "socket:type2_combo:voltage": "1000"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12305995582,
+      "lat": 48.404689,
+      "lon": 10.8790796,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "EnBW",
+        "socket:type2_combo:output": "300 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12305995583,
+      "lat": 48.4047316,
+      "lon": 10.8790751,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "hgv": "yes",
+        "operator": "EnBW",
+        "socket:type2_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12393488578,
+      "lat": 52.3200859,
+      "lon": 13.5946632,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "operator": "E.ON",
+        "parking:fee": "no",
+        "socket:type2_cable:output": "400 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12393839317,
+      "lat": 52.3200271,
+      "lon": 13.5946181,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "operator": "E.ON",
+        "parking:fee": "no",
+        "socket:type2_cable:output": "400 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12610062280,
+      "lat": 53.5798839,
+      "lon": 9.9354328,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "150kW",
+        "operator": "EnBW Energie Baden-Württemberg AG",
+        "operator:wikidata": "Q644304"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11776574719,
+      "lat": 50.0588225,
+      "lon": 8.7502695,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Alpitronic Hypercharger HYC150 DC Ladestation",
+        "capacity": "150kW DC",
+        "operator": "Stadtwerke Neu-Isenburg",
+        "source": "https://www.swni.de/de/E-Mobilitaet/Oeffentliche-Ladestationen.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12149992442,
+      "lat": 51.0063931,
+      "lon": 9.4739003,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Aral pulse",
+        "capacity": "2",
+        "capacity:hgv": "2",
+        "operator": "Aral",
+        "operator:wikidata": "Q565734",
+        "socket:type2_combo": "4",
+        "socket:type2_combo:output": "300 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11262690248,
+      "lat": 54.0831435,
+      "lon": 12.1925233,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Ionity",
+        "brand:wikidata": "Q42717773",
+        "capacity": "1",
+        "fee": "yes",
+        "hgv": "yes",
+        "network": "Ionity",
+        "opening_hours": "24/7",
+        "operator": "Ionity",
+        "ref:EU:EVSE": "DE*IOY*E2208"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12612804956,
+      "lat": 54.083148,
+      "lon": 12.192081,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Ionity",
+        "brand:wikidata": "Q42717773",
+        "capacity": "1",
+        "fee": "yes",
+        "hgv": "yes",
+        "network": "Ionity",
+        "opening_hours": "24/7",
+        "operator": "Ionity",
+        "ref:EU:EVSE": "DE*IOY*E2208"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11395532324,
+      "lat": 52.4309537,
+      "lon": 7.0638787,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "nvb",
+        "capacity": "150kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11395532325,
+      "lat": 52.4309812,
+      "lon": 7.0638203,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "nvb",
+        "capacity": "150kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12211262391,
+      "lat": 52.7502543,
+      "lon": 7.1637156,
+      "tags": {
+        "amenity": "charging_station",
+        "hgv": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12546231497,
+      "lat": 53.1546085,
+      "lon": 8.2104836,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "150 kW",
+        "fee": "yes",
+        "fixme": "Lage und Stationsdetails",
+        "operator": "REA eCharge",
+        "payment:credit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11376139991,
+      "lat": 51.5316718,
+      "lon": 7.4413932,
+      "tags": {
+        "amenity": "charging_station",
+        "bicycle": "no",
+        "brand": "Aral pulse",
+        "bus": "yes",
+        "capacity": "2",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "operator": "Aral",
+        "operator:wikidata": "Q565734"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12419937683,
+      "lat": 51.3615798,
+      "lon": 8.2849325,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12419937684,
+      "lat": 51.3616104,
+      "lon": 8.2849316,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12655715084,
+      "lat": 51.5568902,
+      "lon": 8.1441375,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "hgv": "yes",
+        "operator": "APS",
+        "socket:type2": "4",
+        "socket:type2:output": "400 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5166131027,
+      "lat": 49.6309344,
+      "lon": 8.3565648,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "authentication:nfc": "yes",
+        "authentication:phone_call": "yes",
+        "capacity": "3",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "operator": "EWR",
+        "operator:wikidata": "Q1276508",
+        "operator:wikipedia": "de:EWR AG",
+        "payment:debit_cards": "yes",
+        "ref": "DE EVU E000701",
+        "scooter": "yes",
+        "socket:chademo": "1",
+        "socket:type2": "1",
+        "socket:type2_combo": "1",
+        "socket:type2_combo:output": "50 kW",
+        "wikimedia_commons": "File:Worms Charging.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10862499364,
+      "lat": 49.4772285,
+      "lon": 7.6397861,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "brand": "Shell",
+        "capacity": "150 kW DC",
+        "covered": "no",
+        "fee": "yes",
+        "operator": "Shell"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12696591767,
+      "lat": 49.5512494,
+      "lon": 8.3529843,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "operator": "Pfalzwerke",
+        "operator:wikidata": "Q2082280",
+        "parking:fee": "no",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:output": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12696591768,
+      "lat": 49.550452,
+      "lon": 8.3530727,
+      "tags": {
+        "access": "yes",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "yes",
+        "hgv": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "opening_hours": "24/7",
+        "operator": "Shell Recharge Solutions",
+        "operator:wikidata": "Q105883058",
+        "parking:fee": "no",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:output": "360 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12707250094,
+      "lat": 49.5045732,
+      "lon": 6.76019,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "150 kW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12415399669,
+      "lat": 51.84871,
+      "lon": 12.3432202,
+      "tags": {
+        "addr:city": "Oranienbaum-Wörlitz",
+        "addr:country": "DE",
+        "addr:housename": "XXLKW Secure Parking Elbebrücke",
+        "addr:housenumber": "1",
+        "addr:postcode": "06785",
+        "addr:street": "An der A9",
+        "addr:suburb": "Vockerode",
+        "amenity": "charging_station",
+        "brand": "Milence",
+        "capacity": "4",
+        "coach": "yes",
+        "covered": "no",
+        "hgv": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "motorcar": "no",
+        "name": "Milence charging hub Vockerode",
+        "operator": "Commercial Vehicle Charging Europe B.V.",
+        "socket:type2_combo": "2",
+        "socket:type2_combo:output": "400 kW",
+        "start_date": "2024-12-05",
+        "website": "https://milence.com/location/vockerode/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12405354685,
+      "lat": 50.8946703,
+      "lon": 11.9818889,
+      "tags": {
+        "addr:city": "Kraftsdorf",
+        "addr:country": "DE",
+        "addr:housenumber": "5D",
+        "addr:postcode": "07586",
+        "addr:street": "Am Rüdersdorfer Wege",
+        "amenity": "charging_station",
+        "brand": "Milence",
+        "capacity": "8",
+        "coach": "yes",
+        "hgv": "yes",
+        "motorcar": "no",
+        "name": "Milence charging hub Hermsdorfer Kreuz",
+        "operator": "Commercial Vehicle Charging Europe B.V.",
+        "shower": "yes",
+        "shower:fee": "yes",
+        "socket:type2_combo": "4",
+        "socket:type2_combo:output": "400 kW",
+        "start_date": "2024-12-05",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://milence.com/location/hermsdorfer-kreuz"
+      }
+    }
+  ]
+}

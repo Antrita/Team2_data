@@ -1,0 +1,85 @@
+ID,Name,Type,Operator,Access,Latitude,Longitude,Power_kW,Voltage,Capacity,Socket_Types,Street,City,Postcode,Country,Opening_Hours,OSM_Link
+4737832345,E-HDT Charging Station,private,Westfalen Weser Ladeservice,,51.7259854,8.7568771,,500,2,,,,,Germany,,https://www.openstreetmap.org/node/4737832345
+4792967492,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,47.6765619,9.3182271,,,2,ccs: 1; chademo: 1; type2: 1,,,,Germany,,https://www.openstreetmap.org/node/4792967492
+4995085425,Tripple Ladestation Elektroauto,private,Allego,,51.3720087,12.4764118,50 / 43 kW,,,chademo: 1; type2: 1; type2_combo: 1,,,,Germany,24/7,https://www.openstreetmap.org/node/4995085425
+5166131027,E-HDT Charging Station,private,EWR,yes,49.6309344,8.3565648,,,3,chademo: 1; type2: 1; type2_combo: 1; type2_combo:output: 50 kW,,,,Germany,,https://www.openstreetmap.org/node/5166131027
+5176771605,E-HDT Charging Station,private,Stadtwerke München,,48.1130233,11.5705159,22000,400,2,,,,,Germany,,https://www.openstreetmap.org/node/5176771605
+5252751843,E-HDT Charging Station,private,Allego,yes,47.6640407,9.4826603,,,3,ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 43 kW,,,,Germany,,https://www.openstreetmap.org/node/5252751843
+5565139699,E-HDT Charging Station,private,Allego,,49.2120077,9.0775472,,800,2,type2_combo: 2; type2_combo:output: 320kW,Buchäckerring,Bad Rappenau,74906,Germany,24/7,https://www.openstreetmap.org/node/5565139699
+5650490768,E-HDT Charging Station,private,Stadtwerke München,,48.1130515,11.5704039,22000,400,2,,,,,Germany,,https://www.openstreetmap.org/node/5650490768
+5650490769,E-HDT Charging Station,private,Stadtwerke München,,48.1129959,11.570648,22000,400,2,,,,,Germany,,https://www.openstreetmap.org/node/5650490769
+5833933054,E-HDT Charging Station,private,Allego,,53.9400469,10.8517332,,,3,ccs: 1; chademo: 1; type2: 1,,,,Germany,24/7,https://www.openstreetmap.org/node/5833933054
+6124896312,Ionity Gruibingen Süd,private,Ionity,,48.6052595,9.6328183,,500,6,type2_combo: 6,,,,Germany,24/7,https://www.openstreetmap.org/node/6124896312
+6308212646,E-HDT Charging Station,private,,customers,51.5899811,7.6492656,,500,,type2: 2,,,,Germany,Mo-Th 07:00-16:30;Fr 07:00-14:30,https://www.openstreetmap.org/node/6308212646
+7695030904,E-HDT Charging Station,private,Lidl,yes,50.7492347,6.8493076,,,2,ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 43 kW,Bonner Straße,Weilerswist,53919,Germany,Mo-Sa 07:00-21:00,https://www.openstreetmap.org/node/7695030904
+7985038525,E-HDT Charging Station,private,Lidl,yes,51.5244352,7.1862193,,,3,ccs: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 43 kW; type2_combo: 1; type2_combo:output: 50 kW,,,,Germany,,https://www.openstreetmap.org/node/7985038525
+8168725684,E-HDT Charging Station,private,Stadtwerke Erfurt,,50.972895,10.9678522,,500,2,chademo: 1; chademo:current: 125; chademo:output: 50kW; type2_cable: 1; type2_cable:current: 63; type2_cable:output: 43kW; type2_combo: 1; type2_combo:current: 125; type2_combo:output: 50kW,,,,Germany,24/7,https://www.openstreetmap.org/node/8168725684
+8168764986,E-HDT Charging Station,private,Stadtwerke Erfurt,,50.9728757,10.9678038,,500,2,chademo: 1; chademo:current: 125; chademo:output: 50kW; chademo:ref: DESWEE002702; type2_cable: 1; type2_cable:current: 63; type2_cable:output: 43kW; type2_cable:ref: DESWEE002701; type2_combo: 1; type2_combo:current: 125; type2_combo:output: 50kW; type2_combo:ref: DESWEE002702,,,,Germany,24/7,https://www.openstreetmap.org/node/8168764986
+8206072463,E-HDT Charging Station,private,Allego,,49.2120345,9.0775234,,800,2,type2_combo: 2; type2_combo:output: 320kW,Buchäckerring,Bad Rappenau,74906,Germany,24/7,https://www.openstreetmap.org/node/8206072463
+8255719258,Lidl Atenser Allee,private,Lidl,,53.4991299,8.476734,,,2,ccs: 1; chademo: 1,,,,Germany,Mo-Sa 07:00-21:00,https://www.openstreetmap.org/node/8255719258
+8425418013,E-HDT Charging Station,private,TEAG Mobil GmbH,yes,50.8479082,10.954503,,,2,ccs: 2; ccs:output: 75 kW; type2: 1; type2:output: 22 kW; type2_combo: 2; type2_combo:output: 150 kW,,,,Germany,24/7,https://www.openstreetmap.org/node/8425418013
+8435027688,E-HDT Charging Station,private,Thüringer Energie AG,yes,50.8884032,10.9352216,,,4,ccs: 8; ccs:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/8435027688
+8497961882,E-HDT Charging Station,private,Allego,,52.6624419,13.2712953,,800,2,type2_combo: 2; type2_combo:output: 160 kW; 320 kW,,,,Germany,24/7,https://www.openstreetmap.org/node/8497961882
+8528289748,Aral HPC,private,Aral Pulse,customers,52.2092843,11.1327404,,,300kw,,,,,Germany,,https://www.openstreetmap.org/node/8528289748
+8528289749,Aral HPC,private,Aral Pulse,customers,52.209343,11.1327004,,,300kw,,,,,Germany,,https://www.openstreetmap.org/node/8528289749
+8694875513,Ionity Illertissen,private,Ionity,,48.2192598,10.127812,,800,,type2_combo: 4,,,,Germany,24/7,https://www.openstreetmap.org/node/8694875513
+8974675104,EnBW Charging Station,private,EnBW Energie Baden-Württemberg AG,,50.8496437,10.9553819,,,2,ccs: 2; ccs:output: 150 kW,,,,Germany,,https://www.openstreetmap.org/node/8974675104
+9028469567,Volksbank eG Hildesheim,private,Energieversorgung Hildesheim,customers,52.1557516,9.9585294,,,3,ccs: 1; chademo: 1; type2: 1,,,,Germany,,https://www.openstreetmap.org/node/9028469567
+9151107817,E-HDT Charging Station,private,Stadtwerke Neuruppin,,52.9221395,12.8047741,,230,2,ccs: 1; chademo: 1; type2: 1,,,,Germany,24/7,https://www.openstreetmap.org/node/9151107817
+9549443006,E-HDT Charging Station,private,,,47.8417482,9.6588154,,,2,ccs: 2; ccs:output: 300 kw,,,,Germany,,https://www.openstreetmap.org/node/9549443006
+9654075971,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,52.1961645,8.3861095,,,600 kW,type2_combo: 2; type2_combo:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/9654075971
+9723782379,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,47.6950625,9.2730094,43kW,,2,ccs: 1; chademo: 1; type2: 1,,,,Germany,,https://www.openstreetmap.org/node/9723782379
+9723782380,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,47.6951012,9.2657298,43kW,,2,ccs: 1; chademo: 1; type2: 1,,,,Germany,,https://www.openstreetmap.org/node/9723782380
+9821921849,E-HDT Charging Station,private,Deutsche Telekom AG,,51.0239295,6.9034557,,,,ccs: 1; chademo: 1; type2: 2,,,,Germany,,https://www.openstreetmap.org/node/9821921849
+9873966433,E-HDT Charging Station,private,RheinEnergie,,51.0216088,6.8986483,,,,ccs: 1; ccs:output: 22 kW; type2: 1; type2:output: 50 kW,,,,Germany,,https://www.openstreetmap.org/node/9873966433
+10031543684,Pfalzwerke Charging Station,private,Pfalzwerke,,49.4089567,7.378178,,,1,ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 22 kW,,,,Germany,,https://www.openstreetmap.org/node/10031543684
+10031543685,Pfalzwerke Charging Station,private,Pfalzwerke,,49.5565652,7.3580886,,,1,ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 22 kW,,,,Germany,,https://www.openstreetmap.org/node/10031543685
+10107131467,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,,51.3625333,7.558357,,,2,ccs: 2; ccs:output: 50 kW; chademo: 2; chademo:output: 50 kW; type2: 2; type2:output: 50 kW,,,,Germany,,https://www.openstreetmap.org/node/10107131467
+10267011833,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,51.2369118,6.6941371,,,2,ccs: 2; ccs:output: 150 kW,,,,Germany,,https://www.openstreetmap.org/node/10267011833
+10267016941,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,51.2369268,6.6940596,,,2,ccs: 2; ccs:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/10267016941
+10605606199,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,51.1031259,6.1709457,,,2,ccs: 2; ccs:output: 150,,,,Germany,,https://www.openstreetmap.org/node/10605606199
+10605606200,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,51.103104,6.1708947,,,2,ccs: 2; ccs:output: 150,,,,Germany,,https://www.openstreetmap.org/node/10605606200
+10862499364,E-HDT Charging Station,private,Shell,yes,49.4772285,7.6397861,,,150 kW DC,,,,,Germany,,https://www.openstreetmap.org/node/10862499364
+10884525830,E-HDT Charging Station,private,Kaufland Stiftung,yes,51.8994963,8.4017356,,,3,ccs: 2; ccs:output: 60 kW; type2: 1; type2:output: 22 kW,,,,Germany,,https://www.openstreetmap.org/node/10884525830
+10925699827,E-HDT Charging Station,private,Lidl,,51.7757979,8.8049284,,,3,ac: 1; ac:output: 22 kW; ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW,,,,Germany,,https://www.openstreetmap.org/node/10925699827
+11243792117,E-HDT Charging Station,private,Lidl,,51.8574182,7.4810467,,,,ac: 1; ccs: 1; chademo: 1,,,,Germany,,https://www.openstreetmap.org/node/11243792117
+11262690248,E-HDT Charging Station,private,Ionity,,54.0831435,12.1925233,,,1,,,,,Germany,24/7,https://www.openstreetmap.org/node/11262690248
+11332739608,E-HDT Charging Station,private,Pfalzwerke,yes,51.6178611,7.6567566,,,300KW,,,,,Germany,,https://www.openstreetmap.org/node/11332739608
+11376139991,E-HDT Charging Station,private,Aral,,51.5316718,7.4413932,,,2,,,,,Germany,,https://www.openstreetmap.org/node/11376139991
+11395532324,E-HDT Charging Station,private,,,52.4309537,7.0638787,,,150kW,,,,,Germany,,https://www.openstreetmap.org/node/11395532324
+11395532325,E-HDT Charging Station,private,,,52.4309812,7.0638203,,,150kW,,,,,Germany,,https://www.openstreetmap.org/node/11395532325
+11753476972,E-HDT Charging Station,private,Mainova,yes,50.1605711,8.4870549,,,300 kW,,,,,Germany,,https://www.openstreetmap.org/node/11753476972
+11776574719,E-HDT Charging Station,private,Stadtwerke Neu-Isenburg,yes,50.0588225,8.7502695,,,150kW DC,,,,,Germany,,https://www.openstreetmap.org/node/11776574719
+11784738384,E-HDT Charging Station,private,numbat,yes,49.9849015,9.1325349,,,300 kW,,,,,Germany,,https://www.openstreetmap.org/node/11784738384
+11800001141,E-HDT Charging Station,private,EDEKA,,51.6252522,7.400292,,,4,ccs: 2; chademo: 2,,,,Germany,,https://www.openstreetmap.org/node/11800001141
+12049986414,E-HDT Charging Station,private,BayWa,,48.3890661,10.86458,,,2,type2_combo:output: 200 kW,,,,Germany,,https://www.openstreetmap.org/node/12049986414
+12049986415,E-HDT Charging Station,private,BayWa,,48.3891056,10.8645923,,,2,type2_combo:output: 200 kW,,,,Germany,,https://www.openstreetmap.org/node/12049986415
+12049986416,E-HDT Charging Station,private,BayWa,,48.3891451,10.8646046,,,2,type2_combo:output: 200 kW,,,,Germany,,https://www.openstreetmap.org/node/12049986416
+12049986417,E-HDT Charging Station,private,BayWa,,48.3891846,10.8646169,,,2,type2_combo:output: 200 kW,,,,Germany,,https://www.openstreetmap.org/node/12049986417
+12138461901,XXXLutz,private,Pfalzwerke,,52.3695969,10.7346113,,,12,ccs: 12,,,,Germany,,https://www.openstreetmap.org/node/12138461901
+12149992442,E-HDT Charging Station,private,Aral,,51.0063931,9.4739003,,,2,type2_combo: 4; type2_combo:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/12149992442
+12150038902,E-HDT Charging Station,private,Aral pulse,,48.5058355,8.8264149,,,2,type2_combo: 4; type2_combo:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/12150038902
+12153215557,E-HDT Charging Station,private,EON,,48.4044299,10.8797416,,,2,type2_combo:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/12153215557
+12153215558,E-HDT Charging Station,private,EON,,48.404434,10.8798473,,,2,type2_combo:output: 150 kW,,,,Germany,,https://www.openstreetmap.org/node/12153215558
+12153215559,E-HDT Charging Station,private,EON,,48.4044382,10.879953,,,2,type2_combo:output: 150 kW,,,,Germany,,https://www.openstreetmap.org/node/12153215559
+12154356998,E-HDT Charging Station,private,,,48.4010398,10.8809321,,,2,type2_combo:output: 100 kW,,,,Germany,,https://www.openstreetmap.org/node/12154356998
+12183628298,E-HDT Charging Station,private,,,47.8417423,9.6600778,,,2,ccs: 2; ccs:output: 22 kw,,,,Germany,,https://www.openstreetmap.org/node/12183628298
+12211262391,E-HDT Charging Station,private,,,52.7502543,7.1637156,,,,,,,,Germany,,https://www.openstreetmap.org/node/12211262391
+12278609218,E-HDT Charging Station,private,N-Ergie AG,,49.3170395,11.3390212,,,2,type2_combo: 2; type2_combo:output: 150 kW; type2_combo:voltage: 1000,,,,Germany,24/7,https://www.openstreetmap.org/node/12278609218
+12305995582,E-HDT Charging Station,private,EnBW,,48.404689,10.8790796,,,2,type2_combo:output: 300 kW,,,,Germany,,https://www.openstreetmap.org/node/12305995582
+12305995583,E-HDT Charging Station,private,EnBW,,48.4047316,10.8790751,,,2,type2_combo:output: 150 kW,,,,Germany,,https://www.openstreetmap.org/node/12305995583
+12335131466,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,yes,48.3466463,11.3819363,,,200kW,,,,,Germany,,https://www.openstreetmap.org/node/12335131466
+12393488578,E-HDT Charging Station,private,E.ON,,52.3200859,13.5946632,,,2,type2_cable:output: 400 kW,,,,Germany,,https://www.openstreetmap.org/node/12393488578
+12393839317,E-HDT Charging Station,private,E.ON,,52.3200271,13.5946181,,,2,type2_cable:output: 400 kW,,,,Germany,,https://www.openstreetmap.org/node/12393839317
+12405354685,Milence charging hub Hermsdorfer Kreuz,private,Commercial Vehicle Charging Europe B.V.,,50.8946703,11.9818889,,,8,type2_combo: 4; type2_combo:output: 400 kW,Am Rüdersdorfer Wege,Kraftsdorf,07586,Germany,,https://www.openstreetmap.org/node/12405354685
+12415399669,Milence charging hub Vockerode,private,Commercial Vehicle Charging Europe B.V.,,51.84871,12.3432202,,,4,type2_combo: 2; type2_combo:output: 400 kW,An der A9,Oranienbaum-Wörlitz,06785,Germany,,https://www.openstreetmap.org/node/12415399669
+12419937683,E-HDT Charging Station,private,,,51.3615798,8.2849325,,,150 kW,,,,,Germany,,https://www.openstreetmap.org/node/12419937683
+12419937684,E-HDT Charging Station,private,,,51.3616104,8.2849316,,,150 kW,,,,,Germany,,https://www.openstreetmap.org/node/12419937684
+12546231497,E-HDT Charging Station,private,REA eCharge,yes,53.1546085,8.2104836,,,150 kW,,,,,Germany,,https://www.openstreetmap.org/node/12546231497
+12610062280,E-HDT Charging Station,private,EnBW Energie Baden-Württemberg AG,,53.5798839,9.9354328,,,150kW,,,,,Germany,,https://www.openstreetmap.org/node/12610062280
+12612214191,E-HDT Charging Station,private,MOON POWER GmbH,yes,50.8671413,12.8569801,,,,ccs: 2; ccs:output: 50 kW; type2: 1; type2:output: 11 kW,,,,Germany,,https://www.openstreetmap.org/node/12612214191
+12612804956,E-HDT Charging Station,private,Ionity,,54.083148,12.192081,,,1,,,,,Germany,24/7,https://www.openstreetmap.org/node/12612804956
+12655715084,E-HDT Charging Station,private,APS,yes,51.5568902,8.1441375,,,,type2: 4; type2:output: 400 kW,,,,Germany,,https://www.openstreetmap.org/node/12655715084
+12696591767,E-HDT Charging Station,private,Pfalzwerke,yes,49.5512494,8.3529843,,,2,type2_combo: 2; type2_combo:output: 150 kW,,,,Germany,,https://www.openstreetmap.org/node/12696591767
+12696591768,E-HDT Charging Station,private,Shell Recharge Solutions,yes,49.550452,8.3530727,,,2,type2_combo: 2; type2_combo:output: 360 kW,,,,Germany,24/7,https://www.openstreetmap.org/node/12696591768
+12707250094,E-HDT Charging Station,private,,,49.5045732,6.76019,,,150 kW,,,,,Germany,,https://www.openstreetmap.org/node/12707250094

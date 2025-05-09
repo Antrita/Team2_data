@@ -1,0 +1,3765 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_67975878d72bdf2211aceb01a387bd5d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+    <h3 align="center" style="font-size:16px"><b>E-HDT Charging Stations and Route Planning in Germany</b></h3>
+    
+    
+    <div style="position: fixed; 
+                bottom: 50px; left: 50px; width: 180px; height: 120px; 
+                border:2px solid grey; z-index:9999; font-size:14px;
+                background-color:white; padding: 10px;
+                border-radius: 5px;">
+        <p style="margin-top: 0;"><b>Charger Types</b></p>
+        <i class="fa fa-map-marker fa-2x" style="color:orange"></i> Public<br>
+        <i class="fa fa-map-marker fa-2x" style="color:blue"></i> Private<br>
+        <i class="fa fa-map-marker fa-2x" style="color:red"></i> Restricted
+    </div>
+    
+    
+    <div style="position: fixed; 
+                top: 50px; right: 50px; width: 250px;
+                border:2px solid grey; z-index:9999; font-size:14px;
+                background-color:white; padding: 10px;
+                border-radius: 5px;">
+        <h4 style="margin-top: 0;">E-HDT Charger Information</h4>
+        <p>This map shows Electric Heavy-Duty Transport (E-HDT) charging stations across Germany.</p>
+        <p>E-HDT chargers typically have:</p>
+        <ul>
+            <li>High power (≥150kW)</li>
+            <li>High voltage (≥500V)</li>
+            <li>CCS or high-power Type 2 connectors</li>
+        </ul>
+        <p><b>Click on markers</b> for detailed information and to see charger IDs for route planning.</p>
+        <p><i>Note: Data is static from OpenStreetMap. Real-time availability requires e-MSP services.</i></p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_67975878d72bdf2211aceb01a387bd5d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_67975878d72bdf2211aceb01a387bd5d = L.map(
+                "map_67975878d72bdf2211aceb01a387bd5d",
+                {
+                    center: [51.1657, 10.4515],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d999b5e2f647426289b979dc6bbbb7cb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d999b5e2f647426289b979dc6bbbb7cb.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            var marker_cluster_8ea8778b4ab50aef43e944de95024e10 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            marker_cluster_8ea8778b4ab50aef43e944de95024e10.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            var marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_6c2906777731effc94b093cc09233b56 = L.marker(
+                [51.7259854, 8.7568771],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_ca717d5d585ea3ea3e1c2fb0c6bfd985 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8278c128fd8924fd223cce44e7bf281 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6150f25c133dad3f0e6a2d00b3a90f8f = $(`<div id="html_6150f25c133dad3f0e6a2d00b3a90f8f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 0 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Westfalen Weser Ladeservice<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 500.0 V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/4737832345" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_f8278c128fd8924fd223cce44e7bf281.setContent(html_6150f25c133dad3f0e6a2d00b3a90f8f);
+            
+        
+
+        marker_6c2906777731effc94b093cc09233b56.bindPopup(popup_f8278c128fd8924fd223cce44e7bf281)
+        ;
+
+        
+    
+    
+                marker_6c2906777731effc94b093cc09233b56.setIcon(icon_ca717d5d585ea3ea3e1c2fb0c6bfd985);
+            
+    
+            var marker_c5bb7db2f3771122438ed68e167badf9 = L.marker(
+                [47.6765619, 9.3182271],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_97fcbff0704902716b83c0a572c85ac2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7784f957322c743cfbe5cf6fff25956d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd3c111cdc27b376a6706fbda84c5aaf = $(`<div id="html_cd3c111cdc27b376a6706fbda84c5aaf" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 1 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/4792967492" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_7784f957322c743cfbe5cf6fff25956d.setContent(html_cd3c111cdc27b376a6706fbda84c5aaf);
+            
+        
+
+        marker_c5bb7db2f3771122438ed68e167badf9.bindPopup(popup_7784f957322c743cfbe5cf6fff25956d)
+        ;
+
+        
+    
+    
+                marker_c5bb7db2f3771122438ed68e167badf9.setIcon(icon_97fcbff0704902716b83c0a572c85ac2);
+            
+    
+            var marker_2d8ea23582f41de0ba6e63e80f25c35c = L.marker(
+                [51.3720087, 12.4764118],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_fcc790da83a6df26a1aeb489ca53b83c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b275b6d6d4ccd6d9eb199490f765a46b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7920e0e785b3f0fc8b58608538482f5e = $(`<div id="html_7920e0e785b3f0fc8b58608538482f5e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Tripple Ladestation Elektroauto</h4>             <b>ID:</b> 2 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Allego<br>             <b>Power:</b> 50 / 43 kW kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> chademo: 1; type2: 1; type2_combo: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/4995085425" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_b275b6d6d4ccd6d9eb199490f765a46b.setContent(html_7920e0e785b3f0fc8b58608538482f5e);
+            
+        
+
+        marker_2d8ea23582f41de0ba6e63e80f25c35c.bindPopup(popup_b275b6d6d4ccd6d9eb199490f765a46b)
+        ;
+
+        
+    
+    
+                marker_2d8ea23582f41de0ba6e63e80f25c35c.setIcon(icon_fcc790da83a6df26a1aeb489ca53b83c);
+            
+    
+            var marker_0ac2b4541cf8bf319313172fd13b0d3e = L.marker(
+                [49.6309344, 8.3565648],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_c9b2a759ed58763ef50c5c1301097384 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8597ac4708d8cdac437137c89cee5ccd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_292441baaa6713cdcc9894f73976d750 = $(`<div id="html_292441baaa6713cdcc9894f73976d750" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 3 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EWR<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> chademo: 1; type2: 1; type2_combo: 1; type2_combo:output: 50 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/5166131027" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_8597ac4708d8cdac437137c89cee5ccd.setContent(html_292441baaa6713cdcc9894f73976d750);
+            
+        
+
+        marker_0ac2b4541cf8bf319313172fd13b0d3e.bindPopup(popup_8597ac4708d8cdac437137c89cee5ccd)
+        ;
+
+        
+    
+    
+                marker_0ac2b4541cf8bf319313172fd13b0d3e.setIcon(icon_c9b2a759ed58763ef50c5c1301097384);
+            
+    
+            var marker_670585db67bbea40dfdafad36bb97c1e = L.marker(
+                [48.1130233, 11.5705159],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_bb9e01a20478154ba718690c2db07de7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58dfcfc9b9cda921b102d3dd26911b69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a99c9788df7e22eac3795865e2cf0b7 = $(`<div id="html_5a99c9788df7e22eac3795865e2cf0b7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 4 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke München<br>             <b>Power:</b> 22000 kW<br>             <b>Voltage:</b> 400.0 V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/5176771605" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_58dfcfc9b9cda921b102d3dd26911b69.setContent(html_5a99c9788df7e22eac3795865e2cf0b7);
+            
+        
+
+        marker_670585db67bbea40dfdafad36bb97c1e.bindPopup(popup_58dfcfc9b9cda921b102d3dd26911b69)
+        ;
+
+        
+    
+    
+                marker_670585db67bbea40dfdafad36bb97c1e.setIcon(icon_bb9e01a20478154ba718690c2db07de7);
+            
+    
+            var marker_cf6073fa24e4dbc62d1f463e17b130c0 = L.marker(
+                [47.6640407, 9.4826603],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_6a03e1687d8bc4d025da4ebc089e94b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2aa3ebbb45ad7a152d0032efe01b8704 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7537939387da4a2bfd663ebc9836a1a2 = $(`<div id="html_7537939387da4a2bfd663ebc9836a1a2" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 5 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Allego<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 43 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/5252751843" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_2aa3ebbb45ad7a152d0032efe01b8704.setContent(html_7537939387da4a2bfd663ebc9836a1a2);
+            
+        
+
+        marker_cf6073fa24e4dbc62d1f463e17b130c0.bindPopup(popup_2aa3ebbb45ad7a152d0032efe01b8704)
+        ;
+
+        
+    
+    
+                marker_cf6073fa24e4dbc62d1f463e17b130c0.setIcon(icon_6a03e1687d8bc4d025da4ebc089e94b2);
+            
+    
+            var marker_a53d104b19d4e0ac606db64aa2187ab5 = L.marker(
+                [49.2120077, 9.0775472],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_630c07f4cee2a1206681550e2519b600 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77730afee278b2fb004f0514e32bf352 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7dbd0e1c6c104bcda9ef82934105fdba = $(`<div id="html_7dbd0e1c6c104bcda9ef82934105fdba" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 6 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Allego<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 800.0 V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 320kW<br>             <b>Address:</b> Buchäckerring, Bad Rappenau, 74906.0<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/5565139699" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_77730afee278b2fb004f0514e32bf352.setContent(html_7dbd0e1c6c104bcda9ef82934105fdba);
+            
+        
+
+        marker_a53d104b19d4e0ac606db64aa2187ab5.bindPopup(popup_77730afee278b2fb004f0514e32bf352)
+        ;
+
+        
+    
+    
+                marker_a53d104b19d4e0ac606db64aa2187ab5.setIcon(icon_630c07f4cee2a1206681550e2519b600);
+            
+    
+            var marker_905c64037efd718726de36941df53fb2 = L.marker(
+                [48.1130515, 11.5704039],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_3e6948040c2f44ecacc53897aaba1ffc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3c0e137803735f845c0af736d70623c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ae0a36c341bce879b86a48288e46ffa = $(`<div id="html_6ae0a36c341bce879b86a48288e46ffa" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 7 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke München<br>             <b>Power:</b> 22000 kW<br>             <b>Voltage:</b> 400.0 V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/5650490768" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_d3c0e137803735f845c0af736d70623c.setContent(html_6ae0a36c341bce879b86a48288e46ffa);
+            
+        
+
+        marker_905c64037efd718726de36941df53fb2.bindPopup(popup_d3c0e137803735f845c0af736d70623c)
+        ;
+
+        
+    
+    
+                marker_905c64037efd718726de36941df53fb2.setIcon(icon_3e6948040c2f44ecacc53897aaba1ffc);
+            
+    
+            var marker_781b883d6432f77723783a81b35051bd = L.marker(
+                [48.1129959, 11.570648],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_cd2a03c25569a91ef76970212ebd5816 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d07296239b5f6d97ae1a411523b51be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd4b5647b949918904acb72ebd632473 = $(`<div id="html_bd4b5647b949918904acb72ebd632473" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 8 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke München<br>             <b>Power:</b> 22000 kW<br>             <b>Voltage:</b> 400.0 V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/5650490769" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_3d07296239b5f6d97ae1a411523b51be.setContent(html_bd4b5647b949918904acb72ebd632473);
+            
+        
+
+        marker_781b883d6432f77723783a81b35051bd.bindPopup(popup_3d07296239b5f6d97ae1a411523b51be)
+        ;
+
+        
+    
+    
+                marker_781b883d6432f77723783a81b35051bd.setIcon(icon_cd2a03c25569a91ef76970212ebd5816);
+            
+    
+            var marker_aeec3da998e5e6cc3056817df9c1209c = L.marker(
+                [53.9400469, 10.8517332],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_49a6a342d2290a70485a44a15a4b2fd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c42da9ebe478776e8b2f5e9cd6578f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1083776a9b14e4c9bc73614cc380cfbc = $(`<div id="html_1083776a9b14e4c9bc73614cc380cfbc" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 9 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Allego<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/5833933054" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_6c42da9ebe478776e8b2f5e9cd6578f4.setContent(html_1083776a9b14e4c9bc73614cc380cfbc);
+            
+        
+
+        marker_aeec3da998e5e6cc3056817df9c1209c.bindPopup(popup_6c42da9ebe478776e8b2f5e9cd6578f4)
+        ;
+
+        
+    
+    
+                marker_aeec3da998e5e6cc3056817df9c1209c.setIcon(icon_49a6a342d2290a70485a44a15a4b2fd6);
+            
+    
+            var marker_3397b07491ba098c88b9ad4a288483b6 = L.marker(
+                [48.6052595, 9.6328183],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_e8ad42b5593d7fa1f4add4896168011e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84310ad3fa07a41fa2574085de07564c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f8633fbcaa8685e70d584aefdd4da09 = $(`<div id="html_0f8633fbcaa8685e70d584aefdd4da09" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Ionity Gruibingen Süd</h4>             <b>ID:</b> 10 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Ionity<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 500.0 V<br>             <b>Socket Types:</b> type2_combo: 6<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/6124896312" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_84310ad3fa07a41fa2574085de07564c.setContent(html_0f8633fbcaa8685e70d584aefdd4da09);
+            
+        
+
+        marker_3397b07491ba098c88b9ad4a288483b6.bindPopup(popup_84310ad3fa07a41fa2574085de07564c)
+        ;
+
+        
+    
+    
+                marker_3397b07491ba098c88b9ad4a288483b6.setIcon(icon_e8ad42b5593d7fa1f4add4896168011e);
+            
+    
+            var marker_8dc94f834c45283d7fdfd6106fc35963 = L.marker(
+                [51.5899811, 7.6492656],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_2b36373f5fc1b5c9e2c69afa417d3e34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e91a6852dfbe8e30103eb92edf9f0fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0955eb6d1ffa22b7cd4911caf796a37d = $(`<div id="html_0955eb6d1ffa22b7cd4911caf796a37d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 11 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 500.0 V<br>             <b>Socket Types:</b> type2: 2<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> Mo-Th 07:00-16:30;Fr 07:00-14:30<br>             <a href="https://www.openstreetmap.org/node/6308212646" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_8e91a6852dfbe8e30103eb92edf9f0fe.setContent(html_0955eb6d1ffa22b7cd4911caf796a37d);
+            
+        
+
+        marker_8dc94f834c45283d7fdfd6106fc35963.bindPopup(popup_8e91a6852dfbe8e30103eb92edf9f0fe)
+        ;
+
+        
+    
+    
+                marker_8dc94f834c45283d7fdfd6106fc35963.setIcon(icon_2b36373f5fc1b5c9e2c69afa417d3e34);
+            
+    
+            var marker_e42af4b621e103f189e8dbb27a0f7fbe = L.marker(
+                [50.7492347, 6.8493076],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_d7219832304cf601a1dbbb34a52b26ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b41dd7de53520ab61cc07e687a7da2b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a89ad2a800c05821cfcc2986db402561 = $(`<div id="html_a89ad2a800c05821cfcc2986db402561" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 12 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Lidl<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 43 kW<br>             <b>Address:</b> Bonner Straße, Weilerswist, 53919.0<br>             <b>Opening Hours:</b> Mo-Sa 07:00-21:00<br>             <a href="https://www.openstreetmap.org/node/7695030904" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_b41dd7de53520ab61cc07e687a7da2b3.setContent(html_a89ad2a800c05821cfcc2986db402561);
+            
+        
+
+        marker_e42af4b621e103f189e8dbb27a0f7fbe.bindPopup(popup_b41dd7de53520ab61cc07e687a7da2b3)
+        ;
+
+        
+    
+    
+                marker_e42af4b621e103f189e8dbb27a0f7fbe.setIcon(icon_d7219832304cf601a1dbbb34a52b26ec);
+            
+    
+            var marker_ac71e8d5816359255597727b0e1cbdf5 = L.marker(
+                [51.5244352, 7.1862193],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_fddd080de00267713fcfb3200b5bdec8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac85a93cf5af05b2654fcd79c93b317b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_026b05334c9e54e288d53034d6151720 = $(`<div id="html_026b05334c9e54e288d53034d6151720" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 13 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Lidl<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 43 kW; type2_combo: 1; type2_combo:output: 50 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/7985038525" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_ac85a93cf5af05b2654fcd79c93b317b.setContent(html_026b05334c9e54e288d53034d6151720);
+            
+        
+
+        marker_ac71e8d5816359255597727b0e1cbdf5.bindPopup(popup_ac85a93cf5af05b2654fcd79c93b317b)
+        ;
+
+        
+    
+    
+                marker_ac71e8d5816359255597727b0e1cbdf5.setIcon(icon_fddd080de00267713fcfb3200b5bdec8);
+            
+    
+            var marker_fb24ba9d5198e21a2603d117807de213 = L.marker(
+                [50.972895, 10.9678522],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_4e86710b341bf0c6a9391262e56a322a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d298f79cc4a43a1834725c74f68be9a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc6794ea7febbb5148cb0de0d2c125f9 = $(`<div id="html_bc6794ea7febbb5148cb0de0d2c125f9" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 14 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke Erfurt<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 500.0 V<br>             <b>Socket Types:</b> chademo: 1; chademo:current: 125; chademo:output: 50kW; type2_cable: 1; type2_cable:current: 63; type2_cable:output: 43kW; type2_combo: 1; type2_combo:current: 125; type2_combo:output: 50kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/8168725684" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_3d298f79cc4a43a1834725c74f68be9a.setContent(html_bc6794ea7febbb5148cb0de0d2c125f9);
+            
+        
+
+        marker_fb24ba9d5198e21a2603d117807de213.bindPopup(popup_3d298f79cc4a43a1834725c74f68be9a)
+        ;
+
+        
+    
+    
+                marker_fb24ba9d5198e21a2603d117807de213.setIcon(icon_4e86710b341bf0c6a9391262e56a322a);
+            
+    
+            var marker_69daee5a388870bc2e49dfb7644275fa = L.marker(
+                [50.9728757, 10.9678038],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_247fb6ba04e4f3284e87b73187743ccf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a516667627fafc4f81afc9e477903d6c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bdd0392b24585f51c4b06acc1e6d92f8 = $(`<div id="html_bdd0392b24585f51c4b06acc1e6d92f8" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 15 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke Erfurt<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 500.0 V<br>             <b>Socket Types:</b> chademo: 1; chademo:current: 125; chademo:output: 50kW; chademo:ref: DESWEE002702; type2_cable: 1; type2_cable:current: 63; type2_cable:output: 43kW; type2_cable:ref: DESWEE002701; type2_combo: 1; type2_combo:current: 125; type2_combo:output: 50kW; type2_combo:ref: DESWEE002702<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/8168764986" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_a516667627fafc4f81afc9e477903d6c.setContent(html_bdd0392b24585f51c4b06acc1e6d92f8);
+            
+        
+
+        marker_69daee5a388870bc2e49dfb7644275fa.bindPopup(popup_a516667627fafc4f81afc9e477903d6c)
+        ;
+
+        
+    
+    
+                marker_69daee5a388870bc2e49dfb7644275fa.setIcon(icon_247fb6ba04e4f3284e87b73187743ccf);
+            
+    
+            var marker_f6dae0fb145dde58db137c4f28d3dc20 = L.marker(
+                [49.2120345, 9.0775234],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_24ce52012d3ac25f7c404942283cfd62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c9217b5a27813962d4f9092008a51e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cdadc91f004243c9d5ac7d58c2eff030 = $(`<div id="html_cdadc91f004243c9d5ac7d58c2eff030" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 16 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Allego<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 800.0 V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 320kW<br>             <b>Address:</b> Buchäckerring, Bad Rappenau, 74906.0<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/8206072463" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_3c9217b5a27813962d4f9092008a51e2.setContent(html_cdadc91f004243c9d5ac7d58c2eff030);
+            
+        
+
+        marker_f6dae0fb145dde58db137c4f28d3dc20.bindPopup(popup_3c9217b5a27813962d4f9092008a51e2)
+        ;
+
+        
+    
+    
+                marker_f6dae0fb145dde58db137c4f28d3dc20.setIcon(icon_24ce52012d3ac25f7c404942283cfd62);
+            
+    
+            var marker_09b41be5f667c7c980737da99457cc38 = L.marker(
+                [53.4991299, 8.476734],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_9fa29874e0594fef00d749a301319d4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a6af4cc164cdd09f96c0dd6ca324f45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45d3b687716264a03640b972bfd82b40 = $(`<div id="html_45d3b687716264a03640b972bfd82b40" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Lidl Atenser Allee</h4>             <b>ID:</b> 17 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Lidl<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> Mo-Sa 07:00-21:00<br>             <a href="https://www.openstreetmap.org/node/8255719258" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_7a6af4cc164cdd09f96c0dd6ca324f45.setContent(html_45d3b687716264a03640b972bfd82b40);
+            
+        
+
+        marker_09b41be5f667c7c980737da99457cc38.bindPopup(popup_7a6af4cc164cdd09f96c0dd6ca324f45)
+        ;
+
+        
+    
+    
+                marker_09b41be5f667c7c980737da99457cc38.setIcon(icon_9fa29874e0594fef00d749a301319d4c);
+            
+    
+            var marker_2ffe2dd7b8fce1f2f2b1b50ee4c1eded = L.marker(
+                [50.8479082, 10.954503],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_5e2b02a6df169c136ab349d3fb7039a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77eceaf691f6edcfe94c9fc7cec0fd75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ae608855f93baa530a42f89db11c0c7 = $(`<div id="html_1ae608855f93baa530a42f89db11c0c7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 18 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> TEAG Mobil GmbH<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 75 kW; type2: 1; type2:output: 22 kW; type2_combo: 2; type2_combo:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/8425418013" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_77eceaf691f6edcfe94c9fc7cec0fd75.setContent(html_1ae608855f93baa530a42f89db11c0c7);
+            
+        
+
+        marker_2ffe2dd7b8fce1f2f2b1b50ee4c1eded.bindPopup(popup_77eceaf691f6edcfe94c9fc7cec0fd75)
+        ;
+
+        
+    
+    
+                marker_2ffe2dd7b8fce1f2f2b1b50ee4c1eded.setIcon(icon_5e2b02a6df169c136ab349d3fb7039a7);
+            
+    
+            var marker_86f2bb625e4dce4619e1a2683cfbaf2d = L.marker(
+                [50.8884032, 10.9352216],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_18c8d4e8db1908affe0b4ea3e69fa83c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ec1729167f622b9fd84a6a463f938f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d55e3aa290773e11b6107c974824ef1 = $(`<div id="html_2d55e3aa290773e11b6107c974824ef1" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 19 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Thüringer Energie AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 8; ccs:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/8435027688" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_3ec1729167f622b9fd84a6a463f938f3.setContent(html_2d55e3aa290773e11b6107c974824ef1);
+            
+        
+
+        marker_86f2bb625e4dce4619e1a2683cfbaf2d.bindPopup(popup_3ec1729167f622b9fd84a6a463f938f3)
+        ;
+
+        
+    
+    
+                marker_86f2bb625e4dce4619e1a2683cfbaf2d.setIcon(icon_18c8d4e8db1908affe0b4ea3e69fa83c);
+            
+    
+            var marker_5a665eab56ca7d8ed5194889a68aa20c = L.marker(
+                [52.6624419, 13.2712953],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_f86645585b26833224174a14725e5bc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_010844b91deeebc6dd2ece3d510916fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82cfbd046430e6819da673a280d53dca = $(`<div id="html_82cfbd046430e6819da673a280d53dca" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 20 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Allego<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 800.0 V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 160 kW; 320 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/8497961882" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_010844b91deeebc6dd2ece3d510916fd.setContent(html_82cfbd046430e6819da673a280d53dca);
+            
+        
+
+        marker_5a665eab56ca7d8ed5194889a68aa20c.bindPopup(popup_010844b91deeebc6dd2ece3d510916fd)
+        ;
+
+        
+    
+    
+                marker_5a665eab56ca7d8ed5194889a68aa20c.setIcon(icon_f86645585b26833224174a14725e5bc1);
+            
+    
+            var marker_996b77244f0b706ca258660180f4ab78 = L.marker(
+                [52.2092843, 11.1327404],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_8e5bb0ec65c85c0259422df22a4ff305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e2f08cb970b3e4a2616966ca369c43f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4163188d751070032f1aa03b26763115 = $(`<div id="html_4163188d751070032f1aa03b26763115" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Aral HPC</h4>             <b>ID:</b> 21 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Aral Pulse<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/8528289748" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_3e2f08cb970b3e4a2616966ca369c43f.setContent(html_4163188d751070032f1aa03b26763115);
+            
+        
+
+        marker_996b77244f0b706ca258660180f4ab78.bindPopup(popup_3e2f08cb970b3e4a2616966ca369c43f)
+        ;
+
+        
+    
+    
+                marker_996b77244f0b706ca258660180f4ab78.setIcon(icon_8e5bb0ec65c85c0259422df22a4ff305);
+            
+    
+            var marker_8d282f501c0069f40738149f2d011ed4 = L.marker(
+                [52.209343, 11.1327004],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_4641c9d29ca4ec280a637237681c7621 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02b9a108435ef4e5aeb33aa78fd9e386 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_931f4fdaaccd17d653122e3203bd1ac3 = $(`<div id="html_931f4fdaaccd17d653122e3203bd1ac3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Aral HPC</h4>             <b>ID:</b> 22 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Aral Pulse<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/8528289749" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_02b9a108435ef4e5aeb33aa78fd9e386.setContent(html_931f4fdaaccd17d653122e3203bd1ac3);
+            
+        
+
+        marker_8d282f501c0069f40738149f2d011ed4.bindPopup(popup_02b9a108435ef4e5aeb33aa78fd9e386)
+        ;
+
+        
+    
+    
+                marker_8d282f501c0069f40738149f2d011ed4.setIcon(icon_4641c9d29ca4ec280a637237681c7621);
+            
+    
+            var marker_70ac2eca5904d3fc6dc287b6df8df5d7 = L.marker(
+                [48.2192598, 10.127812],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_f507d07cae1a24f84be445764de5cc1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b1078a092a0c3e6f62bcbfdb7fc99a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e643e07277ffb707bfc061f53647277 = $(`<div id="html_0e643e07277ffb707bfc061f53647277" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Ionity Illertissen</h4>             <b>ID:</b> 23 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Ionity<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 800.0 V<br>             <b>Socket Types:</b> type2_combo: 4<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/8694875513" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_2b1078a092a0c3e6f62bcbfdb7fc99a0.setContent(html_0e643e07277ffb707bfc061f53647277);
+            
+        
+
+        marker_70ac2eca5904d3fc6dc287b6df8df5d7.bindPopup(popup_2b1078a092a0c3e6f62bcbfdb7fc99a0)
+        ;
+
+        
+    
+    
+                marker_70ac2eca5904d3fc6dc287b6df8df5d7.setIcon(icon_f507d07cae1a24f84be445764de5cc1a);
+            
+    
+            var marker_0cb132d33196a9208a6d32f4a5e39775 = L.marker(
+                [50.8496437, 10.9553819],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_73e4779d912523976f066275bcd22bff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2780aad76bb34210e557208c8ee0fb5d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7cb3628d2f7dec7360e690551c620bbb = $(`<div id="html_7cb3628d2f7dec7360e690551c620bbb" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>EnBW Charging Station</h4>             <b>ID:</b> 24 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/8974675104" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_2780aad76bb34210e557208c8ee0fb5d.setContent(html_7cb3628d2f7dec7360e690551c620bbb);
+            
+        
+
+        marker_0cb132d33196a9208a6d32f4a5e39775.bindPopup(popup_2780aad76bb34210e557208c8ee0fb5d)
+        ;
+
+        
+    
+    
+                marker_0cb132d33196a9208a6d32f4a5e39775.setIcon(icon_73e4779d912523976f066275bcd22bff);
+            
+    
+            var marker_c8162807e49d532246a7ff967e5fe3a5 = L.marker(
+                [52.1557516, 9.9585294],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_47a7bcc7fc10896f0ee64b8f07853855 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb572ee99cfd6ab7654f04c48d241291 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d2a216e715a097b67175b874638d177d = $(`<div id="html_d2a216e715a097b67175b874638d177d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Volksbank eG Hildesheim</h4>             <b>ID:</b> 25 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Energieversorgung Hildesheim<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9028469567" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_cb572ee99cfd6ab7654f04c48d241291.setContent(html_d2a216e715a097b67175b874638d177d);
+            
+        
+
+        marker_c8162807e49d532246a7ff967e5fe3a5.bindPopup(popup_cb572ee99cfd6ab7654f04c48d241291)
+        ;
+
+        
+    
+    
+                marker_c8162807e49d532246a7ff967e5fe3a5.setIcon(icon_47a7bcc7fc10896f0ee64b8f07853855);
+            
+    
+            var marker_533a29202205681a9d4f3767b60b9c90 = L.marker(
+                [52.9221395, 12.8047741],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_33099bf26d558470a1e2ee7472e4636c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b236d6eb791fecdd7b17368bd524a928 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4fe189db82c157b4d0fb764203507f48 = $(`<div id="html_4fe189db82c157b4d0fb764203507f48" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 26 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke Neuruppin<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> 230.0 V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/9151107817" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_b236d6eb791fecdd7b17368bd524a928.setContent(html_4fe189db82c157b4d0fb764203507f48);
+            
+        
+
+        marker_533a29202205681a9d4f3767b60b9c90.bindPopup(popup_b236d6eb791fecdd7b17368bd524a928)
+        ;
+
+        
+    
+    
+                marker_533a29202205681a9d4f3767b60b9c90.setIcon(icon_33099bf26d558470a1e2ee7472e4636c);
+            
+    
+            var marker_1e1e92ab4089468d43c2dd7466cc72f7 = L.marker(
+                [47.8417482, 9.6588154],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_558228cb3af83b81f155c71de79687a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fa589795aaeacf9229923d425941aa1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac5ffab6f0767dc7b8f7698f0e76c2b9 = $(`<div id="html_ac5ffab6f0767dc7b8f7698f0e76c2b9" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 27 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 300 kw<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9549443006" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_5fa589795aaeacf9229923d425941aa1.setContent(html_ac5ffab6f0767dc7b8f7698f0e76c2b9);
+            
+        
+
+        marker_1e1e92ab4089468d43c2dd7466cc72f7.bindPopup(popup_5fa589795aaeacf9229923d425941aa1)
+        ;
+
+        
+    
+    
+                marker_1e1e92ab4089468d43c2dd7466cc72f7.setIcon(icon_558228cb3af83b81f155c71de79687a5);
+            
+    
+            var marker_ef8e95f0e7448f0d6aadd914dcc74c16 = L.marker(
+                [52.1961645, 8.3861095],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_731192534bf12f554a431c895fa25331 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_649f99f3016553ba0328d2f82c9eae33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcf5ac131d3d41f17608faefe8a09107 = $(`<div id="html_fcf5ac131d3d41f17608faefe8a09107" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 28 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9654075971" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_649f99f3016553ba0328d2f82c9eae33.setContent(html_fcf5ac131d3d41f17608faefe8a09107);
+            
+        
+
+        marker_ef8e95f0e7448f0d6aadd914dcc74c16.bindPopup(popup_649f99f3016553ba0328d2f82c9eae33)
+        ;
+
+        
+    
+    
+                marker_ef8e95f0e7448f0d6aadd914dcc74c16.setIcon(icon_731192534bf12f554a431c895fa25331);
+            
+    
+            var marker_1204274f21a3b298d0e022ca59f9be31 = L.marker(
+                [47.6950625, 9.2730094],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_022b066b4f40860e39755b4bfde69d91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94b40519155663b2b741c15230be85e1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_102c6145eb1137dab1b1aea32f440bcb = $(`<div id="html_102c6145eb1137dab1b1aea32f440bcb" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 29 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> 43kW kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9723782379" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_94b40519155663b2b741c15230be85e1.setContent(html_102c6145eb1137dab1b1aea32f440bcb);
+            
+        
+
+        marker_1204274f21a3b298d0e022ca59f9be31.bindPopup(popup_94b40519155663b2b741c15230be85e1)
+        ;
+
+        
+    
+    
+                marker_1204274f21a3b298d0e022ca59f9be31.setIcon(icon_022b066b4f40860e39755b4bfde69d91);
+            
+    
+            var marker_823f2fa1d29e3bfe4bfdc6b38599e371 = L.marker(
+                [47.6951012, 9.2657298],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_21466f1f282acfb09763972b7ad70e0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32d3e41e6e6f329d30501cd3e49f2734 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0863dcfcbeec9adad7cf2d2fadb30526 = $(`<div id="html_0863dcfcbeec9adad7cf2d2fadb30526" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 30 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> 43kW kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9723782380" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_32d3e41e6e6f329d30501cd3e49f2734.setContent(html_0863dcfcbeec9adad7cf2d2fadb30526);
+            
+        
+
+        marker_823f2fa1d29e3bfe4bfdc6b38599e371.bindPopup(popup_32d3e41e6e6f329d30501cd3e49f2734)
+        ;
+
+        
+    
+    
+                marker_823f2fa1d29e3bfe4bfdc6b38599e371.setIcon(icon_21466f1f282acfb09763972b7ad70e0a);
+            
+    
+            var marker_253cee2b994dec392e51696b7a0f1ab2 = L.marker(
+                [51.0239295, 6.9034557],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_7f697824a4945704b5c44ffb3eb82819 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef689144bbf01c0215cf5e3aa0abbea3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5c8074482d8a196d3606f4c73b1c540d = $(`<div id="html_5c8074482d8a196d3606f4c73b1c540d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 31 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Deutsche Telekom AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; chademo: 1; type2: 2<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9821921849" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_ef689144bbf01c0215cf5e3aa0abbea3.setContent(html_5c8074482d8a196d3606f4c73b1c540d);
+            
+        
+
+        marker_253cee2b994dec392e51696b7a0f1ab2.bindPopup(popup_ef689144bbf01c0215cf5e3aa0abbea3)
+        ;
+
+        
+    
+    
+                marker_253cee2b994dec392e51696b7a0f1ab2.setIcon(icon_7f697824a4945704b5c44ffb3eb82819);
+            
+    
+            var marker_8d71892d38c88a0eb09a73f0ea0aae11 = L.marker(
+                [51.0216088, 6.8986483],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_e1f90cd05a7dbfe5e760b75981c5f6eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef32e1fd93a0ea70fc793dc6ddc94f33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b501b82052d4446756531ba03cba2a7 = $(`<div id="html_5b501b82052d4446756531ba03cba2a7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 32 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> RheinEnergie<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; ccs:output: 22 kW; type2: 1; type2:output: 50 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/9873966433" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_ef32e1fd93a0ea70fc793dc6ddc94f33.setContent(html_5b501b82052d4446756531ba03cba2a7);
+            
+        
+
+        marker_8d71892d38c88a0eb09a73f0ea0aae11.bindPopup(popup_ef32e1fd93a0ea70fc793dc6ddc94f33)
+        ;
+
+        
+    
+    
+                marker_8d71892d38c88a0eb09a73f0ea0aae11.setIcon(icon_e1f90cd05a7dbfe5e760b75981c5f6eb);
+            
+    
+            var marker_9ac55c155e39012a4fae9e920d80c76b = L.marker(
+                [49.4089567, 7.378178],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_0210e1d1b25a218bd8813a644fe9bc45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79bbb3ed75e9793932df508c176e5522 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23d0ffc4afd647396a06ad910f090951 = $(`<div id="html_23d0ffc4afd647396a06ad910f090951" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Pfalzwerke Charging Station</h4>             <b>ID:</b> 33 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Pfalzwerke<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 22 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10031543684" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_79bbb3ed75e9793932df508c176e5522.setContent(html_23d0ffc4afd647396a06ad910f090951);
+            
+        
+
+        marker_9ac55c155e39012a4fae9e920d80c76b.bindPopup(popup_79bbb3ed75e9793932df508c176e5522)
+        ;
+
+        
+    
+    
+                marker_9ac55c155e39012a4fae9e920d80c76b.setIcon(icon_0210e1d1b25a218bd8813a644fe9bc45);
+            
+    
+            var marker_5ad2ddf0c5827abebd70c0a0f772e81f = L.marker(
+                [49.5565652, 7.3580886],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_9247929b01a9542d210f9d24dd335f9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_954a8822aacc84ecdbab864153d8602d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b855e97f1166feab568f4c6db907c7d = $(`<div id="html_5b855e97f1166feab568f4c6db907c7d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Pfalzwerke Charging Station</h4>             <b>ID:</b> 34 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Pfalzwerke<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW; type2: 1; type2:output: 22 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10031543685" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_954a8822aacc84ecdbab864153d8602d.setContent(html_5b855e97f1166feab568f4c6db907c7d);
+            
+        
+
+        marker_5ad2ddf0c5827abebd70c0a0f772e81f.bindPopup(popup_954a8822aacc84ecdbab864153d8602d)
+        ;
+
+        
+    
+    
+                marker_5ad2ddf0c5827abebd70c0a0f772e81f.setIcon(icon_9247929b01a9542d210f9d24dd335f9a);
+            
+    
+            var marker_bf41611fcb9afe18d41862be81fc4772 = L.marker(
+                [51.3625333, 7.558357],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_227295c8108a5301297d5ed3e8cae2c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f267ec7704a65f55a4ae806bf99d880c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_464ebd00007cfe28a42846975c3d008d = $(`<div id="html_464ebd00007cfe28a42846975c3d008d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 35 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 50 kW; chademo: 2; chademo:output: 50 kW; type2: 2; type2:output: 50 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10107131467" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_f267ec7704a65f55a4ae806bf99d880c.setContent(html_464ebd00007cfe28a42846975c3d008d);
+            
+        
+
+        marker_bf41611fcb9afe18d41862be81fc4772.bindPopup(popup_f267ec7704a65f55a4ae806bf99d880c)
+        ;
+
+        
+    
+    
+                marker_bf41611fcb9afe18d41862be81fc4772.setIcon(icon_227295c8108a5301297d5ed3e8cae2c1);
+            
+    
+            var marker_28c28a8db5e73d905f8964d8c2d7461d = L.marker(
+                [51.2369118, 6.6941371],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_def40a446c06cee5be3d4a51d9df24d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c517800b8a62eb3e18352e9e68c4f6d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9019885b5c8228fc2590da25735a79d7 = $(`<div id="html_9019885b5c8228fc2590da25735a79d7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 36 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10267011833" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_0c517800b8a62eb3e18352e9e68c4f6d.setContent(html_9019885b5c8228fc2590da25735a79d7);
+            
+        
+
+        marker_28c28a8db5e73d905f8964d8c2d7461d.bindPopup(popup_0c517800b8a62eb3e18352e9e68c4f6d)
+        ;
+
+        
+    
+    
+                marker_28c28a8db5e73d905f8964d8c2d7461d.setIcon(icon_def40a446c06cee5be3d4a51d9df24d5);
+            
+    
+            var marker_367266688f76b5f707c2dcfc15c20bf3 = L.marker(
+                [51.2369268, 6.6940596],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_3615becec52fe221497405c59786ee9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ad4cbec528898b9f24fa1b9403c67bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_88ff0dbd4b881e2baf98d8e0ccd43fe6 = $(`<div id="html_88ff0dbd4b881e2baf98d8e0ccd43fe6" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 37 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10267016941" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_8ad4cbec528898b9f24fa1b9403c67bc.setContent(html_88ff0dbd4b881e2baf98d8e0ccd43fe6);
+            
+        
+
+        marker_367266688f76b5f707c2dcfc15c20bf3.bindPopup(popup_8ad4cbec528898b9f24fa1b9403c67bc)
+        ;
+
+        
+    
+    
+                marker_367266688f76b5f707c2dcfc15c20bf3.setIcon(icon_3615becec52fe221497405c59786ee9c);
+            
+    
+            var marker_7c828b9e26a9850b9e33d7b61b847491 = L.marker(
+                [51.1031259, 6.1709457],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_8f1fc371552bd4daec668d05d6a20ef7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22617e1cdcac1f1be2bd04059aa777eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e51bbf3079d0bd0fef14f901545de6e7 = $(`<div id="html_e51bbf3079d0bd0fef14f901545de6e7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 38 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 150<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10605606199" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_22617e1cdcac1f1be2bd04059aa777eb.setContent(html_e51bbf3079d0bd0fef14f901545de6e7);
+            
+        
+
+        marker_7c828b9e26a9850b9e33d7b61b847491.bindPopup(popup_22617e1cdcac1f1be2bd04059aa777eb)
+        ;
+
+        
+    
+    
+                marker_7c828b9e26a9850b9e33d7b61b847491.setIcon(icon_8f1fc371552bd4daec668d05d6a20ef7);
+            
+    
+            var marker_0bc327f35d55b61d9f03e5fc15d1b6be = L.marker(
+                [51.103104, 6.1708947],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_b45accb13df4d67a14c08e41c6268452 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ab55738d425117b84baeec09d8850e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_107a913c2daf788b84a81e59bb178242 = $(`<div id="html_107a913c2daf788b84a81e59bb178242" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 39 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 150<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10605606200" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_1ab55738d425117b84baeec09d8850e3.setContent(html_107a913c2daf788b84a81e59bb178242);
+            
+        
+
+        marker_0bc327f35d55b61d9f03e5fc15d1b6be.bindPopup(popup_1ab55738d425117b84baeec09d8850e3)
+        ;
+
+        
+    
+    
+                marker_0bc327f35d55b61d9f03e5fc15d1b6be.setIcon(icon_b45accb13df4d67a14c08e41c6268452);
+            
+    
+            var marker_92ad8a538444c63a374dd1152c83d445 = L.marker(
+                [49.4772285, 7.6397861],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_52e8b42b394b24b996f43dddad23dc9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76c462a594d1fcccfd2c2ce62e91774f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1192653798d0f74d3ed3c35de4bf6864 = $(`<div id="html_1192653798d0f74d3ed3c35de4bf6864" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 40 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Shell<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10862499364" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_76c462a594d1fcccfd2c2ce62e91774f.setContent(html_1192653798d0f74d3ed3c35de4bf6864);
+            
+        
+
+        marker_92ad8a538444c63a374dd1152c83d445.bindPopup(popup_76c462a594d1fcccfd2c2ce62e91774f)
+        ;
+
+        
+    
+    
+                marker_92ad8a538444c63a374dd1152c83d445.setIcon(icon_52e8b42b394b24b996f43dddad23dc9a);
+            
+    
+            var marker_21a136419a48d74127edd5f908e339c0 = L.marker(
+                [51.8994963, 8.4017356],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_efbfc435f70c9bbd4a731042402122b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc648bf9c5caef59cfa947164adb8724 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0fa857a44c3c64e34b49b84e515a3ec = $(`<div id="html_c0fa857a44c3c64e34b49b84e515a3ec" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 41 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Kaufland Stiftung<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 60 kW; type2: 1; type2:output: 22 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10884525830" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_dc648bf9c5caef59cfa947164adb8724.setContent(html_c0fa857a44c3c64e34b49b84e515a3ec);
+            
+        
+
+        marker_21a136419a48d74127edd5f908e339c0.bindPopup(popup_dc648bf9c5caef59cfa947164adb8724)
+        ;
+
+        
+    
+    
+                marker_21a136419a48d74127edd5f908e339c0.setIcon(icon_efbfc435f70c9bbd4a731042402122b5);
+            
+    
+            var marker_1eaa220672edd60746a197826bd5b607 = L.marker(
+                [51.7757979, 8.8049284],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_6817bc1385484ad341ec9edded518875 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15bc5e644353c5bf56840de367f673e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_896a2455e1d0d82eb1707919f40b048c = $(`<div id="html_896a2455e1d0d82eb1707919f40b048c" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 42 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Lidl<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ac: 1; ac:output: 22 kW; ccs: 1; ccs:output: 50 kW; chademo: 1; chademo:output: 50 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/10925699827" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_15bc5e644353c5bf56840de367f673e5.setContent(html_896a2455e1d0d82eb1707919f40b048c);
+            
+        
+
+        marker_1eaa220672edd60746a197826bd5b607.bindPopup(popup_15bc5e644353c5bf56840de367f673e5)
+        ;
+
+        
+    
+    
+                marker_1eaa220672edd60746a197826bd5b607.setIcon(icon_6817bc1385484ad341ec9edded518875);
+            
+    
+            var marker_39cd5b5be65c42df748dd6fbd8cdbc93 = L.marker(
+                [51.8574182, 7.4810467],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_bff02817ed8c0a8afc47c45a6793296c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d79a9f4ae2b29ab8da228f31186339e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39e9899839df42682006d1e37d821459 = $(`<div id="html_39e9899839df42682006d1e37d821459" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 43 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Lidl<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ac: 1; ccs: 1; chademo: 1<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11243792117" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_d79a9f4ae2b29ab8da228f31186339e9.setContent(html_39e9899839df42682006d1e37d821459);
+            
+        
+
+        marker_39cd5b5be65c42df748dd6fbd8cdbc93.bindPopup(popup_d79a9f4ae2b29ab8da228f31186339e9)
+        ;
+
+        
+    
+    
+                marker_39cd5b5be65c42df748dd6fbd8cdbc93.setIcon(icon_bff02817ed8c0a8afc47c45a6793296c);
+            
+    
+            var marker_024efadf5efba75adebfa7d9269909f4 = L.marker(
+                [54.0831435, 12.1925233],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_0e8de71e5e80b0bd7c7f3cd18b9919f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d9bd23cdf174c95c744dd22dfb4433f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffc87dd0dacf348b1bb496e4c43db3f7 = $(`<div id="html_ffc87dd0dacf348b1bb496e4c43db3f7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 44 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Ionity<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/11262690248" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_0d9bd23cdf174c95c744dd22dfb4433f.setContent(html_ffc87dd0dacf348b1bb496e4c43db3f7);
+            
+        
+
+        marker_024efadf5efba75adebfa7d9269909f4.bindPopup(popup_0d9bd23cdf174c95c744dd22dfb4433f)
+        ;
+
+        
+    
+    
+                marker_024efadf5efba75adebfa7d9269909f4.setIcon(icon_0e8de71e5e80b0bd7c7f3cd18b9919f2);
+            
+    
+            var marker_93d0f15a4e512b183df5449f66b5095e = L.marker(
+                [51.6178611, 7.6567566],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_6b5ea18b9ecf459db922486f90c8d0fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7036ee3f74b36754724716f4c7468e9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b8b34bffc29dde3704b7a53c20302ae = $(`<div id="html_6b8b34bffc29dde3704b7a53c20302ae" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 45 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Pfalzwerke<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11332739608" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_7036ee3f74b36754724716f4c7468e9e.setContent(html_6b8b34bffc29dde3704b7a53c20302ae);
+            
+        
+
+        marker_93d0f15a4e512b183df5449f66b5095e.bindPopup(popup_7036ee3f74b36754724716f4c7468e9e)
+        ;
+
+        
+    
+    
+                marker_93d0f15a4e512b183df5449f66b5095e.setIcon(icon_6b5ea18b9ecf459db922486f90c8d0fa);
+            
+    
+            var marker_6aad88114e7f089b4560c7612f874dcd = L.marker(
+                [51.5316718, 7.4413932],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_bf5c4b3e52f9d28eac2ca7cae8817c86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d62123e870806d3878d3422ff18c888d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5036270a0ec6857821c3a678aa3f25f5 = $(`<div id="html_5036270a0ec6857821c3a678aa3f25f5" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 46 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Aral<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11376139991" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_d62123e870806d3878d3422ff18c888d.setContent(html_5036270a0ec6857821c3a678aa3f25f5);
+            
+        
+
+        marker_6aad88114e7f089b4560c7612f874dcd.bindPopup(popup_d62123e870806d3878d3422ff18c888d)
+        ;
+
+        
+    
+    
+                marker_6aad88114e7f089b4560c7612f874dcd.setIcon(icon_bf5c4b3e52f9d28eac2ca7cae8817c86);
+            
+    
+            var marker_1ae591470df641498647184385df1772 = L.marker(
+                [52.4309537, 7.0638787],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_6f9e2e0fc61c7502288d350d1025d41c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba5f9d437a08f71f354f513b272a688e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_996c6929f037cbbb0f20eb4db5af0a18 = $(`<div id="html_996c6929f037cbbb0f20eb4db5af0a18" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 47 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11395532324" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_ba5f9d437a08f71f354f513b272a688e.setContent(html_996c6929f037cbbb0f20eb4db5af0a18);
+            
+        
+
+        marker_1ae591470df641498647184385df1772.bindPopup(popup_ba5f9d437a08f71f354f513b272a688e)
+        ;
+
+        
+    
+    
+                marker_1ae591470df641498647184385df1772.setIcon(icon_6f9e2e0fc61c7502288d350d1025d41c);
+            
+    
+            var marker_1b0ccbb859372050fe0020c1b6f05a70 = L.marker(
+                [52.4309812, 7.0638203],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_3695b446a71ad1a1cb04c592eb3ec692 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c363732077be0949532702449b215ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef4855507b028497552c85e1f4f46aeb = $(`<div id="html_ef4855507b028497552c85e1f4f46aeb" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 48 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11395532325" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_0c363732077be0949532702449b215ce.setContent(html_ef4855507b028497552c85e1f4f46aeb);
+            
+        
+
+        marker_1b0ccbb859372050fe0020c1b6f05a70.bindPopup(popup_0c363732077be0949532702449b215ce)
+        ;
+
+        
+    
+    
+                marker_1b0ccbb859372050fe0020c1b6f05a70.setIcon(icon_3695b446a71ad1a1cb04c592eb3ec692);
+            
+    
+            var marker_e539d4e41d0df709a916e4ccfa178635 = L.marker(
+                [50.1605711, 8.4870549],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_bfd485c882ea6950ea2309e8030a824e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_493821a519d12a73c69a439efb37ca86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3557875153f84e4a97292f273ab5cf4f = $(`<div id="html_3557875153f84e4a97292f273ab5cf4f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 49 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Mainova<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11753476972" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_493821a519d12a73c69a439efb37ca86.setContent(html_3557875153f84e4a97292f273ab5cf4f);
+            
+        
+
+        marker_e539d4e41d0df709a916e4ccfa178635.bindPopup(popup_493821a519d12a73c69a439efb37ca86)
+        ;
+
+        
+    
+    
+                marker_e539d4e41d0df709a916e4ccfa178635.setIcon(icon_bfd485c882ea6950ea2309e8030a824e);
+            
+    
+            var marker_a23690a450ef09c7f56997d3208be507 = L.marker(
+                [50.0588225, 8.7502695],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_65e877645dbe5466f7127de7c891363a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_435d234cb61ab95e245f940af891e916 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e11af2d3ba46f70fef9ac6bcb40b3ef3 = $(`<div id="html_e11af2d3ba46f70fef9ac6bcb40b3ef3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 50 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Stadtwerke Neu-Isenburg<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11776574719" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_435d234cb61ab95e245f940af891e916.setContent(html_e11af2d3ba46f70fef9ac6bcb40b3ef3);
+            
+        
+
+        marker_a23690a450ef09c7f56997d3208be507.bindPopup(popup_435d234cb61ab95e245f940af891e916)
+        ;
+
+        
+    
+    
+                marker_a23690a450ef09c7f56997d3208be507.setIcon(icon_65e877645dbe5466f7127de7c891363a);
+            
+    
+            var marker_2fe3ee451ce4c4683c4bf53a1a0e19c9 = L.marker(
+                [49.9849015, 9.1325349],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_295f40aab49ad53fcbfc630938ec73c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15ba07fbb1a115264a2a5b06e74175e7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f64e37556734b7f2bfcc4fb2f078c900 = $(`<div id="html_f64e37556734b7f2bfcc4fb2f078c900" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 51 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> numbat<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11784738384" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_15ba07fbb1a115264a2a5b06e74175e7.setContent(html_f64e37556734b7f2bfcc4fb2f078c900);
+            
+        
+
+        marker_2fe3ee451ce4c4683c4bf53a1a0e19c9.bindPopup(popup_15ba07fbb1a115264a2a5b06e74175e7)
+        ;
+
+        
+    
+    
+                marker_2fe3ee451ce4c4683c4bf53a1a0e19c9.setIcon(icon_295f40aab49ad53fcbfc630938ec73c7);
+            
+    
+            var marker_082db2d9c7e82a43d1c4fc9fa0f67427 = L.marker(
+                [51.6252522, 7.400292],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_bd0efdc32943f5db20eabf3d556543ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87174746b8a266f9d6a9dc756849572d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6cc2b483b2b48d8ad04256b8330dcf0e = $(`<div id="html_6cc2b483b2b48d8ad04256b8330dcf0e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 52 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EDEKA<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; chademo: 2<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/11800001141" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_87174746b8a266f9d6a9dc756849572d.setContent(html_6cc2b483b2b48d8ad04256b8330dcf0e);
+            
+        
+
+        marker_082db2d9c7e82a43d1c4fc9fa0f67427.bindPopup(popup_87174746b8a266f9d6a9dc756849572d)
+        ;
+
+        
+    
+    
+                marker_082db2d9c7e82a43d1c4fc9fa0f67427.setIcon(icon_bd0efdc32943f5db20eabf3d556543ba);
+            
+    
+            var marker_1c921ed1c5ce4ebe096e325f6521cc2f = L.marker(
+                [48.3890661, 10.86458],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_4145e94912a580857f50c797b0eba0fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_864951f2580f36abcd9f7962a7001e38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd38fc6efdf0b141f6d48af36fdc91cf = $(`<div id="html_bd38fc6efdf0b141f6d48af36fdc91cf" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 53 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> BayWa<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 200 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12049986414" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_864951f2580f36abcd9f7962a7001e38.setContent(html_bd38fc6efdf0b141f6d48af36fdc91cf);
+            
+        
+
+        marker_1c921ed1c5ce4ebe096e325f6521cc2f.bindPopup(popup_864951f2580f36abcd9f7962a7001e38)
+        ;
+
+        
+    
+    
+                marker_1c921ed1c5ce4ebe096e325f6521cc2f.setIcon(icon_4145e94912a580857f50c797b0eba0fd);
+            
+    
+            var marker_5b222c02508624088d0f79a52aa7838f = L.marker(
+                [48.3891056, 10.8645923],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_4eeaafe9bec98b2c6dafd18d5321dca3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a845e584b2b1baaaef71aac5e78cb1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c9c5f8212d7ca0515b89a16977b7df47 = $(`<div id="html_c9c5f8212d7ca0515b89a16977b7df47" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 54 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> BayWa<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 200 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12049986415" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_1a845e584b2b1baaaef71aac5e78cb1b.setContent(html_c9c5f8212d7ca0515b89a16977b7df47);
+            
+        
+
+        marker_5b222c02508624088d0f79a52aa7838f.bindPopup(popup_1a845e584b2b1baaaef71aac5e78cb1b)
+        ;
+
+        
+    
+    
+                marker_5b222c02508624088d0f79a52aa7838f.setIcon(icon_4eeaafe9bec98b2c6dafd18d5321dca3);
+            
+    
+            var marker_7c82ed8df09adab167a79265f0d95896 = L.marker(
+                [48.3891451, 10.8646046],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_760bd9739b288efbcbf4c701d7dbb2dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3ed2af3221243b475b4bc160217b1f2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b428af7ac359423f19ec24f909125680 = $(`<div id="html_b428af7ac359423f19ec24f909125680" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 55 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> BayWa<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 200 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12049986416" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_f3ed2af3221243b475b4bc160217b1f2.setContent(html_b428af7ac359423f19ec24f909125680);
+            
+        
+
+        marker_7c82ed8df09adab167a79265f0d95896.bindPopup(popup_f3ed2af3221243b475b4bc160217b1f2)
+        ;
+
+        
+    
+    
+                marker_7c82ed8df09adab167a79265f0d95896.setIcon(icon_760bd9739b288efbcbf4c701d7dbb2dd);
+            
+    
+            var marker_c27770f21193233a282c34cba578267a = L.marker(
+                [48.3891846, 10.8646169],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_db88e3bcc174cf6f1ca7a188776cd229 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6db7e8d56a26581bd62cacbcc17aec2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78584256f90b3f09fd215429c4f60a2b = $(`<div id="html_78584256f90b3f09fd215429c4f60a2b" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 56 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> BayWa<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 200 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12049986417" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_c6db7e8d56a26581bd62cacbcc17aec2.setContent(html_78584256f90b3f09fd215429c4f60a2b);
+            
+        
+
+        marker_c27770f21193233a282c34cba578267a.bindPopup(popup_c6db7e8d56a26581bd62cacbcc17aec2)
+        ;
+
+        
+    
+    
+                marker_c27770f21193233a282c34cba578267a.setIcon(icon_db88e3bcc174cf6f1ca7a188776cd229);
+            
+    
+            var marker_ad00fa3f9858ee4935d2e1e69f01a8f9 = L.marker(
+                [52.3695969, 10.7346113],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_e5224656fe678d404a08fcd265f2ec13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1650acf60109f2791b2f9e9b4dcaf5f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e7f181f4ce56fc316ead03ca469bf1d = $(`<div id="html_7e7f181f4ce56fc316ead03ca469bf1d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>XXXLutz</h4>             <b>ID:</b> 57 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Pfalzwerke<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 12<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12138461901" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_1650acf60109f2791b2f9e9b4dcaf5f0.setContent(html_7e7f181f4ce56fc316ead03ca469bf1d);
+            
+        
+
+        marker_ad00fa3f9858ee4935d2e1e69f01a8f9.bindPopup(popup_1650acf60109f2791b2f9e9b4dcaf5f0)
+        ;
+
+        
+    
+    
+                marker_ad00fa3f9858ee4935d2e1e69f01a8f9.setIcon(icon_e5224656fe678d404a08fcd265f2ec13);
+            
+    
+            var marker_267a6f390550a6caf7c45680646b837e = L.marker(
+                [51.0063931, 9.4739003],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_190dd712c601a25f2ca1ab08e908c7ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c89f1227b7e6c10e2b0c0fae32802eac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5e6f1ed60001a67f2f554a7a4f5836f = $(`<div id="html_f5e6f1ed60001a67f2f554a7a4f5836f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 58 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Aral<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 4; type2_combo:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12149992442" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_c89f1227b7e6c10e2b0c0fae32802eac.setContent(html_f5e6f1ed60001a67f2f554a7a4f5836f);
+            
+        
+
+        marker_267a6f390550a6caf7c45680646b837e.bindPopup(popup_c89f1227b7e6c10e2b0c0fae32802eac)
+        ;
+
+        
+    
+    
+                marker_267a6f390550a6caf7c45680646b837e.setIcon(icon_190dd712c601a25f2ca1ab08e908c7ba);
+            
+    
+            var marker_cd0330f39c4c9c20886c07c8918d349d = L.marker(
+                [48.5058355, 8.8264149],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_056b038eefb29c9106a36a60a18cfe9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fb9495d18cb53e2379cf09150705ce6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d6f1b550bfc63b00c4cc0ec06e032aa = $(`<div id="html_9d6f1b550bfc63b00c4cc0ec06e032aa" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 59 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Aral pulse<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 4; type2_combo:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12150038902" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_8fb9495d18cb53e2379cf09150705ce6.setContent(html_9d6f1b550bfc63b00c4cc0ec06e032aa);
+            
+        
+
+        marker_cd0330f39c4c9c20886c07c8918d349d.bindPopup(popup_8fb9495d18cb53e2379cf09150705ce6)
+        ;
+
+        
+    
+    
+                marker_cd0330f39c4c9c20886c07c8918d349d.setIcon(icon_056b038eefb29c9106a36a60a18cfe9f);
+            
+    
+            var marker_2a0fb0f4d6d77e11645dca793c5b2762 = L.marker(
+                [48.4044299, 10.8797416],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_56cc44d5abd728fefbea981d775b2dd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_624e5ea9f083e7b8587d83b0bdc666d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66f1eadfdeac2de0e293ab22e1586e38 = $(`<div id="html_66f1eadfdeac2de0e293ab22e1586e38" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 60 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EON<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12153215557" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_624e5ea9f083e7b8587d83b0bdc666d1.setContent(html_66f1eadfdeac2de0e293ab22e1586e38);
+            
+        
+
+        marker_2a0fb0f4d6d77e11645dca793c5b2762.bindPopup(popup_624e5ea9f083e7b8587d83b0bdc666d1)
+        ;
+
+        
+    
+    
+                marker_2a0fb0f4d6d77e11645dca793c5b2762.setIcon(icon_56cc44d5abd728fefbea981d775b2dd9);
+            
+    
+            var marker_50409a14d4e579c77e2f1a8b8539ce6d = L.marker(
+                [48.404434, 10.8798473],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_b23192afbd6d23f14c12afa5abfc29cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36907676593bdd4ed7d98771ab977d0a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff4617ddab3536a420b71b883cad2a7f = $(`<div id="html_ff4617ddab3536a420b71b883cad2a7f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 61 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EON<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12153215558" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_36907676593bdd4ed7d98771ab977d0a.setContent(html_ff4617ddab3536a420b71b883cad2a7f);
+            
+        
+
+        marker_50409a14d4e579c77e2f1a8b8539ce6d.bindPopup(popup_36907676593bdd4ed7d98771ab977d0a)
+        ;
+
+        
+    
+    
+                marker_50409a14d4e579c77e2f1a8b8539ce6d.setIcon(icon_b23192afbd6d23f14c12afa5abfc29cd);
+            
+    
+            var marker_d5e222af8cfe660507e917e4f53f8039 = L.marker(
+                [48.4044382, 10.879953],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_74ce3e6294847e81123333acaf861c75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a87afb449721a5f523576bedf1215398 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fdfb49ab0792b6c8fbcc9d859baa7c8e = $(`<div id="html_fdfb49ab0792b6c8fbcc9d859baa7c8e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 62 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EON<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12153215559" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_a87afb449721a5f523576bedf1215398.setContent(html_fdfb49ab0792b6c8fbcc9d859baa7c8e);
+            
+        
+
+        marker_d5e222af8cfe660507e917e4f53f8039.bindPopup(popup_a87afb449721a5f523576bedf1215398)
+        ;
+
+        
+    
+    
+                marker_d5e222af8cfe660507e917e4f53f8039.setIcon(icon_74ce3e6294847e81123333acaf861c75);
+            
+    
+            var marker_bd6225c06f4e194bd8a336c0f5a5f902 = L.marker(
+                [48.4010398, 10.8809321],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_1e4f3aa2c287cc265447f94c26326de7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77f1bf38b0a41cf8d145b1586808e994 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54ea9bad32c665519b4ac0b99f314066 = $(`<div id="html_54ea9bad32c665519b4ac0b99f314066" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 63 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 100 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12154356998" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_77f1bf38b0a41cf8d145b1586808e994.setContent(html_54ea9bad32c665519b4ac0b99f314066);
+            
+        
+
+        marker_bd6225c06f4e194bd8a336c0f5a5f902.bindPopup(popup_77f1bf38b0a41cf8d145b1586808e994)
+        ;
+
+        
+    
+    
+                marker_bd6225c06f4e194bd8a336c0f5a5f902.setIcon(icon_1e4f3aa2c287cc265447f94c26326de7);
+            
+    
+            var marker_3bd10dc836ac2b29257a8f461f956266 = L.marker(
+                [47.8417423, 9.6600778],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_f913c7d7a5859c00862a35776dafbd0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9061ed7ff56c2b90da1f56e8e09da9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9ea953c398add74b030fcd5087680cc7 = $(`<div id="html_9ea953c398add74b030fcd5087680cc7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 64 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 22 kw<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12183628298" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_c9061ed7ff56c2b90da1f56e8e09da9d.setContent(html_9ea953c398add74b030fcd5087680cc7);
+            
+        
+
+        marker_3bd10dc836ac2b29257a8f461f956266.bindPopup(popup_c9061ed7ff56c2b90da1f56e8e09da9d)
+        ;
+
+        
+    
+    
+                marker_3bd10dc836ac2b29257a8f461f956266.setIcon(icon_f913c7d7a5859c00862a35776dafbd0f);
+            
+    
+            var marker_965e63ca8bbb3376ac0af95ecb7b506f = L.marker(
+                [52.7502543, 7.1637156],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_8c64065b0f45fe79b7dfab59dd8ffc8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6007224405614df5bb7e7a50f93971ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e89a00a0b7dab3cc2b600070325acf3 = $(`<div id="html_7e89a00a0b7dab3cc2b600070325acf3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 65 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12211262391" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_6007224405614df5bb7e7a50f93971ec.setContent(html_7e89a00a0b7dab3cc2b600070325acf3);
+            
+        
+
+        marker_965e63ca8bbb3376ac0af95ecb7b506f.bindPopup(popup_6007224405614df5bb7e7a50f93971ec)
+        ;
+
+        
+    
+    
+                marker_965e63ca8bbb3376ac0af95ecb7b506f.setIcon(icon_8c64065b0f45fe79b7dfab59dd8ffc8e);
+            
+    
+            var marker_bc7c61289c98b54726adabd49cdb1389 = L.marker(
+                [49.3170395, 11.3390212],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_fb81a8f03a6072fd32f1640c3a51f8c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1de2b7fa13b6195b78eae615a1869626 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97cccb09349e0049b554e50b5a626fca = $(`<div id="html_97cccb09349e0049b554e50b5a626fca" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 66 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> N-Ergie AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 150 kW; type2_combo:voltage: 1000<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/12278609218" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_1de2b7fa13b6195b78eae615a1869626.setContent(html_97cccb09349e0049b554e50b5a626fca);
+            
+        
+
+        marker_bc7c61289c98b54726adabd49cdb1389.bindPopup(popup_1de2b7fa13b6195b78eae615a1869626)
+        ;
+
+        
+    
+    
+                marker_bc7c61289c98b54726adabd49cdb1389.setIcon(icon_fb81a8f03a6072fd32f1640c3a51f8c8);
+            
+    
+            var marker_19e3de3e0d182cf955606fd929af54ec = L.marker(
+                [48.404689, 10.8790796],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_d3eceb1d0fb73d7670d72e9e88a942a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94dcd15ea13b1a0350e93aab8b0b5635 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_630da7bd5fb0f7cc734feeddd1764d9d = $(`<div id="html_630da7bd5fb0f7cc734feeddd1764d9d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 67 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 300 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12305995582" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_94dcd15ea13b1a0350e93aab8b0b5635.setContent(html_630da7bd5fb0f7cc734feeddd1764d9d);
+            
+        
+
+        marker_19e3de3e0d182cf955606fd929af54ec.bindPopup(popup_94dcd15ea13b1a0350e93aab8b0b5635)
+        ;
+
+        
+    
+    
+                marker_19e3de3e0d182cf955606fd929af54ec.setIcon(icon_d3eceb1d0fb73d7670d72e9e88a942a3);
+            
+    
+            var marker_3394b7427242c39dff15f2c50f7dce5b = L.marker(
+                [48.4047316, 10.8790751],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_d5321523c63813bcea1043b9bbd12629 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b769dceed167b33255276c8174192df8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e89fb800c4eca7bc9ae7577840d60cb = $(`<div id="html_3e89fb800c4eca7bc9ae7577840d60cb" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 68 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12305995583" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_b769dceed167b33255276c8174192df8.setContent(html_3e89fb800c4eca7bc9ae7577840d60cb);
+            
+        
+
+        marker_3394b7427242c39dff15f2c50f7dce5b.bindPopup(popup_b769dceed167b33255276c8174192df8)
+        ;
+
+        
+    
+    
+                marker_3394b7427242c39dff15f2c50f7dce5b.setIcon(icon_d5321523c63813bcea1043b9bbd12629);
+            
+    
+            var marker_63cb8ed19de6679096e22083046388ee = L.marker(
+                [48.3466463, 11.3819363],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_e2f7e7c77f414465233ca599f26f5973 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_feb94bce33a156cfca2ba4d1c4f80609 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c47c77e856ea3e0fe2dc54c265c7514c = $(`<div id="html_c47c77e856ea3e0fe2dc54c265c7514c" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 69 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12335131466" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_feb94bce33a156cfca2ba4d1c4f80609.setContent(html_c47c77e856ea3e0fe2dc54c265c7514c);
+            
+        
+
+        marker_63cb8ed19de6679096e22083046388ee.bindPopup(popup_feb94bce33a156cfca2ba4d1c4f80609)
+        ;
+
+        
+    
+    
+                marker_63cb8ed19de6679096e22083046388ee.setIcon(icon_e2f7e7c77f414465233ca599f26f5973);
+            
+    
+            var marker_8a65bd2c9535d9d8841fac1bae0441b2 = L.marker(
+                [52.3200859, 13.5946632],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_9b0d3410afb315665dabd2e4d92d27f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_729fec1f962c111d4e872ac8c96c4ec2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_29f719471a1ae56dc9b5633057b7dbb2 = $(`<div id="html_29f719471a1ae56dc9b5633057b7dbb2" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 70 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> E.ON<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_cable:output: 400 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12393488578" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_729fec1f962c111d4e872ac8c96c4ec2.setContent(html_29f719471a1ae56dc9b5633057b7dbb2);
+            
+        
+
+        marker_8a65bd2c9535d9d8841fac1bae0441b2.bindPopup(popup_729fec1f962c111d4e872ac8c96c4ec2)
+        ;
+
+        
+    
+    
+                marker_8a65bd2c9535d9d8841fac1bae0441b2.setIcon(icon_9b0d3410afb315665dabd2e4d92d27f7);
+            
+    
+            var marker_9ab878c74d5805200326001736429a93 = L.marker(
+                [52.3200271, 13.5946181],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_2e6d7fdcb3167e0543bde7c140ca2025 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6e803b75ced9b99217f93219f7fc894 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bca97e6aa45339fdc6c861dbe4e2ca72 = $(`<div id="html_bca97e6aa45339fdc6c861dbe4e2ca72" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 71 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> E.ON<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_cable:output: 400 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12393839317" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_e6e803b75ced9b99217f93219f7fc894.setContent(html_bca97e6aa45339fdc6c861dbe4e2ca72);
+            
+        
+
+        marker_9ab878c74d5805200326001736429a93.bindPopup(popup_e6e803b75ced9b99217f93219f7fc894)
+        ;
+
+        
+    
+    
+                marker_9ab878c74d5805200326001736429a93.setIcon(icon_2e6d7fdcb3167e0543bde7c140ca2025);
+            
+    
+            var marker_6fc92bd1b59d630c7b206ac566c2b889 = L.marker(
+                [50.8946703, 11.9818889],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_b44b45cb47a127e7c30b62d0284cce82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c51dcf2ef4153a146487184a07fcfe28 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f0aeb91e1b045ee284525a59aa7d4a3 = $(`<div id="html_1f0aeb91e1b045ee284525a59aa7d4a3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Milence charging hub Hermsdorfer Kreuz</h4>             <b>ID:</b> 72 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Commercial Vehicle Charging Europe B.V.<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 4; type2_combo:output: 400 kW<br>             <b>Address:</b> Am Rüdersdorfer Wege, Kraftsdorf, 7586.0<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12405354685" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_c51dcf2ef4153a146487184a07fcfe28.setContent(html_1f0aeb91e1b045ee284525a59aa7d4a3);
+            
+        
+
+        marker_6fc92bd1b59d630c7b206ac566c2b889.bindPopup(popup_c51dcf2ef4153a146487184a07fcfe28)
+        ;
+
+        
+    
+    
+                marker_6fc92bd1b59d630c7b206ac566c2b889.setIcon(icon_b44b45cb47a127e7c30b62d0284cce82);
+            
+    
+            var marker_bfb3412c70ff5b58774b8fbc85626e85 = L.marker(
+                [51.84871, 12.3432202],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_754ada5f163867954b0ddb20bb6a3c6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d30cef90fbb3617d5e6e1de635a64bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e0462f4f848ec048cc66baba7a3ab40d = $(`<div id="html_e0462f4f848ec048cc66baba7a3ab40d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>Milence charging hub Vockerode</h4>             <b>ID:</b> 73 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Commercial Vehicle Charging Europe B.V.<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 400 kW<br>             <b>Address:</b> An der A9, Oranienbaum-Wörlitz, 6785.0<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12415399669" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_1d30cef90fbb3617d5e6e1de635a64bc.setContent(html_e0462f4f848ec048cc66baba7a3ab40d);
+            
+        
+
+        marker_bfb3412c70ff5b58774b8fbc85626e85.bindPopup(popup_1d30cef90fbb3617d5e6e1de635a64bc)
+        ;
+
+        
+    
+    
+                marker_bfb3412c70ff5b58774b8fbc85626e85.setIcon(icon_754ada5f163867954b0ddb20bb6a3c6f);
+            
+    
+            var marker_52406d837c4e12737d6823d4fbbbbab6 = L.marker(
+                [51.3615798, 8.2849325],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_2dc4e682415b02f5951be5e685fa1a5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01f3a1d77c34c8a53edd60cb90080f3b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe55c69d5f51bec0c948b3ef83b90808 = $(`<div id="html_fe55c69d5f51bec0c948b3ef83b90808" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 74 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12419937683" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_01f3a1d77c34c8a53edd60cb90080f3b.setContent(html_fe55c69d5f51bec0c948b3ef83b90808);
+            
+        
+
+        marker_52406d837c4e12737d6823d4fbbbbab6.bindPopup(popup_01f3a1d77c34c8a53edd60cb90080f3b)
+        ;
+
+        
+    
+    
+                marker_52406d837c4e12737d6823d4fbbbbab6.setIcon(icon_2dc4e682415b02f5951be5e685fa1a5b);
+            
+    
+            var marker_ed9efa15259077c55cffd1390c9cfd98 = L.marker(
+                [51.3616104, 8.2849316],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_d0e72ee6398007fd7227ea55e0ad75da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea02ef272ab9560720571e9eabf4648c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5f861f9d93273f8fecbfdce3f405d63 = $(`<div id="html_e5f861f9d93273f8fecbfdce3f405d63" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 75 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12419937684" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_ea02ef272ab9560720571e9eabf4648c.setContent(html_e5f861f9d93273f8fecbfdce3f405d63);
+            
+        
+
+        marker_ed9efa15259077c55cffd1390c9cfd98.bindPopup(popup_ea02ef272ab9560720571e9eabf4648c)
+        ;
+
+        
+    
+    
+                marker_ed9efa15259077c55cffd1390c9cfd98.setIcon(icon_d0e72ee6398007fd7227ea55e0ad75da);
+            
+    
+            var marker_23f6b80523664ccbda41bfc451e96255 = L.marker(
+                [53.1546085, 8.2104836],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_16879f2f6b998fa132f6e47eff1154d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2df7ff4a9a5e6fbecb0c280eff6dfbef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ee2a943ba474cc98819c44be79956718 = $(`<div id="html_ee2a943ba474cc98819c44be79956718" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 76 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> REA eCharge<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12546231497" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_2df7ff4a9a5e6fbecb0c280eff6dfbef.setContent(html_ee2a943ba474cc98819c44be79956718);
+            
+        
+
+        marker_23f6b80523664ccbda41bfc451e96255.bindPopup(popup_2df7ff4a9a5e6fbecb0c280eff6dfbef)
+        ;
+
+        
+    
+    
+                marker_23f6b80523664ccbda41bfc451e96255.setIcon(icon_16879f2f6b998fa132f6e47eff1154d7);
+            
+    
+            var marker_550ef6b3829aed808d212928efd6a105 = L.marker(
+                [53.5798839, 9.9354328],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_82a22a264acffdbd6f4941bbd56a27b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a1ba433c533185c7a87c9aedfbac0b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5053222b1d243a5bf272578d0c3387ee = $(`<div id="html_5053222b1d243a5bf272578d0c3387ee" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 77 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> EnBW Energie Baden-Württemberg AG<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12610062280" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_8a1ba433c533185c7a87c9aedfbac0b4.setContent(html_5053222b1d243a5bf272578d0c3387ee);
+            
+        
+
+        marker_550ef6b3829aed808d212928efd6a105.bindPopup(popup_8a1ba433c533185c7a87c9aedfbac0b4)
+        ;
+
+        
+    
+    
+                marker_550ef6b3829aed808d212928efd6a105.setIcon(icon_82a22a264acffdbd6f4941bbd56a27b0);
+            
+    
+            var marker_0b2bfce731c197f7bad412546f450ac9 = L.marker(
+                [50.8671413, 12.8569801],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_eb734123263b9de4cb7f39b31efc1572 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8dd0e74325faf417b27df7dad316d225 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f1f0bc3e7375d8c62754ecccebec7de = $(`<div id="html_4f1f0bc3e7375d8c62754ecccebec7de" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 78 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> MOON POWER GmbH<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> ccs: 2; ccs:output: 50 kW; type2: 1; type2:output: 11 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12612214191" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_8dd0e74325faf417b27df7dad316d225.setContent(html_4f1f0bc3e7375d8c62754ecccebec7de);
+            
+        
+
+        marker_0b2bfce731c197f7bad412546f450ac9.bindPopup(popup_8dd0e74325faf417b27df7dad316d225)
+        ;
+
+        
+    
+    
+                marker_0b2bfce731c197f7bad412546f450ac9.setIcon(icon_eb734123263b9de4cb7f39b31efc1572);
+            
+    
+            var marker_5fd42514da4c74147323fb2998c35c90 = L.marker(
+                [54.083148, 12.192081],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_02f1bf3eca9e790890f2915e4932d692 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82195520d60969840d5adc304846f349 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_811c388502f5c0cff9705e1f924a629b = $(`<div id="html_811c388502f5c0cff9705e1f924a629b" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 79 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Ionity<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/12612804956" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_82195520d60969840d5adc304846f349.setContent(html_811c388502f5c0cff9705e1f924a629b);
+            
+        
+
+        marker_5fd42514da4c74147323fb2998c35c90.bindPopup(popup_82195520d60969840d5adc304846f349)
+        ;
+
+        
+    
+    
+                marker_5fd42514da4c74147323fb2998c35c90.setIcon(icon_02f1bf3eca9e790890f2915e4932d692);
+            
+    
+            var marker_e64412ae3c93cc3f842800706d61d7e6 = L.marker(
+                [51.5568902, 8.1441375],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_7890b807d46c94d8ad66f21eba7186ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4990d0cdfd2b0188b973f75cad940fa9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05cb7a2828f5c24d4dc0c3cf66b804f0 = $(`<div id="html_05cb7a2828f5c24d4dc0c3cf66b804f0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 80 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> APS<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2: 4; type2:output: 400 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12655715084" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_4990d0cdfd2b0188b973f75cad940fa9.setContent(html_05cb7a2828f5c24d4dc0c3cf66b804f0);
+            
+        
+
+        marker_e64412ae3c93cc3f842800706d61d7e6.bindPopup(popup_4990d0cdfd2b0188b973f75cad940fa9)
+        ;
+
+        
+    
+    
+                marker_e64412ae3c93cc3f842800706d61d7e6.setIcon(icon_7890b807d46c94d8ad66f21eba7186ea);
+            
+    
+            var marker_07bb27218dc0aa0380f5a303c2c2e4d6 = L.marker(
+                [49.5512494, 8.3529843],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_f93dd7df1976a851608b21853bc73ceb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3d682111af16dfce092df470145a809 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8625ad2b2092c33614872fa312cd5382 = $(`<div id="html_8625ad2b2092c33614872fa312cd5382" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 81 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Pfalzwerke<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 150 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12696591767" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_b3d682111af16dfce092df470145a809.setContent(html_8625ad2b2092c33614872fa312cd5382);
+            
+        
+
+        marker_07bb27218dc0aa0380f5a303c2c2e4d6.bindPopup(popup_b3d682111af16dfce092df470145a809)
+        ;
+
+        
+    
+    
+                marker_07bb27218dc0aa0380f5a303c2c2e4d6.setIcon(icon_f93dd7df1976a851608b21853bc73ceb);
+            
+    
+            var marker_2de124b2ebefff1a8c1ce5fbc7d9b43c = L.marker(
+                [49.550452, 8.3530727],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_5318f971fc7630f986c1c111262c8e37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74c47d9a48416cfc0836a3adf08c9e10 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82a9e2e5a5cb8d57e017d9313553d2b7 = $(`<div id="html_82a9e2e5a5cb8d57e017d9313553d2b7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 82 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> Shell Recharge Solutions<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> type2_combo: 2; type2_combo:output: 360 kW<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> 24/7<br>             <a href="https://www.openstreetmap.org/node/12696591768" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_74c47d9a48416cfc0836a3adf08c9e10.setContent(html_82a9e2e5a5cb8d57e017d9313553d2b7);
+            
+        
+
+        marker_2de124b2ebefff1a8c1ce5fbc7d9b43c.bindPopup(popup_74c47d9a48416cfc0836a3adf08c9e10)
+        ;
+
+        
+    
+    
+                marker_2de124b2ebefff1a8c1ce5fbc7d9b43c.setIcon(icon_5318f971fc7630f986c1c111262c8e37);
+            
+    
+            var marker_6f6d5ef51e4c61a6e20c5d8b03772546 = L.marker(
+                [49.5045732, 6.76019],
+                {
+}
+            ).addTo(marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20);
+        
+    
+            var icon_6e9267ec0b16faf9d2e0b223d1983e3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plug",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcf0f9ea76512bc8c06ca9f33596f03b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb61f3e308217c9d1b5321585841993e = $(`<div id="html_bb61f3e308217c9d1b5321585841993e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 250px;">             <h4>E-HDT Charging Station</h4>             <b>ID:</b> 83 (use for route planning)<br>             <b>Type:</b> private<br>             <b>Operator:</b> nan<br>             <b>Power:</b> nan kW<br>             <b>Voltage:</b> nan V<br>             <b>Socket Types:</b> nan<br>             <b>Address:</b> nan, nan, nan<br>             <b>Opening Hours:</b> nan<br>             <a href="https://www.openstreetmap.org/node/12707250094" target="_blank">View on OpenStreetMap</a>         </div>         </div>`)[0];
+                popup_dcf0f9ea76512bc8c06ca9f33596f03b.setContent(html_bb61f3e308217c9d1b5321585841993e);
+            
+        
+
+        marker_6f6d5ef51e4c61a6e20c5d8b03772546.bindPopup(popup_dcf0f9ea76512bc8c06ca9f33596f03b)
+        ;
+
+        
+    
+    
+                marker_6f6d5ef51e4c61a6e20c5d8b03772546.setIcon(icon_6e9267ec0b16faf9d2e0b223d1983e3e);
+            
+    
+            marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            var marker_cluster_36d7a90fd3d1eef3ccff7ab122eb7ae6 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            marker_cluster_36d7a90fd3d1eef3ccff7ab122eb7ae6.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            var layer_control_ec23685a6be4ad783bfe8e73447e7988_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_d999b5e2f647426289b979dc6bbbb7cb,
+                },
+                overlays :  {
+                    "Public Chargers" : marker_cluster_8ea8778b4ab50aef43e944de95024e10,
+                    "Private Chargers" : marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20,
+                    "Restricted Chargers" : marker_cluster_36d7a90fd3d1eef3ccff7ab122eb7ae6,
+                    "Optimal Route" : feature_group_1e0e49697cade93cfb75fe102ab070e9,
+                },
+            };
+            let layer_control_ec23685a6be4ad783bfe8e73447e7988 = L.control.layers(
+                layer_control_ec23685a6be4ad783bfe8e73447e7988_layers.base_layers,
+                layer_control_ec23685a6be4ad783bfe8e73447e7988_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_67975878d72bdf2211aceb01a387bd5d);
+
+        
+    
+            var feature_group_1e0e49697cade93cfb75fe102ab070e9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_7aa24e3ee62d5aa5b0967380b6db4b37 = L.polyline(
+                [[48.3890661, 10.86458], [49.5045732, 6.76019]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_1e0e49697cade93cfb75fe102ab070e9);
+        
+    
+            poly_line_7aa24e3ee62d5aa5b0967380b6db4b37.bindTooltip(
+                `<div>
+                     Optimal Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            ant_path_9fdaa6f3d86b0dd60a67b18933ab67d7 = L.polyline.antPath(
+              [[48.3890661, 10.86458], [49.5045732, 6.76019]],
+              {
+  "stroke": true,
+  "color": "red",
+  "weight": 5,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 800,
+  "pulseColor": "#ff6666",
+}
+        ).addTo(feature_group_1e0e49697cade93cfb75fe102ab070e9);
+        
+    
+            var marker_ec027685bab0b8bd0b858c65d4bb4838 = L.marker(
+                [48.3890661, 10.86458],
+                {
+}
+            ).addTo(feature_group_1e0e49697cade93cfb75fe102ab070e9);
+        
+    
+            var div_icon_3cabefb2dbfc7e5be226f9a3974a0132 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; background-color: rgba(255, 255, 255, 0.8); border-radius: 10px; padding: 2px 5px; font-weight: bold; color: red;\"\u003eStop 1\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [15, 35],
+  "className": "empty",
+});
+            marker_ec027685bab0b8bd0b858c65d4bb4838.setIcon(div_icon_3cabefb2dbfc7e5be226f9a3974a0132);
+        
+    
+        var popup_c200ef91aee1882ebb4e42fb5e36b01c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b254e532863b5885911735dd9a5cdf2 = $(`<div id="html_2b254e532863b5885911735dd9a5cdf2" style="width: 100.0%; height: 100.0%;">Stop 1: E-HDT Charging Station</div>`)[0];
+                popup_c200ef91aee1882ebb4e42fb5e36b01c.setContent(html_2b254e532863b5885911735dd9a5cdf2);
+            
+        
+
+        marker_ec027685bab0b8bd0b858c65d4bb4838.bindPopup(popup_c200ef91aee1882ebb4e42fb5e36b01c)
+        ;
+
+        
+    
+    
+                marker_ec027685bab0b8bd0b858c65d4bb4838.setIcon(div_icon_3cabefb2dbfc7e5be226f9a3974a0132);
+            
+    
+            var marker_11335489fd189b432dca7b651775ecfe = L.marker(
+                [49.5045732, 6.76019],
+                {
+}
+            ).addTo(feature_group_1e0e49697cade93cfb75fe102ab070e9);
+        
+    
+            var div_icon_7160a6f64d3444fff5bcf2c64576da10 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; background-color: rgba(255, 255, 255, 0.8); border-radius: 10px; padding: 2px 5px; font-weight: bold; color: red;\"\u003eStop 2\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [15, 35],
+  "className": "empty",
+});
+            marker_11335489fd189b432dca7b651775ecfe.setIcon(div_icon_7160a6f64d3444fff5bcf2c64576da10);
+        
+    
+        var popup_1d9ac1fdc28faf76a8464c84c5bc9372 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98cf0da226d7d2c84454aedec70a12b7 = $(`<div id="html_98cf0da226d7d2c84454aedec70a12b7" style="width: 100.0%; height: 100.0%;">Stop 2: E-HDT Charging Station</div>`)[0];
+                popup_1d9ac1fdc28faf76a8464c84c5bc9372.setContent(html_98cf0da226d7d2c84454aedec70a12b7);
+            
+        
+
+        marker_11335489fd189b432dca7b651775ecfe.bindPopup(popup_1d9ac1fdc28faf76a8464c84c5bc9372)
+        ;
+
+        
+    
+    
+                marker_11335489fd189b432dca7b651775ecfe.setIcon(div_icon_7160a6f64d3444fff5bcf2c64576da10);
+            
+    
+            feature_group_1e0e49697cade93cfb75fe102ab070e9.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            tile_layer_d999b5e2f647426289b979dc6bbbb7cb.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            marker_cluster_8ea8778b4ab50aef43e944de95024e10.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+                marker_6c2906777731effc94b093cc09233b56.setIcon(icon_ca717d5d585ea3ea3e1c2fb0c6bfd985);
+            
+    
+                marker_c5bb7db2f3771122438ed68e167badf9.setIcon(icon_97fcbff0704902716b83c0a572c85ac2);
+            
+    
+                marker_2d8ea23582f41de0ba6e63e80f25c35c.setIcon(icon_fcc790da83a6df26a1aeb489ca53b83c);
+            
+    
+                marker_0ac2b4541cf8bf319313172fd13b0d3e.setIcon(icon_c9b2a759ed58763ef50c5c1301097384);
+            
+    
+                marker_670585db67bbea40dfdafad36bb97c1e.setIcon(icon_bb9e01a20478154ba718690c2db07de7);
+            
+    
+                marker_cf6073fa24e4dbc62d1f463e17b130c0.setIcon(icon_6a03e1687d8bc4d025da4ebc089e94b2);
+            
+    
+                marker_a53d104b19d4e0ac606db64aa2187ab5.setIcon(icon_630c07f4cee2a1206681550e2519b600);
+            
+    
+                marker_905c64037efd718726de36941df53fb2.setIcon(icon_3e6948040c2f44ecacc53897aaba1ffc);
+            
+    
+                marker_781b883d6432f77723783a81b35051bd.setIcon(icon_cd2a03c25569a91ef76970212ebd5816);
+            
+    
+                marker_aeec3da998e5e6cc3056817df9c1209c.setIcon(icon_49a6a342d2290a70485a44a15a4b2fd6);
+            
+    
+                marker_3397b07491ba098c88b9ad4a288483b6.setIcon(icon_e8ad42b5593d7fa1f4add4896168011e);
+            
+    
+                marker_8dc94f834c45283d7fdfd6106fc35963.setIcon(icon_2b36373f5fc1b5c9e2c69afa417d3e34);
+            
+    
+                marker_e42af4b621e103f189e8dbb27a0f7fbe.setIcon(icon_d7219832304cf601a1dbbb34a52b26ec);
+            
+    
+                marker_ac71e8d5816359255597727b0e1cbdf5.setIcon(icon_fddd080de00267713fcfb3200b5bdec8);
+            
+    
+                marker_fb24ba9d5198e21a2603d117807de213.setIcon(icon_4e86710b341bf0c6a9391262e56a322a);
+            
+    
+                marker_69daee5a388870bc2e49dfb7644275fa.setIcon(icon_247fb6ba04e4f3284e87b73187743ccf);
+            
+    
+                marker_f6dae0fb145dde58db137c4f28d3dc20.setIcon(icon_24ce52012d3ac25f7c404942283cfd62);
+            
+    
+                marker_09b41be5f667c7c980737da99457cc38.setIcon(icon_9fa29874e0594fef00d749a301319d4c);
+            
+    
+                marker_2ffe2dd7b8fce1f2f2b1b50ee4c1eded.setIcon(icon_5e2b02a6df169c136ab349d3fb7039a7);
+            
+    
+                marker_86f2bb625e4dce4619e1a2683cfbaf2d.setIcon(icon_18c8d4e8db1908affe0b4ea3e69fa83c);
+            
+    
+                marker_5a665eab56ca7d8ed5194889a68aa20c.setIcon(icon_f86645585b26833224174a14725e5bc1);
+            
+    
+                marker_996b77244f0b706ca258660180f4ab78.setIcon(icon_8e5bb0ec65c85c0259422df22a4ff305);
+            
+    
+                marker_8d282f501c0069f40738149f2d011ed4.setIcon(icon_4641c9d29ca4ec280a637237681c7621);
+            
+    
+                marker_70ac2eca5904d3fc6dc287b6df8df5d7.setIcon(icon_f507d07cae1a24f84be445764de5cc1a);
+            
+    
+                marker_0cb132d33196a9208a6d32f4a5e39775.setIcon(icon_73e4779d912523976f066275bcd22bff);
+            
+    
+                marker_c8162807e49d532246a7ff967e5fe3a5.setIcon(icon_47a7bcc7fc10896f0ee64b8f07853855);
+            
+    
+                marker_533a29202205681a9d4f3767b60b9c90.setIcon(icon_33099bf26d558470a1e2ee7472e4636c);
+            
+    
+                marker_1e1e92ab4089468d43c2dd7466cc72f7.setIcon(icon_558228cb3af83b81f155c71de79687a5);
+            
+    
+                marker_ef8e95f0e7448f0d6aadd914dcc74c16.setIcon(icon_731192534bf12f554a431c895fa25331);
+            
+    
+                marker_1204274f21a3b298d0e022ca59f9be31.setIcon(icon_022b066b4f40860e39755b4bfde69d91);
+            
+    
+                marker_823f2fa1d29e3bfe4bfdc6b38599e371.setIcon(icon_21466f1f282acfb09763972b7ad70e0a);
+            
+    
+                marker_253cee2b994dec392e51696b7a0f1ab2.setIcon(icon_7f697824a4945704b5c44ffb3eb82819);
+            
+    
+                marker_8d71892d38c88a0eb09a73f0ea0aae11.setIcon(icon_e1f90cd05a7dbfe5e760b75981c5f6eb);
+            
+    
+                marker_9ac55c155e39012a4fae9e920d80c76b.setIcon(icon_0210e1d1b25a218bd8813a644fe9bc45);
+            
+    
+                marker_5ad2ddf0c5827abebd70c0a0f772e81f.setIcon(icon_9247929b01a9542d210f9d24dd335f9a);
+            
+    
+                marker_bf41611fcb9afe18d41862be81fc4772.setIcon(icon_227295c8108a5301297d5ed3e8cae2c1);
+            
+    
+                marker_28c28a8db5e73d905f8964d8c2d7461d.setIcon(icon_def40a446c06cee5be3d4a51d9df24d5);
+            
+    
+                marker_367266688f76b5f707c2dcfc15c20bf3.setIcon(icon_3615becec52fe221497405c59786ee9c);
+            
+    
+                marker_7c828b9e26a9850b9e33d7b61b847491.setIcon(icon_8f1fc371552bd4daec668d05d6a20ef7);
+            
+    
+                marker_0bc327f35d55b61d9f03e5fc15d1b6be.setIcon(icon_b45accb13df4d67a14c08e41c6268452);
+            
+    
+                marker_92ad8a538444c63a374dd1152c83d445.setIcon(icon_52e8b42b394b24b996f43dddad23dc9a);
+            
+    
+                marker_21a136419a48d74127edd5f908e339c0.setIcon(icon_efbfc435f70c9bbd4a731042402122b5);
+            
+    
+                marker_1eaa220672edd60746a197826bd5b607.setIcon(icon_6817bc1385484ad341ec9edded518875);
+            
+    
+                marker_39cd5b5be65c42df748dd6fbd8cdbc93.setIcon(icon_bff02817ed8c0a8afc47c45a6793296c);
+            
+    
+                marker_024efadf5efba75adebfa7d9269909f4.setIcon(icon_0e8de71e5e80b0bd7c7f3cd18b9919f2);
+            
+    
+                marker_93d0f15a4e512b183df5449f66b5095e.setIcon(icon_6b5ea18b9ecf459db922486f90c8d0fa);
+            
+    
+                marker_6aad88114e7f089b4560c7612f874dcd.setIcon(icon_bf5c4b3e52f9d28eac2ca7cae8817c86);
+            
+    
+                marker_1ae591470df641498647184385df1772.setIcon(icon_6f9e2e0fc61c7502288d350d1025d41c);
+            
+    
+                marker_1b0ccbb859372050fe0020c1b6f05a70.setIcon(icon_3695b446a71ad1a1cb04c592eb3ec692);
+            
+    
+                marker_e539d4e41d0df709a916e4ccfa178635.setIcon(icon_bfd485c882ea6950ea2309e8030a824e);
+            
+    
+                marker_a23690a450ef09c7f56997d3208be507.setIcon(icon_65e877645dbe5466f7127de7c891363a);
+            
+    
+                marker_2fe3ee451ce4c4683c4bf53a1a0e19c9.setIcon(icon_295f40aab49ad53fcbfc630938ec73c7);
+            
+    
+                marker_082db2d9c7e82a43d1c4fc9fa0f67427.setIcon(icon_bd0efdc32943f5db20eabf3d556543ba);
+            
+    
+                marker_1c921ed1c5ce4ebe096e325f6521cc2f.setIcon(icon_4145e94912a580857f50c797b0eba0fd);
+            
+    
+                marker_5b222c02508624088d0f79a52aa7838f.setIcon(icon_4eeaafe9bec98b2c6dafd18d5321dca3);
+            
+    
+                marker_7c82ed8df09adab167a79265f0d95896.setIcon(icon_760bd9739b288efbcbf4c701d7dbb2dd);
+            
+    
+                marker_c27770f21193233a282c34cba578267a.setIcon(icon_db88e3bcc174cf6f1ca7a188776cd229);
+            
+    
+                marker_ad00fa3f9858ee4935d2e1e69f01a8f9.setIcon(icon_e5224656fe678d404a08fcd265f2ec13);
+            
+    
+                marker_267a6f390550a6caf7c45680646b837e.setIcon(icon_190dd712c601a25f2ca1ab08e908c7ba);
+            
+    
+                marker_cd0330f39c4c9c20886c07c8918d349d.setIcon(icon_056b038eefb29c9106a36a60a18cfe9f);
+            
+    
+                marker_2a0fb0f4d6d77e11645dca793c5b2762.setIcon(icon_56cc44d5abd728fefbea981d775b2dd9);
+            
+    
+                marker_50409a14d4e579c77e2f1a8b8539ce6d.setIcon(icon_b23192afbd6d23f14c12afa5abfc29cd);
+            
+    
+                marker_d5e222af8cfe660507e917e4f53f8039.setIcon(icon_74ce3e6294847e81123333acaf861c75);
+            
+    
+                marker_bd6225c06f4e194bd8a336c0f5a5f902.setIcon(icon_1e4f3aa2c287cc265447f94c26326de7);
+            
+    
+                marker_3bd10dc836ac2b29257a8f461f956266.setIcon(icon_f913c7d7a5859c00862a35776dafbd0f);
+            
+    
+                marker_965e63ca8bbb3376ac0af95ecb7b506f.setIcon(icon_8c64065b0f45fe79b7dfab59dd8ffc8e);
+            
+    
+                marker_bc7c61289c98b54726adabd49cdb1389.setIcon(icon_fb81a8f03a6072fd32f1640c3a51f8c8);
+            
+    
+                marker_19e3de3e0d182cf955606fd929af54ec.setIcon(icon_d3eceb1d0fb73d7670d72e9e88a942a3);
+            
+    
+                marker_3394b7427242c39dff15f2c50f7dce5b.setIcon(icon_d5321523c63813bcea1043b9bbd12629);
+            
+    
+                marker_63cb8ed19de6679096e22083046388ee.setIcon(icon_e2f7e7c77f414465233ca599f26f5973);
+            
+    
+                marker_8a65bd2c9535d9d8841fac1bae0441b2.setIcon(icon_9b0d3410afb315665dabd2e4d92d27f7);
+            
+    
+                marker_9ab878c74d5805200326001736429a93.setIcon(icon_2e6d7fdcb3167e0543bde7c140ca2025);
+            
+    
+                marker_6fc92bd1b59d630c7b206ac566c2b889.setIcon(icon_b44b45cb47a127e7c30b62d0284cce82);
+            
+    
+                marker_bfb3412c70ff5b58774b8fbc85626e85.setIcon(icon_754ada5f163867954b0ddb20bb6a3c6f);
+            
+    
+                marker_52406d837c4e12737d6823d4fbbbbab6.setIcon(icon_2dc4e682415b02f5951be5e685fa1a5b);
+            
+    
+                marker_ed9efa15259077c55cffd1390c9cfd98.setIcon(icon_d0e72ee6398007fd7227ea55e0ad75da);
+            
+    
+                marker_23f6b80523664ccbda41bfc451e96255.setIcon(icon_16879f2f6b998fa132f6e47eff1154d7);
+            
+    
+                marker_550ef6b3829aed808d212928efd6a105.setIcon(icon_82a22a264acffdbd6f4941bbd56a27b0);
+            
+    
+                marker_0b2bfce731c197f7bad412546f450ac9.setIcon(icon_eb734123263b9de4cb7f39b31efc1572);
+            
+    
+                marker_5fd42514da4c74147323fb2998c35c90.setIcon(icon_02f1bf3eca9e790890f2915e4932d692);
+            
+    
+                marker_e64412ae3c93cc3f842800706d61d7e6.setIcon(icon_7890b807d46c94d8ad66f21eba7186ea);
+            
+    
+                marker_07bb27218dc0aa0380f5a303c2c2e4d6.setIcon(icon_f93dd7df1976a851608b21853bc73ceb);
+            
+    
+                marker_2de124b2ebefff1a8c1ce5fbc7d9b43c.setIcon(icon_5318f971fc7630f986c1c111262c8e37);
+            
+    
+                marker_6f6d5ef51e4c61a6e20c5d8b03772546.setIcon(icon_6e9267ec0b16faf9d2e0b223d1983e3e);
+            
+    
+            marker_cluster_ef02c41bbe3e3fbbde6c60fc5bb0eb20.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+            marker_cluster_36d7a90fd3d1eef3ccff7ab122eb7ae6.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+    
+                marker_ec027685bab0b8bd0b858c65d4bb4838.setIcon(div_icon_3cabefb2dbfc7e5be226f9a3974a0132);
+            
+    
+                marker_11335489fd189b432dca7b651775ecfe.setIcon(div_icon_7160a6f64d3444fff5bcf2c64576da10);
+            
+    
+            feature_group_1e0e49697cade93cfb75fe102ab070e9.addTo(map_67975878d72bdf2211aceb01a387bd5d);
+        
+</script>
+</html>
