@@ -1,0 +1,6 @@
+name,resource_type,city,latitude,longitude,operator,industrial_type,landuse,description,priority_score,distance_to_city_center_km
+Manyata Substation,33KV Substation,Bengaluru,13.052833,77.614993,KPTCL,nan,industrial,Industrial facility in Bengaluru - potential 33KV+ connection,60,9.26
+Harohalli Industrial Area Substation,33KV Substation,Bengaluru,12.642089,77.427033,KPTCL,nan,industrial,Industrial facility in Bengaluru - potential 33KV+ connection,60,40.74
+BMTC Substation,33KV Substation,Bengaluru,12.95432,77.594061,KPTCL,nan,industrial,Industrial facility in Bengaluru - potential 33KV+ connection,55,1.91
+Peenya Substation,33KV Substation,Bengaluru,13.028514,77.526247,nan,nan,industrial,Industrial facility in Bengaluru - potential 33KV+ connection,50,9.73
+TNEB Substation,33KV Substation,Chennai,12.984842,80.25078,nan,nan,industrial,Industrial facility in Chennai - potential 33KV+ connection,45,11.04
