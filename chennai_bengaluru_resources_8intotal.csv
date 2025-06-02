@@ -1,0 +1,991 @@
+resource_type,name,city_region,latitude,longitude,industrial_type,landuse,power_type,operator,voltage,address,website,phone,description
+33KV Substation,BMTC Substation,Bengaluru,12.95432,77.594061,Electrical Infrastructure - Grid Substation,industrial,substation,KPTCL,66000,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+33KV Substation,Brigade Tech Gardens Brookefield,Bengaluru,12.963809,77.72243,Electrical Infrastructure - Grid Substation,industrial,substation,Karnataka Power Transmission Corporation Limited,66000;11000,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+33KV Substation,Harohalli Industrial Area Substation,Bengaluru,12.642089,77.427033,Electrical Infrastructure - Grid Substation,industrial,substation,KPTCL,220000;66000,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+33KV Substation,Manyata Substation,Bengaluru,13.052833,77.614993,Electrical Infrastructure - Grid Substation,industrial,substation,KPTCL,220000;66000,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+33KV Substation,Peenya Substation,Bengaluru,13.028514,77.526247,Electrical Infrastructure - Grid Substation,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+33KV Substation,Yelahanka,Bengaluru,13.098659,77.570317,Electrical Infrastructure - Grid Substation,industrial,substation,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+33KV Substation,TNEB Substation,Chennai,12.984842,80.25078,Electrical Infrastructure - Grid Substation,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,40MLD Tertiary Treatment Plant,Bengaluru,13.162304,77.706508,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,5MLD STP,Bengaluru,12.969576,77.456993,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,5MLD Sewage Treatment Plant,Bengaluru,12.962278,77.583446,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,703,Bengaluru,12.869072,77.663297,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,7STP-6,Bengaluru,12.917755,77.444657,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,A K N Enterprises,Bengaluru,12.779319,77.639911,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,AFCONS,Bengaluru,12.993692,77.65267,Energy Infrastructure,industrial,,BMRCL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,AFCONS Casting Yard,Bengaluru,12.915273,77.758519,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,AG Engineering,Bengaluru,13.033834,77.526856,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,AGC-MSI Consortium,Bengaluru,12.992889,77.651645,Energy Infrastructure,industrial,,BMRCL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ALIMCO,Bengaluru,13.037604,77.537862,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,APMC Lorry Stand,Bengaluru,13.022811,77.53391,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,APMC Market,Bengaluru,12.658844,77.213016,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,APMC Yard,Bengaluru,13.312195,77.538795,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,AS Engineering,Bengaluru,13.035077,77.526271,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ASD Industries,Bengaluru,13.0337,77.527204,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ASR Engineering Equipments,Bengaluru,13.033947,77.527408,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ace Forge Pvt Ltd,Bengaluru,12.778525,77.633731,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Addep Roloforms,Bengaluru,12.780484,77.741424,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Addep Roloforms,Bengaluru,12.784178,77.740281,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Adeep Locks Pvt Ltd,Bengaluru,12.784467,77.740344,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Adinarayana Hosahalli Industrial Area Phase 2,Bengaluru,13.29718,77.5982,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Advanced Fiber Systems Pvt. Ltd.,Bengaluru,13.153267,77.696454,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Aeronautical Development Agency,Bengaluru,12.96287,77.682652,Energy Infrastructure,industrial,,,,,www.ada.gov.in,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Aeronautical Development Establishment,Bengaluru,12.978115,77.650522,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Afraaz Engineering Works,Bengaluru,13.034501,77.527767,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Agaram 35MLD Sewage Treatment Plant,Bengaluru,12.916442,77.640242,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Air Cargo Village,Bengaluru,13.20053,77.681848,warehouse,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Aircraft Research and Design Centre HAL,Bengaluru,12.964762,77.685478,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,"Akashavani, Hoskote",Bengaluru,13.066727,77.783943,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Alfred Herbert India Private Limited,Bengaluru,12.989289,77.737382,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,All India Radio,Bengaluru,13.246986,77.4908,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,"All India Radio, Bengaluru",Bengaluru,12.983049,77.593165,Energy Infrastructure,industrial,,,,,https://allindiaradio.gov.in/station/BANGALORE%20%28Banguluru%29/Pages/default.aspx,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Allied Casting Services,Bengaluru,12.783201,77.741554,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Alps Granites Pvt Ltd,Bengaluru,12.785224,77.747621,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Altius Aerotech,Bengaluru,13.174029,77.74085,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Amara Products Pvt Limited,Bengaluru,12.778365,77.745967,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ananth Technologies,Bengaluru,13.174813,77.725823,Energy Infrastructure,industrial,,,,,https://ananthtech.com/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,"Animal Quarantine And Certification Services, Hessarghatta office",Bengaluru,13.180687,77.473181,Energy Infrastructure,industrial,,Government,,,http://aqcsindia.gov.in/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Anish Scaffolding Systems,Bengaluru,12.778525,77.738864,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Anthem Lifesciences Pvt. Ltd.,Bengaluru,12.672788,77.437952,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Anusha Stones Pvt Ltd,Bengaluru,12.783266,77.741123,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Apex Engineering,Bengaluru,13.031347,77.527306,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Apten Forgings Pvt Ltd,Bengaluru,12.781095,77.73961,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Arasu Brick Industries,Bengaluru,12.778922,77.636103,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Aron Universal Limited,Bengaluru,12.77908,77.637453,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Arsom Cnc Pvt Ltd,Bengaluru,12.779643,77.746268,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ashirvad Pipes Pvt Ltd,Bengaluru,12.782817,77.743814,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ashok Leyland,Bengaluru,12.766236,77.787363,Energy Infrastructure,industrial,,Sipcot,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ashwini Plastics & Chemicals,Bengaluru,12.780398,77.745975,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,AstraZeneca,Bengaluru,13.12415,77.6146,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ati Motors,Bengaluru,13.029823,77.536319,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Attibele Industrial Area,Bengaluru,12.781599,77.742822,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Autocrat Engineers,Bengaluru,12.980763,77.724315,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Avak Engineering Plastics,Bengaluru,12.779534,77.745458,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Avana Electrosystems Pvt Ltd,Bengaluru,13.026369,77.512815,Energy Infrastructure,industrial,,,,,http://www.avanaelectrosystems.in,"+91-80-28392133, 28392188.",Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Avana Electrosystems Pvt. Relay unit,Bengaluru,13.032267,77.524752,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Avverahalli Industrial Area,Bengaluru,13.199256,77.252939,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,B P N Pharma,Bengaluru,12.780356,77.741898,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,B.M. Engineering Works,Bengaluru,12.976994,77.631921,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BESCOM,Bengaluru,12.965206,77.636436,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BESCOM,Bengaluru,13.038183,77.558251,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMRCL Batching Plant 1,Bengaluru,13.041528,77.537455,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Central Workshop,Bengaluru,12.95408,77.598608,Energy Infrastructure,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 10 (Hennuru),Bengaluru,13.025577,77.632446,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 11 (Puttenahalli),Bengaluru,13.110167,77.579178,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 12 (Kengeri),Bengaluru,12.903926,77.473789,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 13 (Katriguppe),Bengaluru,12.925016,77.554386,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 14 (RT Nagara),Bengaluru,13.029,77.593065,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 15 (Koramangala),Bengaluru,12.941437,77.625332,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 16 (Deepanajalinagara),Bengaluru,12.950842,77.536548,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 17 (Chandra Layout),Bengaluru,12.958954,77.527326,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 18 (ITPL),Bengaluru,12.977206,77.726213,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 19 (Electronic City),Bengaluru,12.847252,77.672423,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 2 (Shanthinagara),Bengaluru,12.954527,77.595272,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 20 (Banashankari),Bengaluru,12.919103,77.570575,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 21 (Rajarajeshwarinagar),Bengaluru,12.906149,77.519685,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 22 (Peenya),Bengaluru,13.019654,77.501013,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 23 (Kalyana Nagara),Bengaluru,13.026612,77.638523,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 24 (KR Puram),Bengaluru,13.001779,77.684242,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 25 (HSR Layout),Bengaluru,12.920485,77.644322,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 26 (Yeshwanthpura),Bengaluru,13.018651,77.555262,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 27 (Jigani),Bengaluru,12.780792,77.634653,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 28 (Hebbal),Bengaluru,13.04339,77.593941,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 29 (KR Puram),Bengaluru,13.004812,77.691657,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 3 (Shanthinagara),Bengaluru,12.955643,77.595826,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 30 (Yelahanka),Bengaluru,13.110304,77.578238,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 31 (Summanahalli),Bengaluru,12.991864,77.521667,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 32 (Suryacity),Bengaluru,12.789309,77.706398,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 33 (Poornapragna layout),Bengaluru,12.909596,77.536631,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 34 (Kottanur),Bengaluru,12.872263,77.586006,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 35 (Kannahalli),Bengaluru,12.972375,77.442058,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 36 (Bidadi),Bengaluru,12.769376,77.41405,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 37 (Kengeri),Bengaluru,12.913409,77.488002,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 38 (Chikkanagamangala),Bengaluru,12.850409,77.691625,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 39 (Hoskote),Bengaluru,13.067883,77.781371,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 4 (Jayanagara),Bengaluru,12.924741,77.592613,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 40 (Nelamangala),Bengaluru,13.074552,77.44505,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 41 (Gunjuru),Bengaluru,12.922481,77.743234,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 42 (Kodathi),Bengaluru,12.895498,77.704767,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 43 (Shivanapura),Bengaluru,13.067299,77.425374,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 44 (Anjanapura),Bengaluru,12.855325,77.569701,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 45 (MS Palya),Bengaluru,13.08407,77.550024,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 46 (Sadenahalli),Bengaluru,13.18399,77.566903,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 47 (Manduru),Bengaluru,13.085272,77.731239,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 48 (Byrathi),Bengaluru,13.076924,77.654194,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 49 (Bidadi),Bengaluru,12.801794,77.392844,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 50 (Devanahalli),Bengaluru,13.246837,77.717557,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 51 (Sadaramangala),Bengaluru,12.996762,77.726544,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 52 (Uttanahalli),Bengaluru,13.157438,77.658816,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 6 (Indiranagara),Bengaluru,12.981787,77.634385,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 7 (Subashnagar),Bengaluru,12.979071,77.571936,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 8 (Yeshwanthpura),Bengaluru,13.017768,77.555433,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot 9 (Peenya),Bengaluru,13.020198,77.499824,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC Depot Nagadasanahalli,Bengaluru,13.161112,77.591676,depot,industrial,,BMTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BMTC I&C Center,Bengaluru,13.182306,77.545074,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BSNL,Bengaluru,12.786052,77.742286,Energy Infrastructure,industrial,,BSNL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.90824,77.584551,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.001807,77.627865,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.936304,77.58847,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.090788,77.55909,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.011965,77.655365,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.987354,77.589684,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.911482,77.646737,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.873804,77.585086,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.026533,77.634378,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.972235,77.621336,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.866685,77.582012,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.908044,77.652714,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.927428,77.515569,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.9986,77.56445,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.96497,77.607643,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.03405,77.575998,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.039018,77.626035,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.978271,77.51362,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.977646,77.510794,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.916211,77.607084,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.062031,77.504642,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,12.85048,77.573191,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB,Bengaluru,13.032871,77.591141,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Combined Jewel Filters,Bengaluru,13.011838,77.566254,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Indiranagar,Bengaluru,12.971994,77.6446,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Johnson Market Service Station,Bengaluru,12.964273,77.606402,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Kumaraswamy Layout Service Station,Bengaluru,12.909826,77.561779,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Ragigudda,Bengaluru,12.91412,77.595293,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Rajajinagara,Bengaluru,13.008122,77.5512,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Reservoir,Bengaluru,12.909444,77.53736,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Sahakarnagara,Bengaluru,13.059066,77.586962,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Service Station,Bengaluru,13.015237,77.535363,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BWSSB Service Station,Bengaluru,12.934966,77.478476,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bangalore Floorings,Bengaluru,12.778077,77.635772,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bangalore Industries,Bengaluru,12.778965,77.638953,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bangalore Metropolitian Transport,Bengaluru,12.781152,77.634382,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bangalore Plastics Pvt. Ltd.,Bengaluru,13.036821,77.738905,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Basant Betons,Bengaluru,12.777091,77.635623,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Basavi Shree Fasteners,Bengaluru,13.033814,77.527168,Energy Infrastructure,,,,,,,+91-9448295120,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Belathu Industries,Bengaluru,13.033607,77.52733,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bellandur Amani 90MLD Sewage Treatment Plant,Bengaluru,12.940566,77.716814,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bengaluru Aerospace Park,Bengaluru,13.181084,77.729417,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bengaluru Airport Bus Depot,Bengaluru,13.201663,77.696121,bus_depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bengaluru IT Park,Bengaluru,13.161255,77.713172,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bhagyalakshmi Industrial Corp,Bengaluru,13.034022,77.526886,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bhandary Metals & Alloys Pvt Ltd,Bengaluru,12.778774,77.7428,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharamara Polymers (P)Ltd,Bengaluru,12.778864,77.633819,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharat Earth Movers Limited,Bengaluru,12.98676,77.652482,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharat Earth Movers Limited,Bengaluru,12.974516,77.659591,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharat Fritz Weiner,Bengaluru,13.038421,77.533862,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharath Heavy Electricals,Bengaluru,12.949972,77.534348,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharath Heavy Electricals Limited,Bengaluru,13.012612,77.563254,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bharath Petroleum,Bengaluru,12.984809,77.843845,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bhavyam Industries,Bengaluru,12.778867,77.638686,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bhoruka Gases Limited,Bengaluru,12.98889,77.705586,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bidadi Industrial Area,Bengaluru,12.780679,77.418738,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Big Basket Warehouse,Bengaluru,12.975285,77.705906,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Binny Mills,Bengaluru,12.9677,77.567539,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Biocon Park,Bengaluru,12.804186,77.660597,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bliss Chocolates India Pvt Ltd,Bengaluru,12.957213,77.661937,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Blowmocan Packaging (P) Ltd,Bengaluru,12.777186,77.633405,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,BlueDart | DHL Courier Warehouse,Bengaluru,12.991263,77.692667,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bolst's,Bengaluru,12.89591,77.569333,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bommasandra Industrial Estate,Bengaluru,12.813893,77.695302,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bosch NhP,Bengaluru,12.870285,77.662951,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bosch RBAI,Bengaluru,12.868623,77.663217,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Bright Services,Bengaluru,13.033715,77.526982,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,British Biologicals,Bengaluru,12.886939,77.599415,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Buhler (India) Ltd,Bengaluru,12.784426,77.738268,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Byappanahalli Metro Depot,Bengaluru,12.990928,77.653976,depot,industrial,,BMRCL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,CIPET: SARP-APDDRL,Bengaluru,13.16678,77.707356,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,CVM Precision,Bengaluru,12.977916,77.705438,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Cargo District,Bengaluru,13.201248,77.692467,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Castotech Enterprises,Bengaluru,12.975777,77.706932,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Cementech Industries,Bengaluru,12.781876,77.743789,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Center for Artificial Intelligence and Robotics,Bengaluru,12.987626,77.668495,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Central Fodder Seed Production Farm,Bengaluru,13.180491,77.490171,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Central Power Research Institute,Bengaluru,13.021169,77.574785,Energy Infrastructure,industrial,,,,,https://cpri.res.in/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Central Research Labarotary,Bengaluru,13.056135,77.553078,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Central Warehouse,Bengaluru,12.975198,77.723656,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Central Warehouse Corporation,Bengaluru,13.152475,77.713561,warehouse,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Central Warehousing Corporation - Export Complex,Bengaluru,12.954553,77.660617,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Century Blocks,Bengaluru,12.771965,77.633979,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Cepheid India Pvt. Ltd.,Bengaluru,13.154828,77.694764,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Charoen Pokphand (Chicken Feed Factory),Bengaluru,13.0622,77.742686,Energy Infrastructure,industrial,,,,,http://www.mycpindia.com,+91-80-28472195,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Chemsolar Energy Systems Pvt Ltd,Bengaluru,12.780494,77.745424,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Chennapatna KSRTC Depot,Bengaluru,12.650537,77.211007,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Chikkaballapura Industrial Area,Bengaluru,13.40952,77.72847,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Chikkabanavara 5MLD Sewage Treatment Plant,Bengaluru,13.082897,77.513254,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Chikkabeguru Sewage Treatment Plant,Bengaluru,12.883943,77.637703,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Choudhary Steels,Bengaluru,13.034789,77.526562,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Cipla,Bengaluru,13.027253,77.732013,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Coach Craft Pvt.Ltd,Bengaluru,12.784322,77.746205,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Coca Cola Bottling Plant,Bengaluru,12.996234,77.663739,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Coca-Cola,Bengaluru,12.816824,77.410415,depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Cohera Automations Pvt. Ltd.,Bengaluru,13.173491,77.741157,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Collin Aero Space,Bengaluru,12.988072,77.712749,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,"Composite Technology Park, RV TIFAC",Bengaluru,12.919775,77.472035,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Compshell Engineering (P)Limited,Bengaluru,12.778558,77.741984,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Concor,Bengaluru,12.992354,77.744108,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Cubbon Park 4MLD Sewage Treatment Planet,Bengaluru,12.970655,77.591333,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Curve Tech Seating System,Bengaluru,12.778128,77.74577,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,DLI Anekal,Bengaluru,12.713677,77.764739,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dadu Bedding House,Bengaluru,13.039153,77.531026,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dedienne Aerospace India Pvt. Ltd.,Bengaluru,13.154956,77.722711,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Deepanjali Nagar Industrial Estate,Bengaluru,12.949852,77.532851,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Denso Kirloskar,Bengaluru,13.114279,77.377022,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Devanahalli General Industrial Area,Bengaluru,13.297621,77.612975,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Devasandra Industrial Estate,Bengaluru,12.998409,77.691582,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dhanushree Industries,Bengaluru,13.034603,77.526639,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dhobi Ghat,Bengaluru,13.011173,77.55219,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dhobi Ghat,Bengaluru,13.00141,77.620685,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dighvijay Plastic & Allied Products,Bengaluru,12.778929,77.739606,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Divya Granite Export,Bengaluru,12.773741,77.636094,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Doddaballapur Integrated Textile Parks Ltd,Bengaluru,13.264978,77.558615,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Doddabele 20MLD Sewage Treatment Plant,Bengaluru,12.897719,77.476871,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Doddabomasandra STP,Bengaluru,13.064469,77.56592,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Doddakanahalli 48ML Reservoir,Bengaluru,12.887917,77.699922,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Doddanna Industrial Estate,Bengaluru,13.003507,77.510984,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dove Tail Industries,Bengaluru,12.809412,77.697867,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Dyno-Tech Services,Bengaluru,12.777872,77.745579,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,EID Parry India,Bengaluru,13.064404,77.739727,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Eaase-Teraoka Limited,Bengaluru,12.785659,77.740276,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Easy Way Industries,Bengaluru,12.783138,77.745389,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Eaton Aerospace India,Bengaluru,13.178242,77.731263,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Eco Plywoods (P) Ltd,Bengaluru,12.77337,77.635568,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ecoplast,Bengaluru,12.774535,77.634325,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Efti Engineering,Bengaluru,12.782389,77.74464,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Electronics and Radar Development Establishment,Bengaluru,12.981189,77.660509,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Elmeasure,Bengaluru,13.153294,77.693531,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Elva Induction India Ltd,Bengaluru,12.778385,77.739308,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Emerald India Granites,Bengaluru,12.776299,77.633825,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Eshchand Foods Pvt. Ltd.,Bengaluru,13.118167,77.824605,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Eshwar Mosaic Hollow Blocks,Bengaluru,12.780262,77.743018,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Excel Auto Engineering,Bengaluru,13.034487,77.526745,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Excel Energies & Technologies Pvt.L,Bengaluru,12.77538,77.635199,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Excel Vapocoatings,Bengaluru,12.779439,77.737759,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Exide,Bengaluru,12.836537,77.796731,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,FM Goetze,Bengaluru,13.102889,77.588575,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Faurecia Automotive Seating I P Ltd,Bengaluru,12.777564,77.741909,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Food Corporation of India - FCI,Bengaluru,12.988632,77.768842,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,G D Industries,Bengaluru,12.78002,77.739477,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL Bidadi Receiving Terminal,Bengaluru,12.798308,77.398083,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-1B,Bengaluru,12.967805,77.390005,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-22,Bengaluru,12.89466,77.358142,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-3B,Bengaluru,13.044045,77.560578,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-4B,Bengaluru,13.037254,77.627462,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-5B,Bengaluru,12.997776,77.663526,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-6B,Bengaluru,12.94612,77.698914,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL SV-7B,Bengaluru,12.919942,77.643544,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL Singasandra Receiving Terminal,Bengaluru,12.871265,77.653193,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GAIL Yelahanka Receiving Terminal,Bengaluru,13.118658,77.583125,Energy Infrastructure,industrial,,GAIL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GE BE Pvt Ltd,Bengaluru,12.978058,77.723997,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GE Global Research,Bengaluru,12.973384,77.724188,Energy Infrastructure,industrial,,General Electric,,,https://www.ge.com/research/research-engine/rd-facilities/bengaluru,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GLSR-2,Bengaluru,12.945401,77.46475,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ganeshchandra Print-N-Pack P Ltd,Bengaluru,12.775849,77.63523,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Garments,Bengaluru,12.549198,77.784224,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gas Turbine Research Establishment,Bengaluru,12.982227,77.653266,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gaviranga Engineering Works,Bengaluru,13.033895,77.527234,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gayathir Engg & Fabricat. Enterpris,Bengaluru,12.778664,77.745507,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gayathri Granites P Ltd,Bengaluru,12.778514,77.640832,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gci Exports Pvt Ltd,Bengaluru,12.778133,77.634745,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gee Emm Industries,Bengaluru,12.773325,77.634183,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Geekay Tarpaulins & Polymers Pvt Ltd,Bengaluru,13.033818,77.527093,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Geneva Industries Limited,Bengaluru,12.985009,77.746971,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Giri Electronics & Engg.Pvt.Ltd,Bengaluru,12.782932,77.743054,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Girija Enterprises,Bengaluru,12.773796,77.634248,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GlaxoSmithKline Pharmaceuticals,Bengaluru,13.057575,77.742185,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,GlaxoSmithKline Pharmaceuticals,Bengaluru,13.05946,77.742456,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gleason,Bengaluru,13.170668,77.733677,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Go Go International,Bengaluru,13.105507,77.580297,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Gottigere 50ML Reservoir,Bengaluru,12.857289,77.58447,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Government Soap Factory,Bengaluru,13.015507,77.552064,Energy Infrastructure,industrial,,,,,http://www.mysoresandal.net/index.php,00918023379914,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Government Tool and Training Centre,Bengaluru,12.980089,77.550033,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Granitech Pvt Ltd,Bengaluru,12.780914,77.738582,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Greem Chem,Bengaluru,12.780643,77.747529,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HAL Aerospace Division,Bengaluru,12.969446,77.661748,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HAL Helicopter Division,Bengaluru,12.958614,77.678008,aerospace,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HAL Tejas Production Phase 2,Bengaluru,12.958386,77.690277,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HAL Thermal Paintshop,Bengaluru,12.969274,77.658765,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HMG Granites,Bengaluru,12.784267,77.76068,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HMT,Bengaluru,13.036131,77.536848,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,HMT,Bengaluru,13.033167,77.538844,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Halasuru 2MLD Sewage Treatment Plant,Bengaluru,12.986712,77.622308,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Halleys Blue,Bengaluru,12.981543,77.718316,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hareetha Pharmaceuticals,Bengaluru,12.774047,77.634281,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Harohalli Industrial Area,Bengaluru,12.658189,77.433604,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Harohalli Industrial Area Phase 1 and 2,Bengaluru,12.683116,77.443894,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Harohalli Industrial Area Phase 3,Bengaluru,12.657201,77.432225,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Harohalli Industrial Area Phase 4,Bengaluru,12.630178,77.424232,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Heavy Vehicle Driver Training Institute,Bengaluru,13.150456,77.555066,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hebbal 60MLD Sewage Treatment Plant,Bengaluru,13.042269,77.604114,Energy Infrastructure,industrial,,Bangalore Water Supply and Sewerage Board,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Heidelberg Prominent Fluid Controls India,Bengaluru,13.035355,77.540825,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hemmigepura 13 MLD Sewage Treatment Plant,Bengaluru,12.886662,77.48356,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hengst,Bengaluru,13.15274,77.69444,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Heritage Foods,Bengaluru,12.794063,77.739842,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hi-Tech Defence and Aerospace Park,Bengaluru,13.222984,77.772441,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hi-Tech Technologies,Bengaluru,13.034336,77.527667,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hindustan Machine Tools,Bengaluru,13.051845,77.542821,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hindustan Petroleum,Bengaluru,12.985175,77.847642,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hino,Bengaluru,12.782602,77.405528,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Honda Car Yard,Bengaluru,12.992453,77.70424,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Horamavu Agara 20MLD Sewage Treatment Plant,Bengaluru,13.044182,77.662806,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hoskote Industrial Area,Bengaluru,13.118728,77.827711,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hulimavu 10MLD Sewage Treatment Plant,Bengaluru,12.86549,77.603942,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Hydroquip Hydraulics (P) Ltd,Bengaluru,12.778956,77.742158,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,IFB Automotive,Bengaluru,12.980824,77.707674,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,INDUS TMT INDUSTRIES LTD HOSUR,Bengaluru,12.650116,77.749166,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ISKCON Akshyapatra Kitchen,Bengaluru,12.888168,77.548131,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ISRO,Bengaluru,12.96822,77.700482,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ISRO Data Centre,Bengaluru,13.037564,77.519457,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,"ISRO Telemetry, Tracking and Command Network",Bengaluru,13.034785,77.511671,Energy Infrastructure,industrial,,ISRO,,,https://www.isro.gov.in/ISTRAC.html,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ITC Factory,Bengaluru,13.185735,77.639165,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ITC Filtrona,Bengaluru,13.206344,77.670582,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ITI Industrial Estate,Bengaluru,12.997175,77.698394,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,ITIR Phase 2,Bengaluru,13.318978,77.627965,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,IdeoForge Technology Limited,Bengaluru,13.149815,77.707953,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Iggalur Industrial Area,Bengaluru,12.781361,77.701506,factory,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Imperial Clothing Pvt Ltd,Bengaluru,12.783053,77.742301,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,India Tin Industries Limited,Bengaluru,12.99647,77.670725,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Indian Deep Space Network (IDSN) Center,Bengaluru,12.90047,77.370942,Energy Infrastructure,industrial,,ISRO,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Indian Oil,Bengaluru,12.986858,77.835323,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Indian Oil Skytanking,Bengaluru,13.200634,77.683927,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Indian Space Research Organisation,Bengaluru,12.964687,77.698244,Energy Infrastructure,industrial,,,,,https://www.isro.gov.in,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Indian Telephony Industries,Bengaluru,13.005793,77.678377,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,IndianOil Gas Bottling Plant 2,Bengaluru,12.99908,77.687353,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Integra Textile Factory,Bengaluru,13.002619,77.568272,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Intermed Labs Pvt.Ltd,Bengaluru,12.774203,77.635606,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,J J Engineering,Bengaluru,12.772111,77.634002,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,J Ramaiah Roller Flour Mills P Ltd,Bengaluru,12.779215,77.738108,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jae Tee Minerals Pvt Ltd,Bengaluru,12.778157,77.745105,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jai Auto Cables Pvt Ltd,Bengaluru,12.781759,77.745395,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jai Granimarmo,Bengaluru,12.774856,77.633503,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jain Granites,Bengaluru,12.774532,77.633455,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jakkasandra Industrial Area Phase II,Bengaluru,13.086686,77.981917,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jakkur 15MLD Sewage Treatment Planet,Bengaluru,13.094518,77.606345,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jallan Polypack India Pvt.Ltd,Bengaluru,12.782273,77.741167,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jfp Agro Pvt Ltd,Bengaluru,12.779888,77.740865,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jigani Industrial Estate,Bengaluru,12.776639,77.636773,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jindal Aluminium,Bengaluru,13.218547,77.256255,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jindal Aluminium Limited,Bengaluru,13.054957,77.482796,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Juki India Pvt. Ltd.,Bengaluru,13.149845,77.705497,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jupitor Technologies Pvt Ltd,Bengaluru,12.772224,77.634022,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Jyothi Industries,Bengaluru,12.779602,77.740747,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K M Granites India Pvt Ltd,Bengaluru,12.7765,77.632623,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K N K Concrete Blocks,Bengaluru,12.783178,77.738676,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K N R Industries,Bengaluru,12.781056,77.740664,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K N V Silk Mills,Bengaluru,12.779092,77.746538,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K V Forgings Pvt Ltd,Bengaluru,12.784669,77.74186,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K V Raman,Bengaluru,12.780256,77.743519,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K&C Valley 218MLD Sewage Treatment Plant,Bengaluru,12.939813,77.65951,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K&C Valley 30MLD Sewage Treatment Plant,Bengaluru,12.942264,77.656459,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K&C Valley 60MLD Sewage Treatment Plant,Bengaluru,12.939749,77.65631,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,K&C Valley Sewage Treatment Plant,Bengaluru,12.940112,77.657472,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KEB Workshop,Bengaluru,13.036769,77.558444,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KIADB GLSR,Bengaluru,13.156006,77.682188,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KIADB Hardware Park,Bengaluru,13.153224,77.691524,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KIADB Land,Bengaluru,12.991549,77.73849,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KPTCL,Bengaluru,12.99284,77.658764,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KR Puram Phase I 20MLD Sewage Treatment Planet,Bengaluru,13.016629,77.693588,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSIIDC,Bengaluru,12.771086,77.635327,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSIIDC,Bengaluru,12.771505,77.63537,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSIIDC,Bengaluru,12.771963,77.635417,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSIIDC,Bengaluru,12.772453,77.635467,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSIIDC,Bengaluru,12.772992,77.635482,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSIIDC,Bengaluru,12.770747,77.635299,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Depot 1 (Shantinagar),Bengaluru,12.952378,77.598789,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Depot 2 (Shantinagar),Bengaluru,12.95625,77.59435,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Depot 4 (Shantinagar),Bengaluru,12.955243,77.594235,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Depot 5,Bengaluru,12.950133,77.536624,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Depot 6,Bengaluru,12.952695,77.543417,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Depot Harohalli,Bengaluru,12.698281,77.477726,depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,KSRTC Regional Workshops,Bengaluru,12.903253,77.474171,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kadabeesanahalli Sewage Treatment Plant,Bengaluru,12.947371,77.697269,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kadugodi 6MLD Sewage Treatment Planet,Bengaluru,12.996678,77.777104,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kadugodi Industrial Area,Bengaluru,12.990684,77.746774,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kaggadasapura STP,Bengaluru,12.983541,77.669721,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kamalam Handlooms Pvt Ltd,Bengaluru,12.778298,77.640005,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kamalanagar BWSSB Service Station,Bengaluru,12.994967,77.537946,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kanteerava Studio,Bengaluru,13.019877,77.533483,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kanunga Extrusion P Ltd,Bengaluru,12.774197,77.633375,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karam Gears,Bengaluru,13.034593,77.528046,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karle,Bengaluru,13.047931,77.497848,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karle Group,Bengaluru,13.016505,77.554744,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karle Town Centre,Bengaluru,13.047397,77.612542,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Cooperative Milk Producer's Federation Ltd.,Bengaluru,12.955628,77.703716,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Leaf Springs P Ltd,Bengaluru,12.785879,77.739337,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Milk Federation,Bengaluru,13.109864,77.81666,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Polymers,Bengaluru,12.780381,77.635566,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Power Transmission Corporation,Bengaluru,12.941258,77.59197,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Power Transmission Corporation,Bengaluru,12.988888,77.551299,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Power Transmission Corporation,Bengaluru,12.991259,77.551701,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Pressure Vessels P Ltd,Bengaluru,12.784204,77.739248,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka State Beverage Corporation Limited,Bengaluru,13.025204,77.622572,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka State Labour Institute,Bengaluru,13.053266,77.496558,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka State Seeds Corporation Limited,Bengaluru,13.040846,77.589283,warehouse,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka State Warehousing Corporation,Bengaluru,12.991646,77.788557,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Vidyuth Karkhane Limited,Bengaluru,12.95205,77.539074,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karnataka Water Pumps (P)Ltd,Bengaluru,12.783884,77.739406,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Karthik Industries,Bengaluru,12.778343,77.74097,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kaveri Industries,Bengaluru,12.780295,77.635958,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kaveri Industries,Bengaluru,12.780242,77.636318,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Keetron Electronics Pvt Ltd,Bengaluru,12.78246,77.739787,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kempabudhi Sewage Treatment Planet,Bengaluru,12.952426,77.557722,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kengeri 60MLD Sewage Treatment Plant,Bengaluru,12.916434,77.49012,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kennametal,Bengaluru,13.050677,77.49866,Energy Infrastructure,industrial,,,,,https://www.kennametal.com,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Khadi and Village Industries Commission,Bengaluru,13.005611,77.668093,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Khoday,Bengaluru,12.837788,77.545712,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Khodays Breweries,Bengaluru,12.891024,77.565863,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Khodays Distilleries,Bengaluru,12.981181,77.571149,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kolapuri Amma Packaging,Bengaluru,12.912107,77.628825,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kolar Minor Irrigation LIS Stage 2,Bengaluru,12.941677,77.718994,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Koramangala 210MLD Intermediate Sewage Pumping Stations,Bengaluru,12.946867,77.623595,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Korgi Engineering Industries,Bengaluru,12.78313,77.741947,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Krishna Badaram Industries,Bengaluru,13.033754,77.52709,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Krishna Flour Mill,Bengaluru,12.985486,77.571602,grinding_mill,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Krishna Granites,Bengaluru,12.776414,77.633494,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Krishnarajapuram Diesel Loco Shed,Bengaluru,13.001392,77.692441,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Kumbalagodu Industrial Area,Bengaluru,12.871381,77.443564,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,LOGOS Logistics Park,Bengaluru,13.164895,77.702485,warehouse,industrial,,,,,https://www.logosproperty.com/property/devanahalli-industrial-logistics-park/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lake Chemicals P Ltd,Bengaluru,12.780147,77.746654,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lake Chemicals P Ltd,Bengaluru,12.779509,77.746856,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lake Chemicals P Ltd,Bengaluru,12.779905,77.747167,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lake Chemicals Pvt Ltd,Bengaluru,12.78045,77.747097,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lakshmi Granite Industries,Bengaluru,12.782734,77.74543,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lalbagh Sewage Treatment Plant,Bengaluru,12.944174,77.583666,Energy Infrastructure,industrial,,Bangalore Water Supply and Sewerage Board,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Lapp Kabel India Pvt Ltd,Bengaluru,12.774301,77.631745,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Linsa Industries,Bengaluru,13.033777,77.527428,Energy Infrastructure,,,,,,,033-28377891,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Liquid Propulsions Systems Centre,Bengaluru,12.966386,77.645334,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Log9,Bengaluru,13.072706,77.593766,Energy Infrastructure,industrial,,,,,https://www.log9materials.com,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,M M Industries,Bengaluru,12.930476,77.573966,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,M M Industries,Bengaluru,12.930447,77.573316,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,M Rajan,Bengaluru,12.778409,77.745303,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,M.S Uks Structures Pvt Ltd,Bengaluru,12.779828,77.745668,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,MAHE Sewage Treatment Plant,Bengaluru,13.126829,77.586471,Energy Infrastructure,industrial,,MAHE,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,MR Automats,Bengaluru,13.03331,77.527463,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,MRK Steels,Bengaluru,13.034682,77.526541,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Maanvik Technologies,Bengaluru,13.173486,77.741852,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Machohalli Industrial Area,Bengaluru,12.988437,77.452932,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Machohalli Industrial Area,Bengaluru,12.98443,77.455281,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Machohalli Industrial Area,Bengaluru,12.983582,77.449094,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Madras Hard Tools Pvt Ltd,Bengaluru,12.777654,77.740719,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Magod Laser Machining Pvt Ltd,Bengaluru,12.777642,77.633503,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mailasandra 75MLD Sewage Treatment Plant,Bengaluru,12.918973,77.49399,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Makino India Private Limited,Bengaluru,12.983464,77.727018,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mallathahalli Sewage Treatment Plant,Bengaluru,12.967831,77.495155,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mallik Engineering,Bengaluru,12.774654,77.636015,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Malur Industrial Area,Bengaluru,12.97908,77.915519,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Malur KSRTC Depot,Bengaluru,13.0055,77.945538,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mandovi Motors Pvt. Ltd.,Bengaluru,13.01749,77.55423,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Manivilas Food Products,Bengaluru,12.775874,77.634974,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Manjunatha Engineering Industries,Bengaluru,12.779453,77.639345,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Manjushree Technopark,Bengaluru,12.855171,77.675466,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Maruthi Ads,Bengaluru,12.775541,77.635906,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Maruthi Engg Works,Bengaluru,13.034664,77.526678,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Maruthi Steels,Bengaluru,13.0338,77.526932,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Master Food Products,Bengaluru,12.774804,77.635146,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Masthenahalli Industrial Area,Bengaluru,13.337098,77.967527,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mathru Granites,Bengaluru,12.778786,77.746295,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mathru Granites,Bengaluru,12.771483,77.633892,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Max Auto Cables Pvt Ltd,Bengaluru,12.78133,77.746686,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Medreich Limited,Bengaluru,12.875361,77.567254,pharmaceuticals,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Megatechs Cold Forgings Pvt Ltd,Bengaluru,12.772616,77.634085,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Megatechs Cold Forgings Pvt Ltd,Bengaluru,12.772855,77.634118,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Meher Capacitors Pvt Ltd,Bengaluru,12.779529,77.738896,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mercury John Deere,Bengaluru,13.051425,77.759759,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Merino Laminates,Bengaluru,12.787004,77.856407,Energy Infrastructure,industrial,,,,,https://www.merinolaminates.com/en/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Metro Granites & Mining Pvt Ltd,Bengaluru,12.779817,77.745138,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Michell Bearings (India) Pvt Ltd,Bengaluru,12.782206,77.741629,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Micro Plastics,Bengaluru,12.771785,77.633945,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,MicroFx,Bengaluru,13.109461,77.529107,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Miki Steel Works Pvt Ltd,Bengaluru,12.777881,77.744523,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Miki Wire Works Pvt Ltd,Bengaluru,12.777768,77.744772,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Minerva Mills,Bengaluru,12.979612,77.561774,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mirage Lifestyle Pvt Ltd,Bengaluru,12.782683,77.746295,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Modern Engineering Enterprise,Bengaluru,13.033228,77.526868,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Modi Exports,Bengaluru,12.775524,77.633611,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mohan Industries,Bengaluru,12.782756,77.744199,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mookhambikay Engg Works,Bengaluru,12.778607,77.746163,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mother Dairy,Bengaluru,13.095817,77.573853,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mpee Transmission Products Pvt Ltd,Bengaluru,12.783478,77.740297,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Muktha Die Casting Pvt Ltd,Bengaluru,12.778908,77.639424,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Muniyappa,Bengaluru,12.773253,77.63324,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Muralidhar Goyal,Bengaluru,12.779049,77.638461,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Murugan Industries,Bengaluru,12.772027,77.63302,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mysore Fruit Products Pvt. Ltd.,Bengaluru,13.011127,77.549186,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Mysore Lamps,Bengaluru,13.014957,77.557977,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,N M Granites,Bengaluru,12.778077,77.633614,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,NAL Wind Tunnel Centre,Bengaluru,12.943067,77.667763,Energy Infrastructure,industrial,,NAL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,NGEF Ancilliary Industrial Estate,Bengaluru,12.990589,77.705304,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,NIMHANS Sewage Treatment Plant,Bengaluru,12.94236,77.594521,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,NSP Electronics Limited,Bengaluru,13.029044,77.735996,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nagadevi Industrial Complex,Bengaluru,13.017994,77.632092,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nagasandra 20MLD Sewage Treatment Plant,Bengaluru,13.042392,77.492885,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nagasandra Phase I 20MLD Sewage Treatment Plant,Bengaluru,13.042509,77.49134,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nagendra Chemical Inds &Agencies Co,Bengaluru,12.782996,77.739065,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nalini Fabrication,Bengaluru,12.771062,77.633838,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nandhi Woods,Bengaluru,13.034844,77.526601,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nandini Dairy,Bengaluru,12.938281,77.603593,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Narasapura Industrial Area,Bengaluru,13.10411,77.982099,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,National Aerospace Laboratories,Bengaluru,12.963761,77.652204,Energy Infrastructure,industrial,,,,,https://www.nal.res.in/en,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,National Seeds Corporation Limited,Bengaluru,13.041473,77.589569,warehouse,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Natural Remedies,Bengaluru,12.556008,77.736163,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nelamangala KSRTC Depot,Bengaluru,13.078608,77.426018,depot,industrial,,KSRTC,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,New Government Electric Factory,Bengaluru,12.995146,77.648111,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,North East Technologies,Bengaluru,13.174019,77.741812,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Nova Granites (India) Ltd,Bengaluru,12.783651,77.746146,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,NueGo Bus Depot,Bengaluru,13.060032,77.466419,bus_depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,OLEO India,Bengaluru,13.149838,77.706118,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Obalapura Industrial Area,Bengaluru,13.240812,77.326305,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Obedanahalli Industrial Area,Bengaluru,13.273973,77.579251,Energy Infrastructure,industrial,,KIADB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Om Pharmaceuticals Limited,Bengaluru,13.045328,77.747056,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Om Shuthi Enterprises,Bengaluru,13.033246,77.527135,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Om Timbers,Bengaluru,13.033105,77.503635,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Omega Enterprises,Bengaluru,12.775355,77.63592,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Otis Elevator Company (India) Ltd,Bengaluru,12.779326,77.631362,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,P D Plasticizers & Chemicals(P)Ltd.,Bengaluru,12.779273,77.742286,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,P M Industries Limited,Bengaluru,12.78117,77.632378,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,P S Paints & Coatings (India),Bengaluru,12.774623,77.635136,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,PK Kalyanamantapa,Bengaluru,12.879872,77.62538,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,PNK Metals,Bengaluru,13.034663,77.526753,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,PS Engineering Co.,Bengaluru,13.034415,77.52807,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Pankaj Granite Industries,Bengaluru,12.782075,77.742441,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Parashakthi Coach Builders,Bengaluru,12.779055,77.741231,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Parson Paint Industries,Bengaluru,12.783658,77.739895,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Peenya Metro Depot,Bengaluru,13.043784,77.531895,depot,industrial,,BMRCL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Pepsico Bottling Plant,Bengaluru,13.141303,77.342297,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Peter England Factory,Bengaluru,12.90108,77.621806,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Petronet MHB,Bengaluru,12.988973,77.842432,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Pkl Limited,Bengaluru,12.781458,77.74605,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Pointec Pens Pvt Ltd,Bengaluru,12.785261,77.747086,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Poly Polymers Private Ltd,Bengaluru,12.782216,77.740305,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Poornima Medical Systems,Bengaluru,13.155034,77.687062,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Power Engineers & Earth Movers,Bengaluru,12.773777,77.635101,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Prab Engineering,Bengaluru,12.779344,77.740639,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Pramodaya Aerospace Solutions,Bengaluru,13.175159,77.742761,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Preci fit,Bengaluru,13.033753,77.527142,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Precision Engg Works,Bengaluru,13.033807,77.527322,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Precision Tooling,Bengaluru,12.77892,77.746397,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Prime. Steel,Bengaluru,13.033894,77.526938,Energy Infrastructure,,,,,,,+91-9341302016,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Priya Industries,Bengaluru,13.031409,77.52734,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Product Development & Innovation Centre,Bengaluru,13.057037,77.555085,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Promag Engineering Services,Bengaluru,12.773552,77.634215,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Punit Creation,Bengaluru,12.903398,77.624272,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Puttappa Industrial Estate,Bengaluru,12.995938,77.690813,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,R K Hitech Enterprises,Bengaluru,12.779432,77.640547,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,RBAI office,Bengaluru,12.869344,77.66393,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,RS Sparktech,Bengaluru,13.033462,77.527227,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,RSA Turbotech,Bengaluru,13.140245,77.822563,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rab Engineering Works,Bengaluru,13.03503,77.526373,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rabin Batteries,Bengaluru,12.78363,77.737674,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rachita Impex Pvt Ltd,Bengaluru,12.781569,77.744658,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rachita Implex Pvt Ltd,Bengaluru,12.78197,77.74467,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Radha Stones Pvt Ltd,Bengaluru,12.777002,77.634154,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Radha Stones Pvt Ltd,Bengaluru,12.776916,77.634571,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Raghavendra Industries,Bengaluru,12.783328,77.743767,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Raj Skoda Repair,Bengaluru,12.979031,77.705677,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rajacanal 40MLD Sewage Treatment Plant,Bengaluru,13.044409,77.646224,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rajajinagar BWSSB Water Tank,Bengaluru,12.998848,77.545831,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rajajinagar Industrial Estate,Bengaluru,12.978573,77.551055,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rajamane Industries Pvt. Ltd,Bengaluru,12.991936,77.705481,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rajarajeshwari Plastics,Bengaluru,12.775405,77.634405,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rajashri Foods,Bengaluru,12.983785,77.570822,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rakon India,Bengaluru,13.177442,77.728473,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rakshit Packaging Industries,Bengaluru,12.775048,77.635966,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ram Kumar Mills,Bengaluru,12.983154,77.55815,Energy Infrastructure,industrial,,,,,ramkumarmills.co.in,080 2320 5796,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ram Precision Industries,Bengaluru,13.034618,77.528169,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ranger Apparel Export,Bengaluru,13.063632,77.740964,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ranka Steels,Bengaluru,12.977445,77.705488,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rapid Engineering Works,Bengaluru,13.034453,77.52754,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rashi Granite Export India Pvt Ltd,Bengaluru,12.775625,77.632493,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rathna Food Products,Bengaluru,12.779621,77.634859,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ravago Shah Polymers Pvt Ltd,Bengaluru,13.041873,77.530489,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ravi Industries,Bengaluru,12.781019,77.739217,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Ravichetan Auto Builders P Ltd,Bengaluru,12.782821,77.739484,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Reliance Granite Pvt Ltd,Bengaluru,12.780673,77.737946,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Resma Wires Pvt Ltd,Bengaluru,12.782354,77.740786,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Revanasiddehswara Education Trust,Bengaluru,12.779754,77.638145,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rks Agro-Tech Limited,Bengaluru,12.779626,77.634015,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Rossell Techsys,Bengaluru,13.182689,77.725936,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Royal Enterprises,Bengaluru,12.780273,77.74272,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,S R Packaging,Bengaluru,12.778867,77.639856,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,S T Designs,Bengaluru,12.778465,77.740234,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,S T S Chamber Bricks,Bengaluru,12.777241,77.743039,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,S V S Industries,Bengaluru,12.785533,77.738535,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,S V S Industries,Bengaluru,12.785195,77.738487,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SATS Food Solutions,Bengaluru,13.202268,77.683603,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SB Engineering Works,Bengaluru,13.034382,77.527871,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SCS Modular Furniture,Bengaluru,12.902909,77.623509,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SEG Automotive,Bengaluru,12.871423,77.662862,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SKF,Bengaluru,12.821738,77.684041,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SL Technologies,Bengaluru,13.033725,77.527344,Energy Infrastructure,,,,,,,+91-9449503160,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SLN Engineering Works,Bengaluru,13.034554,77.527941,Energy Infrastructure,,,,,,,+91-7760534543,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SMC Medical Manufacturing Pvt. Ltd.,Bengaluru,12.979447,77.723742,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SMS Technologies,Bengaluru,13.033626,77.527164,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,SP Engineering Works,Bengaluru,13.033738,77.527284,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-1,Bengaluru,12.95253,77.45714,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-2,Bengaluru,12.936951,77.454841,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-3,Bengaluru,12.937601,77.445369,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-4,Bengaluru,12.923394,77.458564,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-5,Bengaluru,12.907449,77.456502,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-6,Bengaluru,12.902123,77.442865,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,STP-6,Bengaluru,12.890565,77.4489,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sadaramangala Industrial Area,Bengaluru,12.992268,77.736237,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Safal Market & Mother Diary Processing Center,Bengaluru,13.035696,77.756301,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Safeline International,Bengaluru,12.782628,77.744619,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sai Maruthi Precision Works,Bengaluru,13.033881,77.526854,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sai Packaging,Bengaluru,12.775141,77.635178,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Saint Gobain,Bengaluru,13.060055,77.735461,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Saint-Gobain,Bengaluru,13.060652,77.740011,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Saisankara Enterprise,Bengaluru,13.035179,77.526321,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,San Engineering And Locomotives Company,Bengaluru,12.99135,77.735727,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sandhar Technologies Ltd,Bengaluru,12.780305,77.742368,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sapthagiri Industries,Bengaluru,12.782842,77.739935,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sarakki 5MLD Sewage Treatment Plant,Bengaluru,12.895791,77.575056,Energy Infrastructure,industrial,,Bangalore Water Supply and Sewerage Board,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Satellite Goods Terminal,Bengaluru,12.996751,77.738732,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sathya Sai Castings Pvt Ltd,Bengaluru,12.781821,77.744215,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Scalene Cybernetics Ltd,Bengaluru,13.015771,77.713405,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Schunk Carbon Technology India Pvt. Ltd,Bengaluru,12.994901,77.689954,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Scrap Yard,Bengaluru,13.104758,77.587268,scrap_yard,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Scrap Yard,Bengaluru,13.109529,77.582912,scrap_yard,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Seeaar Machine Tools Pvt Ltd,Bengaluru,12.783331,77.738349,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Seenu Precision Tooling Systems,Bengaluru,12.958474,77.559672,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sewage Treatment Plant,Bengaluru,12.918807,77.678034,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shabari Mosaic,Bengaluru,12.898462,77.607751,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shahi Export,Bengaluru,12.921318,77.67317,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shahi Exports,Bengaluru,12.901893,77.622979,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shakthi Interiors Inc.,Bengaluru,12.779394,77.641018,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shakti Coach Works P Ltd,Bengaluru,12.782178,77.738851,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shankarappa Industrial Estate,Bengaluru,12.990455,77.508432,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sharp Engineering,Bengaluru,13.033692,77.527412,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sharp Industries,Bengaluru,12.779138,77.745021,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sharp Tool Enterprise,Bengaluru,13.034747,77.526552,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shetron,Bengaluru,12.820556,77.685103,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shilpi Udyog,Bengaluru,12.778872,77.744141,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shivakumar Industries,Bengaluru,12.783502,77.737947,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shivalik Exports,Bengaluru,12.775191,77.633561,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shree Ragavendra Enterprise,Bengaluru,13.034966,77.526556,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shri Manjunatha Engineering,Bengaluru,13.033814,77.527227,Energy Infrastructure,,,,,,,+91-94480658037,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Shristhi Engineering Works,Bengaluru,13.034477,77.527637,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Silicon Granites,Bengaluru,12.775903,77.633672,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Silver Crest,Bengaluru,12.958834,77.955865,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Silver Crest Clothing Pvt Ltd,Bengaluru,12.782996,77.742742,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sindhoor Exporters,Bengaluru,12.776234,77.634067,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sipani Fibres,Bengaluru,12.99602,77.691827,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sireesh Auto,Bengaluru,12.865624,77.650838,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Siri Technologies,Bengaluru,13.18662,77.74094,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Slv Engineering Technologies,Bengaluru,13.033617,77.527112,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Snam Micro Abrasives Pvt Ltd,Bengaluru,12.777523,77.745165,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Software Technology Parks of India,Bengaluru,12.838762,77.663572,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Somapura Industrial Area,Bengaluru,13.224994,77.265251,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sona Band,Bengaluru,12.779899,77.746453,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Southern Heat Transfer (P) Ltd,Bengaluru,12.778977,77.738414,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Southern Roadways Private Limited,Bengaluru,12.952756,77.594082,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Spring Air Bedding Company (INDIA) ltd,Bengaluru,13.034059,77.52727,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sree Harsha Concrete Blocks,Bengaluru,12.77683,77.63292,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sree Lakshmi Indl.Forge & Engrs.Ltd,Bengaluru,12.781474,77.741066,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sree Rajalakshmi Coach Bldg & Engg,Bengaluru,12.781169,77.743624,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sree S Rama Industries,Bengaluru,12.782135,77.742031,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Balaji Industries,Bengaluru,12.78024,77.744387,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Hari Engineering,Bengaluru,13.033897,77.527092,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Krishna Spinning and Weaving Mills,Bengaluru,12.900652,77.54265,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Maruthi Granites,Bengaluru,12.780469,77.635194,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Rama Industries,Bengaluru,12.779893,77.638802,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Shivshakti Enterprise,Bengaluru,13.033784,77.526853,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sri Venkateshwara Engineering Works,Bengaluru,12.783335,77.740734,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Srinivas Fine Arts (P) Ltd,Bengaluru,12.78421,77.743772,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Srinivas Fine Arts Pvt Ltd,Bengaluru,12.784739,77.743784,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Srinivasa Oil Mill,Bengaluru,12.97809,77.623087,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Standard Water Pumps Pvt Ltd,Bengaluru,12.779229,77.744237,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Starrag India,Bengaluru,13.173551,77.727816,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Steel Authority of India Limited - SAIL Warehouse,Bengaluru,13.009054,77.665042,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Stelfast Pvt Ltd,Bengaluru,12.779618,77.738099,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Stylish Foot Wear,Bengaluru,12.783743,77.73745,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Subhadra Industries,Bengaluru,12.782618,77.740469,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Subham Rocks (India),Bengaluru,12.775729,77.634438,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sudarshan Chempro Private Limited,Bengaluru,12.776983,77.632465,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sumukha Engineernig,Bengaluru,12.772393,77.634048,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sumukha Food And Condiments Pvt Ltd,Bengaluru,12.780966,77.738859,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sun Pharma,Bengaluru,13.150846,77.823335,pharmaceuticals,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sun Tools Engineers,Bengaluru,13.034664,77.526713,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Sunshine Works Pvt. Limited,Bengaluru,12.775823,77.635499,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Supertech Spares Pvt Ltd,Bengaluru,12.779411,77.744771,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Supreme Fibre Glass,Bengaluru,12.778724,77.738763,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Suretex Prophylactics(I)Ltd,Bengaluru,12.778849,77.632845,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Suryodaya Industries,Bengaluru,13.025015,77.548009,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Suthern Bakeries Pvt Ltd,Bengaluru,12.774952,77.635161,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Swan Silk Pvt. Ltd.,Bengaluru,13.195447,77.646659,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Synchron Engineering (I)Pvt.Ltd,Bengaluru,12.782324,77.745466,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,TR Mills,Bengaluru,12.955298,77.559924,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,TVS Motors,Bengaluru,12.735917,77.788128,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,TVS Motors,Bengaluru,12.737988,77.727904,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Taegutec,Bengaluru,12.810675,77.664284,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Tann Utility Services,Bengaluru,13.059655,77.737489,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Tataguni Pumping Station (500MLD),Bengaluru,12.846302,77.51716,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Taurus Pvt Ltd,Bengaluru,12.781017,77.747103,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Techno Blocks,Bengaluru,12.782935,77.744594,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Tejaswi Engineering Works,Bengaluru,12.773095,77.634151,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,The Phoenix Printing Co P Ltd,Bengaluru,12.783666,77.743766,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Thimmarayaswamy Concrete Blocks,Bengaluru,12.779276,77.745972,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Thirumala Print Pack(P) Ltd,Bengaluru,12.77909,77.633878,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Thunga Enterprises,Bengaluru,12.776161,77.63255,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Titan Company Limited,Bengaluru,13.412961,77.731915,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Titan Foods And Fashions Ltd,Bengaluru,12.782628,77.746726,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Titan Watches,Bengaluru,12.749441,77.822012,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Toyota,Bengaluru,12.818469,77.410895,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Toyota Kirloskar,Bengaluru,12.785189,77.420546,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Trakolly Engg.Pvt.Limited,Bengaluru,12.782884,77.743396,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Trinity Beverages,Bengaluru,12.820441,77.409178,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Trishanku Technologies Pvt. Ltd.,Bengaluru,13.174015,77.742788,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Triveni Technosys,Bengaluru,13.033949,77.526876,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Tulsi Granites,Bengaluru,12.776834,77.634944,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,U. R. Rao Satellite Centre,Bengaluru,12.962317,77.655394,factory,industrial,,,,,https://www.ursc.gov.in/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,UNIBIC,Bengaluru,13.081224,77.448414,factory,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Union Engineering P Ltd,Bengaluru,12.780479,77.739926,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Unique Granites Pvt Ltd,Bengaluru,12.779541,77.741382,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,United Breweries,Bengaluru,13.11832,77.373455,Energy Infrastructure,industrial,,Kingfisher,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,United Telecoms Limited,Bengaluru,12.985169,77.709227,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,V P Engineering,Bengaluru,12.778908,77.745684,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,VRKP Steel Industries Private Limited,Bengaluru,13.055632,77.745941,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,VST Tillers & Tractors,Bengaluru,12.995898,77.700041,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Varman Aviation,Bengaluru,12.980731,77.725515,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vectra Azad Engineering Pvt Ltd,Bengaluru,12.78533,77.745914,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Veerabadra Accurators,Bengaluru,13.038839,77.530867,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Veerasandra Industrial Estate,Bengaluru,12.841684,77.681612,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vero President Systems Ltd,Bengaluru,12.781973,77.743104,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vidya Herbs,Bengaluru,12.775053,77.634377,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vidya Herbs,Bengaluru,12.774741,77.634344,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vidya Herbs,Bengaluru,12.7743,77.634304,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vidyaranyapura Sewage Treatment Plant,Bengaluru,13.073033,77.557265,Energy Infrastructure,industrial,,Bangalore Water Supply and Sewerage Board,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vijay wood works,Bengaluru,12.976948,77.631906,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vijaya fabricators,Bengaluru,12.976973,77.631976,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vinayaka Metals,Bengaluru,13.034643,77.526843,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vishnu Enterprises,Bengaluru,13.033634,77.52729,Energy Infrastructure,,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vishranti Engineering,Bengaluru,12.780516,77.740754,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vishwas Enterprises,Bengaluru,13.156665,77.721861,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vohra Tea & Packaging Pvt Ltd,Bengaluru,12.776148,77.634472,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Volkswagen,Bengaluru,12.859477,77.527656,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Volvo Manufacturing Unit,Bengaluru,13.124699,77.915817,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vrishabhavathi Valley 150MLD Sewage Treatment Plant,Bengaluru,12.934556,77.521481,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vrishabhavathi Valley 180MLD Sewage Treatment Plant,Bengaluru,12.914044,77.48901,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Vyalikaval Dhobi Ghat,Bengaluru,13.00467,77.574619,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Waste Sewage treatment,Bengaluru,12.713269,77.87134,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Wheel Storage Yard,Bengaluru,13.108168,77.583953,depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Wheel Storage Yard,Bengaluru,13.107448,77.583971,depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Wheel Storage Yard,Bengaluru,13.106146,77.58532,depot,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Whitefield Metro Depot,Bengaluru,12.989335,77.752769,depot,industrial,,BMRCL,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Wistron Infocomm Manufacturing,Bengaluru,13.115141,77.994489,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Combined Cycle Power Plant,Bengaluru,13.116424,77.581915,Energy Infrastructure,industrial,plant,Karnataka Power Corporation Limited,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Industrial Estate,Bengaluru,13.105642,77.579465,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Industrial Estate,Bengaluru,13.107849,77.578261,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Industrial Estate,Bengaluru,13.106848,77.577653,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Phase I 10 MLD Sewage Treatment Plant,Bengaluru,13.09358,77.590344,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Pipe Factory,Bengaluru,13.113281,77.606921,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Rail Wheel Factory,Bengaluru,13.108495,77.585899,factory,industrial,,Indian Railway,,,https://rwf.indianrailways.gov.in/,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelahanka Waste Water Treatment Plant,Bengaluru,13.110046,77.575918,Energy Infrastructure,industrial,,BWSSB,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yelemallappa Chetti 15MLD Sewage Treatment Planet,Bengaluru,13.021719,77.720017,Energy Infrastructure,industrial,,Bangalore Water Supply and Sewerage Board,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yellamma Concrete Blocks,Bengaluru,12.77894,77.639172,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Yerappa Industrial Layout,Bengaluru,12.976922,77.440957,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Zenith Die Cast Pvt Ltd,Bengaluru,12.78118,77.745443,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Zircast Limited,Bengaluru,12.781318,77.63331,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,Zodac Clothing Company Pvt. Ltd.,Bengaluru,13.120609,77.609462,Energy Infrastructure,industrial,,,,,,,Industrial facility in Bengaluru - potential 33KV+ connection
+Industrial Zone,APM Terminals,Chennai,13.304093,80.209921,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,ARS Metals Gummidipoondi captive power station,Chennai,13.423079,80.065178,Energy Infrastructure,industrial,plant,ARS Metals,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,AVM Studio,Chennai,13.046398,80.204957,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Adyar Bus Depot,Chennai,13.006718,80.253278,Energy Infrastructure,industrial,,"Metropolitan Transport Corporation, Chennai",,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,All India Radio,Chennai,13.010951,80.226475,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,All India Radio Station,Chennai,13.139201,80.128828,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ananda Industries,Chennai,13.166648,80.3071,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Anna Nagar West Depot,Chennai,13.093925,80.198087,Energy Infrastructure,industrial,,MTC,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Anna Nagar West MTC Depot,Chennai,13.095155,80.198104,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Annai Paper and Plastic products,Chennai,13.034889,80.100549,Energy Infrastructure,,,Munuswamy,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Apollo Tyres,Chennai,12.856375,79.944345,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ascentrade,Chennai,13.003243,79.854338,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ashok Leyland Vehicle Test Centre,Chennai,13.233431,80.280137,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Audco Ltd,Chennai,13.024833,80.180479,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Avadi Carshed,Chennai,13.116352,80.122029,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Avadi MTC Depot,Chennai,13.121065,80.102096,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ayanavaram MTC Depot,Chennai,13.09873,80.24066,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Balaji Brewery,Chennai,13.105844,79.961195,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Basin Bridge Gas Turbine Power Station,Chennai,13.098166,80.269729,Energy Infrastructure,industrial,plant,Tamil Nadu State Electricity Board,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Basin Bridge MTC Depot,Chennai,13.102352,80.273854,depot,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Bay Container Storage Yard,Chennai,13.244965,80.275605,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Bharat Electronics Ltd.,Chennai,13.02446,80.19285,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Bharath Petroleum,Chennai,13.125826,80.282679,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Binny Mills,Chennai,13.101542,80.258283,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Blue Metal Company,Chennai,13.277973,80.224076,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Bricks Company,Chennai,13.281622,80.213199,brickyard,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Bus Parking,Chennai,13.070512,80.200391,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,CEAT Tyres,Chennai,12.964998,79.81535,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,CPCL Manali Refinery Captive Power Station,Chennai,13.167528,80.282416,Energy Infrastructure,industrial,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,CPCL Refinery,Chennai,13.174106,80.27494,refinery,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,CPCL Refinery,Chennai,13.178283,80.282848,refinery,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,CPCL Refinery,Chennai,13.173778,80.279621,refinery,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Carborundum Universal,Chennai,13.169905,80.309006,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Central Medical Depot,Chennai,13.08176,80.265279,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Century Mills,Chennai,13.1011,80.247876,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Chandra CFS And Terminal Operators PVT LTD,Chennai,13.28071,80.232458,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Chennai OPG Power Plant,Chennai,13.436667,80.096445,Energy Infrastructure,,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Citadel Fine Pharmaceuticals,Chennai,12.976645,80.220998,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Civil Supplies Godown,Chennai,13.087058,80.216438,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Container Corporation of India - CONCOR,Chennai,13.147266,80.287002,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Corporation Asphalt Plant,Chennai,13.074963,80.251418,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Corporation Lorry Depot,Chennai,13.104751,80.274997,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Corporation of Chennai - Pudupet Depot,Chennai,13.070019,80.26528,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Corporation of Chennai General Workshop,Chennai,13.094425,80.27699,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Corporation of Chennai Lorry Depot,Chennai,13.094917,80.276175,depot,industrial,,Corporation of Chennai,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,DIS,Chennai,12.919656,79.883239,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Daimler India Commercial Vehicles,Chennai,12.840553,79.953859,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Depot,Chennai,12.69086,79.981703,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Dr VSI Estate,Chennai,12.979079,80.250938,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Dr VSI Estate,Chennai,12.981964,80.250979,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Dunlop Tyres,Chennai,13.103354,80.1532,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,EID Parry Fertilizers,Chennai,13.215997,80.323988,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Empty ground,Chennai,12.893487,80.185595,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ennore Foundries,Chennai,13.211933,80.321716,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ennore Foundries,Chennai,13.212691,80.319333,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ennore MTC Depot,Chennai,13.215128,80.320893,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ennore SEZ Super Critical Thermal Power Project (Vayalur),Chennai,13.282382,80.310264,Energy Infrastructure,construction,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ennore Thermal Power Station,Chennai,13.199501,80.309481,Energy Infrastructure,industrial,plant,Tamil Nadu Generation and Distribution Corporation,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,FCI Godown,Chennai,13.074596,80.249191,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,FCI Warehouse - Chrompet,Chennai,12.939003,80.136865,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,First Solar,Chennai,12.956042,79.970312,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Flex India,Chennai,12.916728,79.87849,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Food Corporation of India - FCI Avadi,Chennai,13.124001,80.073255,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Foxconn,Chennai,12.922749,79.891236,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Fuchs Lubricants (India) Pvt. Ltd. Regional Office (South),Chennai,12.952235,80.186053,Energy Infrastructure,industrial,,,,,,+91 44 2247 5193;+91 44 2247 5194,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,GT Food Products,Chennai,13.26353,80.028305,food_industry,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Gold Winner Oil Company,Chennai,12.901324,80.182087,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Government Civil Supplies Warehouse,Chennai,13.031429,80.242812,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Government Press,Chennai,13.104342,80.279226,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Gummidipoondi Suryadev Power Plant,Chennai,13.383699,80.108348,Energy Infrastructure,,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,"Hi-Tech SEZ, Sriperumbudur",Chennai,12.92067,79.886075,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,High Valley Insulations P Ltd,Chennai,12.910139,79.894758,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Hindustan Petroleum,Chennai,13.122892,80.281285,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Hyoseong Electric India,Chennai,13.034863,79.994245,factory,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Hyundai Factory,Chennai,12.998277,80.012536,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,IDPL,Chennai,13.021289,80.192556,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,ILJIN AUTOMOTIVE PVT. LTD.,Chennai,13.000266,80.00796,Energy Infrastructure,,,,,,https://www.iljin.com,+914447102193,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,IOC Fuel Yard,Chennai,13.103738,80.291681,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,ITC Packaging,Chennai,13.182918,80.305251,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Indian Oil,Chennai,13.122177,80.27813,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Indian Oil Corporation,Chennai,13.142086,80.28073,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Indira cotton mills,Chennai,12.944744,80.13686,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,IndoSpace Industrial & Logistics Park Sri City,Chennai,13.514212,79.988568,Energy Infrastructure,industrial,,,,,https://directorsdirectory.com/indospace-industrial-logistics-park-sri-city/,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Indospace Logistics Park,Chennai,13.025032,80.008473,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Integral Coach Factory,Chennai,13.098065,80.207667,factory,industrial,,Indian Railway,,,https://icf.indianrailways.gov.in,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Integral Coach Factory Carriage Works - ICF Chennai,Chennai,13.105407,80.225069,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,International Flavour & Fragrances,Chennai,13.009303,80.192279,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Island Grounds Solar Farm,Chennai,13.070161,80.278841,Energy Infrastructure,industrial,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Iyyapanthangal MTC Depot,Chennai,13.03726,80.134797,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Jaya Hind Industries,Chennai,12.984785,79.853184,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Jayalakshmi Modern Rice Mill,Chennai,13.262678,80.14789,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Jayneks Thermoshield,Chennai,12.841306,79.967568,Energy Infrastructure,,,Jayneks.com,,,https://www.jayneks.com,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,KK Nagar Container Freight Station,Chennai,13.045987,80.195236,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,KK Nagar Pumping Station,Chennai,13.041782,80.203171,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,KK Nagar West MTC Terminus,Chennai,13.044189,80.193342,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Kattupalli Container Terminal,Chennai,13.312567,80.345094,port,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Kelambakkam Bus Station,Chennai,12.786247,80.222007,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Kl concast,Chennai,13.443256,80.097026,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Kolathur Water Works,Chennai,13.128292,80.212412,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Korukkupet Goods Shed,Chennai,13.119089,80.27021,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Kubs Locks,Chennai,12.850512,79.938029,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Larsen & Toubro,Chennai,13.025811,80.178504,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,M M Garden,Chennai,13.12581,80.244388,warehouse,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,MRF Tyres,Chennai,13.176676,80.309428,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,"MTC Bus Depot, KK Nagar",Chennai,13.034747,80.205399,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,MTC Depot,Chennai,13.087071,80.21925,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,MTC Depot,Chennai,13.100567,80.193777,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,MTC Workshop - Chrompet,Chennai,12.947966,80.142775,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Madhavaram MTC Depot,Chennai,13.131518,80.235838,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Madras Export Processing Zone MEPZ,Chennai,12.942922,80.121418,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Magnum Clothing Private Limited,Chennai,12.960552,80.131765,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Mahatha Petroleum Private Limited,Chennai,12.951676,80.186656,Energy Infrastructure,industrial,,,,,https://www.mahathapetroleum.com/,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Mahindra Research Valley,Chennai,12.719288,80.01468,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Majestic Studios,Chennai,13.049393,80.200459,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Manali Fertilizers Limited - MFL,Chennai,13.171714,80.267823,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Manali Petro Chemicals,Chennai,13.151793,80.272424,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Maraimalai Nagar Industrial Area,Chennai,12.784187,80.027665,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Maruthi Suzuki,Chennai,13.05496,80.147991,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Mary Timbers,Chennai,12.920785,80.089835,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Mentor Printing and Logistics Pvt Ltd,Chennai,12.917347,79.895726,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Metrowater,Chennai,12.983438,80.263265,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Motorola,Chennai,12.925981,79.894653,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,NOKIA Factory,Chennai,12.948225,79.933878,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,NTC Logistics India (P) Ltd.,Chennai,13.040269,80.041929,Energy Infrastructure,industrial,,,,,https://www.ntclogistics.in/,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Nehru Nagar Industrial Estate,Chennai,12.974591,80.247277,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Nemmeli Seawater Desalination Plant,Chennai,12.703439,80.225132,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,North Chennai Thermal Station,Chennai,13.248947,80.327758,Energy Infrastructure,industrial,plant,Tamil Nadu Generation and Distribution Corporation,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,NueGo Bus Depot,Chennai,13.064307,80.148878,bus_depot,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Oragadam Industrial Park,Chennai,12.855588,79.93233,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,PREI POLAR ENGINEERING PRIVATE LIMITED,Chennai,12.9092,79.894469,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,PWD,Chennai,12.98516,80.244232,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,PWD Workshop,Chennai,13.104361,80.28234,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Pearl Global Industries,Chennai,12.740057,79.988646,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Pegatron Technology India (Plot 3),Chennai,12.720122,80.020217,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Pegatron Technology India (Plot 8),Chennai,12.716461,80.022239,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Perambur MTC Depot,Chennai,13.101536,80.249126,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Perungudi Sewage Treatment Plant,Chennai,12.957226,80.233915,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Poonamallee MTC Depot,Chennai,13.052294,80.090808,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Prasad Color Labs,Chennai,13.055787,80.205609,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Precision,Chennai,13.049614,80.243426,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,RBC engineering,Chennai,13.076652,80.181373,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ramarao Body Works,Chennai,12.901872,80.183481,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Ray Mix,Chennai,12.772263,80.207006,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Renault Nissan,Chennai,12.835853,79.942298,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Resource Recovery Park - Sriperumbudur,Chennai,12.981398,79.931042,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Royal Enfield Motors,Chennai,13.174065,80.307253,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Royal Enfield Oragadam,Chennai,12.849328,79.934307,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,SANDS,Chennai,12.824929,80.213051,Energy Infrastructure,,,https://www.sandsindia.com/,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,SICAL Container Freight Station,Chennai,13.246126,80.279476,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,SIPCOT Gummidipundi,Chennai,13.414304,80.104668,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,SIPCOT Industrial Growth Centre,Chennai,12.867312,79.965916,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,SIPCOT Irungattukottai,Chennai,12.997417,80.011201,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,STP Container Terminal,Chennai,13.164013,80.308092,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,SafeExpress,Chennai,12.999024,79.856248,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Saidapet MTC Depot,Chennai,13.014689,80.225655,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Samsung India Electronics,Chennai,12.915547,79.88213,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Softgel Private Ltd.,Chennai,12.803837,80.190871,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Southern Railways Printing Press,Chennai,13.102621,80.292419,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Spartek Granites,Chennai,13.090362,79.993235,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Sri Lakshmi Agro,Chennai,13.144571,80.299064,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Sriperumbudur Industrial Park,Chennai,12.927202,79.912305,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Super Auto Forge Plant 6,Chennai,12.86597,80.120774,factory,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Symrise Pvt Ltd,Chennai,12.874066,80.226446,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,T.I. Cycles,Chennai,13.112209,80.146987,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TAFE,Chennai,13.058098,80.255341,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TCPL,Chennai,13.383965,80.11341,Energy Infrastructure,,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TI Cycles Of India,Chennai,13.111796,80.146868,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TI Metal Forming,Chennai,13.125939,80.048254,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TNEB,Chennai,13.099842,80.181938,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TNEB,Chennai,13.045125,80.265858,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TNEB Site,Chennai,13.103933,80.268097,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TNEB Site,Chennai,13.101809,80.269417,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TVS Delphi,Chennai,13.016623,79.923253,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TVS Group Companies,Chennai,13.10626,80.19169,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,TVT,Chennai,12.852156,79.937948,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Tambaram MTC Depot,Chennai,12.932453,80.121215,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,The Indian Cement Ltd.,Chennai,13.234956,80.283741,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Thirumudivakkam SIDCO Industrial Estate,Chennai,12.972025,80.089443,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Thiruverkadu Bus Depot,Chennai,13.069503,80.12401,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Thiruvottiyur MTC Depot,Chennai,13.17224,80.304556,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Timber Cutting Company,Chennai,13.277587,80.225691,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Timber Cutting Yard,Chennai,13.277278,80.23163,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Tirumalai Nagar,Chennai,12.972244,80.24406,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Tocheunglee Stationery Manufacturing Company,Chennai,13.082028,79.909266,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Tondiarpet Diesel Loco Shed,Chennai,13.133185,80.281908,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Tondiarpet-II MTC Depot,Chennai,13.134245,80.290767,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Treatment plant,Chennai,13.011772,80.189998,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Tube Products of India,Chennai,13.120812,80.114288,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,VSNL,Chennai,13.129115,80.16646,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Vadapalani MTC Depot,Chennai,13.050389,80.206662,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Vallalar Nagar Bus Depot,Chennai,13.104335,80.276257,depot,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Vallur Thermal Power Station,Chennai,13.236654,80.306721,Energy Infrastructure,industrial,plant,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Varroc Polymers,Chennai,12.804213,79.909358,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Vyasarpadi MTC Depot,Chennai,13.120183,80.258569,Energy Infrastructure,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Wipro CDC7,Chennai,12.737056,80.010457,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,Witzenmann India Private Limited,Chennai,12.960596,80.13086,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,YCH Logistics,Chennai,12.914635,79.886312,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,ZIP Industries,Chennai,12.671601,79.976711,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,balsons,Chennai,12.945355,80.136235,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,eZee Bags,Chennai,12.99853,80.204827,Energy Infrastructure,commercial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,nelcast,Chennai,13.30645,80.168506,Energy Infrastructure,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,vinayaga,Chennai,12.945934,80.13897,Energy Infrastructure,,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Industrial Zone,திருவான்மியூர் எம்.டி.சி. டிப்போ,Chennai,12.986833,80.258735,depot,industrial,,mtc,,,,,Industrial facility in Chennai - potential 33KV+ connection
+Wind Farm,Pawan Shakthi Wind Turbines,Chennai,13.0555,80.100292,Renewable Energy - Wind Power,industrial,,,,,,,Industrial facility in Chennai - potential 33KV+ connection
