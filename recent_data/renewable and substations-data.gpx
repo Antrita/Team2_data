@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer https://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v2 http://www.garmin.com/xmlschemas/TrackPointExtensionv2.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2">
+<wpt lat="13.0843007" lon="80.2704622">
+  <name>Chennai</name>
+  <desc>&lt;div&gt;start of Chennai-Bengaluru corridor.&lt;br&gt;&lt;/div&gt;</desc>
+</wpt>
+<wpt lat="12.9628669" lon="77.577509">
+  <name>Bengaluru</name>
+  <desc>&lt;div&gt;end of corridor&lt;/div&gt;</desc>
+</wpt>
+<wpt lat="13.0581667" lon="80.2543889">
+  <name>33KV GREAMS ROAD SUBSTATION</name>
+</wpt>
+<wpt lat="12.9061569" lon="80.215263">
+  <name>HCL 110/33KV Sub Station</name>
+  <desc>&lt;div&gt;substation&lt;/div&gt;</desc>
+</wpt>
+<wpt lat="13.0218108" lon="80.2536419">
+  <name>230/33kV RA Puram Substation</name>
+</wpt>
+<wpt lat="13.1742454" lon="80.2473291">
+  <name>Mathur 110/33KV Substation</name>
+</wpt>
+<wpt lat="12.836351" lon="80.230985">
+  <name>TNEB 33/11 K.V. Sub Station, Hiranandani</name>
+</wpt>
+<wpt lat="12.7628159" lon="77.787227">
+  <name>33 KV AL ELECTIC STATION</name>
+</wpt>
+<wpt lat="12.990898" lon="77.6525205">
+  <name>Baiyappanahalli 66KV/33KV substation</name>
+</wpt>
+<wpt lat="13.0428756" lon="77.6255746">
+  <name>220/33kV BMRCL Nagavara Sub-Station</name>
+</wpt>
+<wpt lat="15.0715298" lon="76.7531642">
+  <name>Vittalapura 33kV substation</name>
+</wpt>
+<wpt lat="15.4395647" lon="75.0157439">
+  <name>33kv GIS Sub Station Vidyagiri</name>
+</wpt>
+<wpt lat="15.3166142" lon="76.9868351">
+  <name>Gudadur 33kV Substation</name>
+</wpt>
+<wpt lat="14.8484391" lon="74.2136862">
+  <name>HESCOM 33KV Substation siddar</name>
+</wpt>
+<wpt lat="16.3687973" lon="76.7773812">
+  <name>33kv sub station Jalahally</name>
+</wpt>
+<wpt lat="15.4109929" lon="76.9024188">
+  <name>Sirigeri Cross 33kV substation</name>
+</wpt>
+<wpt lat="15.3724625" lon="75.1117031">
+  <name>33 KV GIS UNAKAL</name>
+</wpt>
+<wpt lat="15.351981" lon="75.579209">
+  <name>Wind World 220/33 KV Substation</name>
+</wpt>
+<wpt lat="14.130066" lon="77.2113508">
+  <name>220/33kv Substation Sembcorp green infra energy</name>
+</wpt>
+<wpt lat="15.44335" lon="76.6716237">
+  <name>Itagi 33kV substation</name>
+</wpt>
+<wpt lat="12.9567513" lon="80.2135144">
+  <name>National Institute of Wind Energy</name>
+  <desc>&lt;div&gt;Wind energy research institute.&lt;br&gt;&lt;/div&gt;</desc>
+</wpt>
+<wpt lat="13.0236265" lon="80.2092873">
+  <name>Small Wind turbines Right Renewable Tech</name>
+</wpt>
+<wpt lat="13.059006" lon="80.248409">
+  <name>INDOWIND ENERGY LTD</name>
+  <desc>&lt;div&gt;generates wind energy and Green Power for sale to utilities and corporates.&lt;br&gt;&lt;/div&gt;</desc>
+</wpt>
+<wpt lat="13.0652877" lon="80.2599549">
+  <name>Clarion Wind Farm Private Limited</name>
+  <desc>&lt;div&gt;private wind farm&lt;/div&gt;</desc>
+</wpt>
+</gpx>
